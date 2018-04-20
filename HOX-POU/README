@@ -1,1 +1,3 @@
 
+#Blast search to identify POU-HOX linkage
+tblastn -db /var/www/blast++/db/nucleotide/NematostellaGenome.fna -query POU-HOX.fa -evalue 10e-6 -gapopen 11 -gapextend 1 -matrix BLOSUM62 -word_size 3 -out Nemve.POU-HOX.tblastn.out
