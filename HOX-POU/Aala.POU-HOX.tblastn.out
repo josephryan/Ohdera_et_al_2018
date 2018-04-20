@@ -1,0 +1,979 @@
+TBLASTN 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Aala.genome.fasta
+           337,973 sequences; 1,075,385,292 total letters
+
+
+
+Query= ABU92522.1 phosphopantothenoylcysteine-synthetase, partial
+[Eleutheria dichotoma]
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Aala.03.073813                                                      90.5    1e-17
+  Aala.03.046125                                                      90.1    1e-17
+  Aala.03.068069                                                      71.2    7e-12
+
+
+> Aala.03.073813
+Length=7125
+
+ Score = 90.5 bits (223),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 49/52 (95%), Gaps = 0/52 (0%)
+ Frame = +1
+
+Query  91    QVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHL  142
+             QVVIANILQTRRKTVVLVTP++E A+WM+D+EL++GKEIEEKIV EL RRHL
+Sbjct  3160  QVVIANILQTRRKTVVLVTPYEEHAVWMADNELDVGKEIEEKIVAELVRRHL  3315
+
+
+> Aala.03.046125
+Length=3713
+
+ Score = 90.1 bits (222),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 49/52 (95%), Gaps = 0/52 (0%)
+ Frame = +1
+
+Query  91    QVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHL  142
+             QVVIANILQTRRKTVVLVTP++E A+WM+D+EL++GKEIEEKIV EL RRHL
+Sbjct  1840  QVVIANILQTRRKTVVLVTPYEEHAVWMADNELDVGKEIEEKIVAELVRRHL  1995
+
+
+> Aala.03.068069
+Length=10710
+
+ Score = 71.2 bits (173),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 32/42 (77%), Positives = 37/42 (89%), Gaps = 0/42 (0%)
+ Frame = +2
+
+Query  31     EHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVSFKLET  72
+              +HKIQS+D S QLS+ PTPK+LSPLVKEWAK AFVVSFK+ T
+Sbjct  9905   DHKIQSSDGSLQLSLQPTPKLLSPLVKEWAKQAFVVSFKVCT  10030
+
+
+ Score = 52.8 bits (125),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 22/29 (76%), Positives = 27/29 (94%), Gaps = 0/29 (0%)
+ Frame = +3
+
+Query  1     AEALAPLGSHIMFYLAAAVSDFYVPENEM  29
+             AEAL+ LG H+MFYLAAAVSDF++PENE+
+Sbjct  8223  AEALSSLGPHVMFYLAAAVSDFFLPENEL  8309
+
+
+
+Lambda     K      H
+   0.315    0.127    0.348 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17276373468
+
+
+Query= ABU92523.1 POU class 6 [Eleutheria dichotoma]
+
+Length=818
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Aala.03.036289                                                       145    4e-33
+  Aala.03.068069                                                       101    6e-20
+  Aala.03.073133                                                       100    1e-19
+  Aala.03.023534                                                      97.4    1e-18
+  Aala.03.073813                                                      91.3    9e-17
+  Aala.03.046125                                                      90.9    9e-17
+  Aala.03.160856                                                      81.6    6e-14
+  Aala.03.133678                                                      65.1    6e-09
+
+
+> Aala.03.036289
+Length=6562
+
+ Score =  145 bits (365),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 99/249 (40%), Positives = 139/249 (56%), Gaps = 27/249 (10%)
+ Frame = -2
+
+Query  441   ALNGPTYSQSFISRFEGKQLGMKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfs  500
+             AL  P    SF  RFEGKQLGMKAAERMRPILE WI  KEEE +   K  KKRR+RT FS
+Sbjct  5016  ALPPPVVIFSFPPRFEGKQLGMKAAERMRPILEAWITQKEEEGNQGMKAGKKRRRRTCFS  4837
+
+Query  501   PEVLDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKR--LGHPILSSI  558
+              E  D+L + F KNPKPS DE+  +A ++  +  T+KVWFCNKKQ+LKR  LG       
+Sbjct  4836  QEAQDLLMEHFSKNPKPSVDEIQILANELQLEPGTIKVWFCNKKQNLKRQSLGD------  4675
+
+Query  559   RSPAIREEMIDIKRKRKSDADIQDVFALNHNNIKTLVTTTSANGPV--------------  604
+                 ++ ++  +K K K   ++ +   L+ N+   L  +T +  P+              
+Sbjct  4674  ----VKPDLNTMKSKPKIGGELDEPSHLSANSYNELPGSTFSTSPMKQVVSVSAPAVTMA  4507
+
+Query  605   TVPFFIAQDGNSIAIMSGGQTSSAQTVTPAGSSLTTTMPQQIVHLSPIPMLASMAVMNNS  664
+             TVPF ++QDG    +       S+Q+      +L+T+ P  +V LS IP+L +++V+N  
+Sbjct  4506  TVPFILSQDGGVTIVSQASHNGSSQSPQVMSLNLSTSFPPPVV-LSQIPLLPTLSVVNQG  4330
+
+Query  665   LSGSQTVDG  673
+             + G+  V G
+Sbjct  4329  IGGATLVSG  4303
+
+
+> Aala.03.068069
+Length=10710
+
+ Score =  101 bits (252),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 47/57 (83%), Positives = 52/57 (92%), Gaps = 0/57 (0%)
+ Frame = +3
+
+Query  135   YKEVQNGCLLLKIGFMTLSDYLFLLKASAEALAPLGSHIMFYLAAAVSDFYVPENEM  191
+             Y  VQN CLLLKIGFMTLSDYLFLLKASAEAL+ LG H+MFYLAAAVSDF++PENE+
+Sbjct  8139  YF*VQNACLLLKIGFMTLSDYLFLLKASAEALSSLGPHVMFYLAAAVSDFFLPENEL  8309
+
+
+ Score = 70.9 bits (172),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 36/59 (62%), Positives = 44/59 (75%), Gaps = 6/59 (10%)
+ Frame = +2
+
+Query  193    EHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVSFKL------ETDVNIISRKARE  245
+              +HKIQS+D S QLS+ PTPK+LSPLVKEWAK AFVVSFK+      +T + I S+  RE
+Sbjct  9905   DHKIQSSDGSLQLSLQPTPKLLSPLVKEWAKQAFVVSFKVCTIYLRQTYLTI*SKGFRE  10081
+
+
+ Score = 63.5 bits (153),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 26/28 (93%), Positives = 27/28 (97%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  72    EYFLMHGYAVVFLHRQRSLEPFCRHFEG  99
+              YFL+HGYAVVFLHRQRSLEPFCRHFEG
+Sbjct  2468  RYFLLHGYAVVFLHRQRSLEPFCRHFEG  2551
+
+
+> Aala.03.073133
+Length=6399
+
+ Score =  100 bits (249),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 60/171 (36%), Positives = 89/171 (53%), Gaps = 16/171 (9%)
+ Frame = -1
+
+Query  393   PATMLKRSVSAKE-DRCMLTFEMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSF  451
+             P+    RS  A+E D    + +++ F +EFK+RRI LG+TQ DVG  +  L G  +SQ+ 
+Sbjct  2301  PSNTPTRSDMAEENDSTPTSDDLEMFAKEFKQRRIKLGFTQADVGLAIGTLYGNVFSQTT  2122
+
+Query  452   ISRFEGKQLGMKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfsP----------  501
+             I RFE  QL  K   +++P+L  W+   EE  SS +  +       +  P          
+Sbjct  2121  ICRFEALQLSFKNMCKLKPLLAKWL---EEADSSNNSGSTTTVFDKTIPPGRKRKKRTSI  1951
+
+Query  502   --EVLDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRL  550
+                V   L   F KNPKPS  E++ +A Q+  +   V+VWFCN++Q  KR+
+Sbjct  1950  EVTVKGALEGYFCKNPKPSVGEISALADQLQLEKEVVRVWFCNRRQKEKRM  1798
+
+
+> Aala.03.023534
+Length=3945
+
+ Score = 97.4 bits (241),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 57/142 (41%), Positives = 83/142 (59%), Gaps = 4/142 (2%)
+ Frame = -3
+
+Query  413   EMQEFIREFKKRRINLGYTQDDVGRELSALN-GPTYSQSFISRFEGKQLGMKAAERMRPI  471
+             E++ F  EFK RRI LGYTQ +VG  L+ LN G  +SQ+ I RFE  QL  K A +++P+
+Sbjct  3430  ELERFANEFKMRRIKLGYTQTNVGAALALLNEGTDFSQTTICRFENLQLSYKNACKLKPL  3251
+
+Query  472   LETWIQSKEEEHssrskftkkrrkrtsfsPEVL---DMLNDLFMKNPKPSFDEMNDIARQ  528
+             LETW++  E   +  ++     RKR   +   L   ++L   F + PKPS  E+  IA  
+Sbjct  3250  LETWLEKAEAAGAVNTEKPTSERKRKRRTTIGLTAKEILERHFQRQPKPSSLEILGIAES  3071
+
+Query  529   INRDVTTVKVWFCNKKQSLKRL  550
+             +  +   V+VWFCN++Q  KR+
+Sbjct  3070  LKLEKEVVRVWFCNRRQREKRI  3005
+
+
+> Aala.03.073813
+Length=7125
+
+ Score = 91.3 bits (225),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 49/52 (95%), Gaps = 0/52 (0%)
+ Frame = +1
+
+Query  253   QVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHL  304
+             QVVIANILQTRRKTVVLVTP++E A+WM+D+EL++GKEIEEKIV EL RRHL
+Sbjct  3160  QVVIANILQTRRKTVVLVTPYEEHAVWMADNELDVGKEIEEKIVAELVRRHL  3315
+
+
+> Aala.03.046125
+Length=3713
+
+ Score = 90.9 bits (224),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 49/52 (95%), Gaps = 0/52 (0%)
+ Frame = +1
+
+Query  253   QVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHL  304
+             QVVIANILQTRRKTVVLVTP++E A+WM+D+EL++GKEIEEKIV EL RRHL
+Sbjct  1840  QVVIANILQTRRKTVVLVTPYEEHAVWMADNELDVGKEIEEKIVAELVRRHL  1995
+
+
+> Aala.03.160856
+Length=24207
+
+ Score = 81.6 bits (200),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 50/173 (29%), Positives = 83/173 (48%), Gaps = 10/173 (5%)
+ Frame = -2
+
+Query  387   FATDILPATMLKRSVSAKEDRCMLTFEMQEFIREFKKRRINLGYTQDDVGRELSALNGP-  445
+             F+      + ++  VS  ++ C    E++ F   FK+RRI LG TQ DVG  L+ L  P 
+Sbjct  6077  FSATFPTTSTIQNFVSTPDNECTPR-ELEWFAERFKQRRIKLGVTQADVGAALAHLKLPG  5901
+
+Query  446   --TYSQSFISRFEGKQLGMKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfsPEV  503
+               + SQS I RFE   L       ++P+L+ W++  E+ +  ++  ++            
+Sbjct  5900  VGSLSQSTICRFESLTLSHNNMMALKPVLQAWLEEAEKANRIKTAESQFLPNADKKRKRT  5721
+
+Query  504   ------LDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRL  550
+                      L   F   P+PS D++  IA +++     V+VWFCN++Q  KR+
+Sbjct  5720  SIGAAEKRSLEAYFAMQPRPSSDKIAAIAEKLDLSKNVVRVWFCNQRQKKKRM  5562
+
+
+> Aala.03.133678
+Length=2281
+
+ Score = 65.1 bits (157),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 26/28 (93%), Positives = 27/28 (97%), Gaps = 0/28 (0%)
+ Frame = +3
+
+Query  72    EYFLMHGYAVVFLHRQRSLEPFCRHFEG  99
+              YFL+HGYAVVFLHRQRSLEPFCRHFEG
+Sbjct  1200  RYFLLHGYAVVFLHRQRSLEPFCRHFEG  1283
+
+
+
+Lambda     K      H
+   0.315    0.129    0.358 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 215300639008
+
+
+Query= POU6 Cterm
+
+Length=357
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Aala.03.036289                                                       122    2e-26
+
+
+> Aala.03.036289
+Length=6562
+
+ Score =  122 bits (305),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 86/228 (38%), Positives = 126/228 (56%), Gaps = 27/228 (11%)
+ Frame = -2
+
+Query  1     MKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfsPEVLDMLNDLFMKNPKPSFDE  60
+             MKAAERMRPILE WI  KEEE +   K  KKRR+RT FS E  D+L + F KNPKPS DE
+Sbjct  4953  MKAAERMRPILEAWITQKEEEGNQGMKAGKKRRRRTCFSQEAQDLLMEHFSKNPKPSVDE  4774
+
+Query  61    MNDIARQINRDVTTVKVWFCNKKQSLKR--LGHPILSSIRSPAIREEMIDIKRKRKSDAD  118
+             +  +A ++  +  T+KVWFCNKKQ+LKR  LG           ++ ++  +K K K   +
+Sbjct  4773  IQILANELQLEPGTIKVWFCNKKQNLKRQSLGD----------VKPDLNTMKSKPKIGGE  4624
+
+Query  119   IQDVFALNHNNIKTLVTTTSANGPV--------------TVPFFIAQDGNSIAIMSGGQT  164
+             + +   L+ N+   L  +T +  P+              TVPF ++QDG    +      
+Sbjct  4623  LDEPSHLSANSYNELPGSTFSTSPMKQVVSVSAPAVTMATVPFILSQDGGVTIVSQASHN  4444
+
+Query  165   SSAQTVTPAGSSLTTTMPQQIVHLSPIPMLASMAVMNNSLSGSQTVDG  212
+              S+Q+      +L+T+ P  +V LS IP+L +++V+N  + G+  V G
+Sbjct  4443  GSSQSPQVMSLNLSTSFPPPVV-LSQIPLLPTLSVVNQGIGGATLVSG  4303
+
+
+
+Lambda     K      H
+   0.310    0.124    0.337 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 73361912248
+
+
+Query= Cnox-5
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Aala.03.330376                                                      98.6    1e-19
+  Aala.03.048276                                                      85.9    6e-16
+  Aala.03.147880                                                      82.4    7e-15
+  Aala.03.002510                                                      82.4    7e-15
+  Aala.03.335758                                                      75.5    1e-12
+  Aala.03.089895                                                      72.0    1e-11
+  Aala.03.044887                                                      70.9    2e-11
+  Aala.03.058745                                                      70.9    2e-11
+  Aala.03.174404                                                      70.5    3e-11
+  Aala.03.160605                                                      68.9    1e-10
+  Aala.03.291979                                                      68.2    1e-10
+  Aala.03.004848                                                      67.4    2e-10
+  Aala.03.316400                                                      66.6    4e-10
+  Aala.03.313027                                                      65.9    7e-10
+  Aala.03.155213                                                      65.9    8e-10
+  Aala.03.166085                                                      65.9    8e-10
+  Aala.03.311061                                                      65.1    1e-09
+  Aala.03.046694                                                      64.3    2e-09
+  Aala.03.148876                                                      63.5    3e-09
+  Aala.03.098885                                                      62.4    8e-09
+  Aala.03.299235                                                      61.6    1e-08
+  Aala.03.309085                                                      61.6    1e-08
+  Aala.03.160481                                                      61.6    1e-08
+  Aala.03.003362                                                      61.2    2e-08
+  Aala.03.032901                                                      61.2    2e-08
+  Aala.03.075281                                                      60.8    2e-08
+  Aala.03.308769                                                      60.8    3e-08
+  Aala.03.303595                                                      60.1    4e-08
+  Aala.03.021551                                                      59.3    6e-08
+  Aala.03.291606                                                      59.3    7e-08
+  Aala.03.085830                                                      57.8    2e-07
+  Aala.03.162535                                                      57.8    2e-07
+  Aala.03.033719                                                      57.4    3e-07
+  Aala.03.003246                                                      57.0    4e-07
+  Aala.03.108825                                                      57.0    4e-07
+  Aala.03.019474                                                      56.6    5e-07
+  Aala.03.336025                                                      55.8    8e-07
+  Aala.03.309161                                                      53.5    3e-06
+  Aala.03.149757                                                      53.1    5e-06
+  Aala.03.099923                                                      52.8    7e-06
+  Aala.03.001032                                                      52.0    1e-05
+
+
+> Aala.03.330376
+Length=24632
+
+ Score = 98.6 bits (244),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 45/53 (85%), Positives = 51/53 (97%), Gaps = 0/53 (0%)
+ Frame = +1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMK  194
+              K+RVCFTQKQIVELEKEFH+N+YLTRARRVEI+ +L LTE+QIKIWFQNRRMK
+Sbjct  24286  KRRVCFTQKQIVELEKEFHFNKYLTRARRVEISSILNLTESQIKIWFQNRRMK  24444
+
+
+> Aala.03.048276
+Length=4921
+
+ Score = 85.9 bits (211),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 43/89 (49%), Positives = 62/89 (70%), Gaps = 1/89 (1%)
+ Frame = -2
+
+Query  120   AADVESTQDNQKQRELHSKDICKK-RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLK  178
+             A  VE+T  ++  +   S  + K+ R  +T+ Q VELEKE+HY+RY++RARR+E+A  L 
+Sbjct  1344  ACIVETTTGDKAPKSWRSAKVKKRSRTTYTRAQQVELEKEYHYSRYISRARRIELANGLN  1165
+
+Query  179   LTEAQIKIWFQNRRMKQKREQKDMATPHF  207
+             LTE  IKIWFQNRRMK+KR++ ++    F
+Sbjct  1164  LTEKHIKIWFQNRRMKEKRDEDELKEDGF  1078
+
+
+> Aala.03.147880
+Length=8204
+
+ Score = 82.4 bits (202),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 38/62 (62%), Positives = 50/62 (81%), Gaps = 0/62 (0%)
+ Frame = +3
+
+Query  139   DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+             D  +KR+ +++KQ++ELEKEFHYN +L + RR E+A+ L LTE QIKIWFQNRRMK K+E
+Sbjct  1314  DTKRKRMTYSRKQLLELEKEFHYNHFLKKERRTELAKALNLTERQIKIWFQNRRMKFKKE  1493
+
+Query  199   QK  200
+              K
+Sbjct  1494  TK  1499
+
+
+> Aala.03.002510
+Length=13909
+
+ Score = 82.4 bits (202),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 42/74 (57%), Positives = 52/74 (71%), Gaps = 4/74 (5%)
+ Frame = -2
+
+Query  136    HSKDICKK-RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM-  193
+              + +D  K+ R  F+  Q+ ELEKEFH+N+YLTR RRVE+A  L LTE Q+K+WFQNRRM 
+Sbjct  13602  YGRDSNKRFRTSFSTTQLTELEKEFHFNKYLTRRRRVELALGLNLTEKQVKVWFQNRRMK  13423
+
+Query  194    --KQKREQKDMATP  205
+                KQ R  KD  TP
+Sbjct  13422  WKKQLRTIKDSHTP  13381
+
+
+> Aala.03.335758
+Length=38806
+
+ Score = 75.5 bits (184),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+ Frame = +2
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+              R  +T  Q++ELEKEF  NRYL+R RR++IA +L LTE Q+KIWFQNRR+K K+++K
+Sbjct  28340  RTAYTSMQLLELEKEFQNNRYLSRLRRIQIAAMLDLTEKQVKIWFQNRRVKWKKDKK  28510
+
+
+> Aala.03.089895
+Length=6957
+
+ Score = 72.0 bits (175),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 33/52 (64%), Positives = 45/52 (87%), Gaps = 0/52 (0%)
+ Frame = -3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+             +KR+ +++ QI+ELEKEF YN+YLT+ RR E+++ L+LTE QIKIWFQNRRM
+Sbjct  1408  RKRMTYSRYQILELEKEFLYNQYLTKERRSELSRGLELTERQIKIWFQNRRM  1253
+
+
+> Aala.03.044887
+Length=18960
+
+ Score = 70.9 bits (172),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 33/59 (56%), Positives = 41/59 (70%), Gaps = 0/59 (0%)
+ Frame = +1
+
+Query  139    DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+              D  +KR  F+  Q+  LE  F  +R+LTR RR++IA  L LTE QIKIWFQNRRMK K+
+Sbjct  16483  DKRRKRTAFSSMQLTMLETHFRGSRFLTRERRMQIADELGLTERQIKIWFQNRRMKWKK  16659
+
+
+> Aala.03.058745
+Length=3934
+
+ Score = 70.9 bits (172),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 43/109 (40%), Positives = 60/109 (56%), Gaps = 11/109 (10%)
+ Frame = -2
+
+Query  126   TQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIK  185
+             TQ++ +   LH     + R  FT++Q+ +LEKEF +  Y++RARR E+A  L L E  IK
+Sbjct  1368  TQEDSEPPSLH-----RTRTAFTREQLNKLEKEFAHENYISRARRCELAAELNLPENTIK  1204
+
+Query  186   IWFQNRRMKQKREQKD-----MATPH-FLDNQLNQCAVDYTTSCPVNFP  228
+             +WFQNRRMK KR +       M +PH +  N L       +  CP   P
+Sbjct  1203  VWFQNRRMKCKRRRLSMHRVPMCSPHMYGPNFLIPPVFPTSPVCPCCIP  1057
+
+
+> Aala.03.174404
+Length=9041
+
+ Score = 70.5 bits (171),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 35/53 (67%), Positives = 39/53 (74%), Gaps = 0/53 (0%)
+ Frame = +1
+
+Query  142  KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMK  194
+            K+R  FT+ QI ELE EF  N YLTR RR EIA  L LTE Q+K+WFQNRRMK
+Sbjct  535  KERTAFTKHQIRELENEFTRNNYLTRLRRYEIAVTLNLTERQVKVWFQNRRMK  693
+
+
+> Aala.03.160605
+Length=8823
+
+ Score = 68.9 bits (167),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 39/124 (32%), Positives = 58/124 (47%), Gaps = 20/124 (16%)
+ Frame = +2
+
+Query  74    PCMSSYFSKPGEVTDGFEDAFKKKNSQKRCWNTDNFKWINIKREKRAADVESTQDNQKQR  133
+             P + SY   P +++ G   A+                W+     K A +           
+Sbjct  3539  PFLDSYPMNPADISQGLSYAYAPNG------------WLRPSHHKSALN--------NNI  3658
+
+Query  134   ELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+              +   D  +KR  F+  Q+  LE +F  + +LTR RR++IA  L +TE Q+KIWFQNRRM
+Sbjct  3659  PVKKSDKPRKRAAFSSMQLKMLETQFRGSHFLTRERRMQIADELGITERQVKIWFQNRRM  3838
+
+Query  194   KQKR  197
+             K K+
+Sbjct  3839  KWKK  3850
+
+
+> Aala.03.291979
+Length=9348
+
+ Score = 68.2 bits (165),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 41/124 (34%), Positives = 61/124 (50%), Gaps = 21/124 (16%)
+ Frame = +3
+
+Query  74    PCMSSYFSKPGEVTDGFEDAFKKKNSQKRCWNTDNFKWINIKREKRAADVESTQDNQKQR  133
+             P + SY   P +++ G   A++               W+      R +  ES  +N    
+Sbjct  5694  PFLDSYPMTPADISQGLSYAYRPNG------------WL------RPSHQESALNNNIPV  5819
+
+Query  134   ELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+             +   K   +KR  F+  Q+  LE  F  + +LTR RR++IA  L +TE Q+KIWFQNRRM
+Sbjct  5820  KKSGK---RKRTAFSSMQLKMLETHFRGSHFLTRERRMQIADELGITERQVKIWFQNRRM  5990
+
+Query  194   KQKR  197
+             K K+
+Sbjct  5991  KWKK  6002
+
+
+> Aala.03.004848
+Length=34870
+
+ Score = 67.4 bits (163),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 31/56 (56%), Positives = 42/56 (75%), Gaps = 0/56 (0%)
+ Frame = -3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+              +KR  +T  Q+ +LE +FH + +LTR RR+E+A  L L+E QIKIWFQNRRMK K+
+Sbjct  22379  RKRTAYTSIQLKKLEVQFHGSHFLTRERRMELATELGLSERQIKIWFQNRRMKWKK  22212
+
+
+> Aala.03.316400
+Length=4110
+
+ Score = 66.6 bits (161),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 39/124 (32%), Positives = 58/124 (47%), Gaps = 21/124 (16%)
+ Frame = -2
+
+Query  74    PCMSSYFSKPGEVTDGFEDAFKKKNSQKRCWNTDNFKWINIKREKRAADVESTQDNQKQR  133
+             P + SY   P +++ G   A++  +            W+     K A +         +R
+Sbjct  1364  PFLDSYPMTPADISQGLSYAYRPNS------------WLRPSHHKSALNNNIPVKKSDKR  1221
+
+Query  134   ELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+                      KR  F+  Q+  LE  F  + +LTR RR++IA  L +TE Q+KIWFQNRRM
+Sbjct  1220  ---------KRTAFSSMQLKMLETHFRGSHFLTRERRMQIADELGITERQVKIWFQNRRM  1068
+
+Query  194   KQKR  197
+             K K+
+Sbjct  1067  KLKK  1056
+
+
+> Aala.03.313027
+Length=16159
+
+ Score = 65.9 bits (159),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 32/59 (55%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+ Frame = +2
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+             + R CFT  Q  ELE+EF   +Y+TR RR+E+A  L LTE QIK WFQNRR+K+++ +K
+Sbjct  1667  RSRPCFTSHQTRELEREFSVCQYITRRRRIELAYTLNLTEKQIKTWFQNRRVKERKLKK  1843
+
+
+> Aala.03.155213
+Length=12498
+
+ Score = 65.9 bits (159),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 41/124 (34%), Positives = 61/124 (50%), Gaps = 21/124 (16%)
+ Frame = +2
+
+Query  74    PCMSSYFSKPGEVTDGFEDAFKKKNSQKRCWNTDNFKWINIKREKRAADVESTQDNQKQR  133
+             P + SY     +++ GF  A++               W+      R +  ES  +N    
+Sbjct  3542  PFLDSYPMTTADISQGFSYAYRPNG------------WL------RPSYQESALNNNIPV  3667
+
+Query  134   ELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+             +   K   +KR  F+  Q+  LE  F  + +LTR RR++IA  L +TE Q+KIWFQNRRM
+Sbjct  3668  KKSGK---RKRTAFSSMQLKMLETHFRGSHFLTRERRMQIADELGITERQVKIWFQNRRM  3838
+
+Query  194   KQKR  197
+             K K+
+Sbjct  3839  KWKK  3850
+
+
+> Aala.03.166085
+Length=29544
+
+ Score = 65.9 bits (159),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+ Frame = -2
+
+Query  139    DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+              D  +KR  +T+ Q+ ELE+EF    Y++R RR+E++ LL LTE QIK WFQN+RMK K+
+Sbjct  13451  DGKRKRTSYTRYQLHELEREFESTTYISRERRIELSMLLSLTERQIKTWFQNKRMKVKK  13275
+
+
+> Aala.03.311061
+Length=17831
+
+ Score = 65.1 bits (157),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 42/58 (73%), Gaps = 0/58 (0%)
+ Frame = +2
+
+Query  147   FTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMAT  204
+             ++Q+Q+ ELEKEFH   YL+ +++ E+A  L +TE Q+K+WFQN+RM+ +R  K   T
+Sbjct  8099  YSQEQLFELEKEFHTTPYLSNSKKSELAIRLSMTERQVKVWFQNKRMRLRRANKGAKT  8272
+
+
+> Aala.03.046694
+Length=7255
+
+ Score = 64.3 bits (155),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 34/68 (50%), Positives = 44/68 (65%), Gaps = 6/68 (8%)
+ Frame = +3
+
+Query  137   SKDIC------KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQN  190
+             ++DIC      K R  F+++QI +LE  F   RYL+ + R  +AQ L LTE QIKIWFQN
+Sbjct  2559  TEDICPENKRKKSRTVFSRRQIYQLETAFDTRRYLSSSERSYLAQSLDLTETQIKIWFQN  2738
+
+Query  191   RRMKQKRE  198
+             RR K KR+
+Sbjct  2739  RRNKWKRQ  2762
+
+
+> Aala.03.148876
+Length=4994
+
+ Score = 63.5 bits (153),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 40/127 (32%), Positives = 63/127 (50%), Gaps = 13/127 (10%)
+ Frame = -1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQ--  199
+             ++R+ FT+ Q   LE+ F   RYL+ A R +++Q++ LT  QIKIWFQN R K KR++  
+Sbjct  2345  RRRILFTKAQTCALERRFRRQRYLSAAEREQLSQMINLTPNQIKIWFQNHRYKCKRQKEE  2166
+
+Query  200   -------KDMATPHFLDNQLNQCAVDYTTSCPVNFPTSCPVEFTNNRAWYNACNQGDSSH  252
+                    K+M     L  Q      +Y  S P+      P+ ++ +      CN  DS +
+Sbjct  2165  GSDHEQLKEMPNTIELKCQYPHRPPEYYASAPM----PPPLLYSTHCDACKQCNVIDSPY  1998
+
+Query  253   FQSITFH  259
+             + +   H
+Sbjct  1997  YATSMLH  1977
+
+
+> Aala.03.098885
+Length=7064
+
+ Score = 62.4 bits (150),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 41/64 (65%), Gaps = 0/64 (0%)
+ Frame = -3
+
+Query  144  RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+            R  FT  Q+ ELE+ F   +YL+   R ++A+ LKLTE QIKIWFQNRR K KR+    A
+Sbjct  705  RAAFTASQVFELERTFERQKYLSGPERADLAKNLKLTEQQIKIWFQNRRYKTKRKIMLNA  526
+
+Query  204  TPHF  207
+            T  +
+Sbjct  525  TSQY  514
+
+
+> Aala.03.299235
+Length=25144
+
+ Score = 61.6 bits (148),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 37/103 (36%), Positives = 55/103 (54%), Gaps = 19/103 (18%)
+ Frame = -2
+
+Query  38     CRYSSQHTYSHTFEYFPGDSHV------QIIKKDDQAAPIQLPCMSSYFSK----PGEVT  87
+              CRY+  H YSHT +YFP  S V        + ++  ++ I LP + S+  K    P  + 
+Sbjct  18636  CRYNC-HGYSHTLQYFPSGSGVYHESSLSRLSRNTDSSSITLP-IPSFLGKSAISPYSIG  18463
+
+Query  88     --DGFEDAFKKKNSQK-----RCWNTDNFKWINIKREKRAADV  123
+                D   D ++K +S K     RCWNT NF+W+NI+RE++   V
+Sbjct  18462  REDTIADTWRKSSSGKGSQHRRCWNTANFQWMNIRRERKTGSV  18334
+
+
+> Aala.03.309085
+Length=19456
+
+ Score = 61.6 bits (148),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 42/153 (28%), Positives = 73/153 (48%), Gaps = 20/153 (13%)
+ Frame = +1
+
+Query  120    AADVESTQDNQKQRELHS-KDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLK  178
+               +DV+   D+    +L + K   K R+ F+Q Q++ELE+ F   +YL+ + R ++A  L 
+Sbjct  12187  TSDVKQEDDSSASSDLVTIKQKKKPRILFSQSQVMELERRFKQQKYLSASERDQLATKLG  12366
+
+Query  179    LTEAQIKIWFQNRRMKQKREQ---------------KDMATPHFLDNQLNQCAVDY-TTS  222
+              L+  Q+KIWFQN+R K K++                + +  P  + N  + C   Y + +
+Sbjct  12367  LSPTQVKIWFQNKRYKCKKQSLESRNRYDWLNFGSPRQVPVPILIRNGQSSCMSRYCSPT  12546
+
+Query  223    CPV---NFPTSCPVEFTNNRAWYNACNQGDSSH  252
+               P    N PT     +    + YN  N G +++
+Sbjct  12547  SPTIYPNAPTDTNFGYYEPYSPYNNYNYGHTAY  12645
+
+
+> Aala.03.160481
+Length=62013
+
+ Score = 61.6 bits (148),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 32/82 (40%), Positives = 47/82 (58%), Gaps = 2/82 (2%)
+ Frame = +2
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             + R  FT  Q++ LE  F  N YL    R ++A  LKL+E QIK+WFQNRR K KR++ +
+Sbjct  2945  RHRTAFTPTQLLGLENAFERNHYLVGEERKQLASYLKLSETQIKVWFQNRRTKWKRQRNN  3124
+
+Query  202   MATPHFLDNQLNQCAVDYTTSC  223
+              +     D+  +QC  +   +C
+Sbjct  3125  PSEDS--DDDTSQCDAENCQTC  3184
+
+
+> Aala.03.003362
+Length=22463
+
+ Score = 61.2 bits (147),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 42/59 (72%), Gaps = 0/59 (0%)
+ Frame = +1
+
+Query  139   DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             D  + R  FT++Q  ELEK+F   RY +R +R ++A+ L LTE Q+K+WFQNRRMK KR
+Sbjct  3925  DPKRDRTAFTKEQRYELEKQFCQGRYPSRYQRADMARKLGLTEFQVKVWFQNRRMKFKR  4101
+
+
+> Aala.03.032901
+Length=655
+
+ Score = 61.2 bits (147),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 42/59 (72%), Gaps = 0/59 (0%)
+ Frame = -1
+
+Query  139  DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+            D  + R  FT++Q  ELEK+F   RY +R +R ++A+ L LTE Q+K+WFQNRRMK KR
+Sbjct  637  DPKRDRTAFTKEQRYELEKQFCQGRYPSRYQRADMARKLGLTEFQVKVWFQNRRMKFKR  461
+
+
+> Aala.03.075281
+Length=1353
+
+ Score = 60.8 bits (146),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 32/76 (43%), Positives = 49/76 (65%), Gaps = 5/76 (6%)
+ Frame = -1
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+             R  F+ +Q++ L+  F+ +RYL   +R+E+A  L +TE Q+KIWFQNRR K+KR Q+   
+Sbjct  1338  RASFSHEQVLTLQSMFNRHRYLRSDQRMELASRLGMTEQQVKIWFQNRRYKEKRLQRAE-  1162
+
+Query  204   TPHFLDNQLNQCAVDY  219
+                 +DN LN+  + Y
+Sbjct  1161  ----MDNMLNERFIPY  1126
+
+
+> Aala.03.308769
+Length=22538
+
+ Score = 60.8 bits (146),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/76 (43%), Positives = 49/76 (65%), Gaps = 5/76 (6%)
+ Frame = -1
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+             R  F+ +Q++ L+  F+ +RYL   +R+E+A  L +TE Q+KIWFQNRR K+KR Q+   
+Sbjct  8567  RASFSHEQVLTLQSMFNRHRYLRSDQRMELASRLGMTEQQVKIWFQNRRYKEKRLQRAE-  8391
+
+Query  204   TPHFLDNQLNQCAVDY  219
+                 +DN LN+  + Y
+Sbjct  8390  ----MDNMLNERFIPY  8355
+
+
+> Aala.03.303595
+Length=9634
+
+ Score = 60.1 bits (144),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 30/74 (41%), Positives = 46/74 (63%), Gaps = 2/74 (2%)
+ Frame = +1
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMK--QKREQKD  201
+             R  F+  Q   LE  F   +Y+T+  R ++A  L LT+AQ+K+WFQNRRMK  Q+RE + 
+Sbjct  9232  RTMFSSLQRKGLENRFRIQKYITKPERQKLAAALGLTDAQVKVWFQNRRMKWRQERETRS  9411
+
+Query  202   MATPHFLDNQLNQC  215
+             +   H + ++L +C
+Sbjct  9412  IC*THSVTSRLLKC  9453
+
+
+> Aala.03.021551
+Length=4670
+
+ Score = 59.3 bits (142),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 29/59 (50%), Positives = 40/59 (68%), Gaps = 0/59 (0%)
+ Frame = +3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+             K R  FT +Q+ ++E+ F   +Y++   R E A+ LKLT+ QIK WFQNRRMK KR+ K
+Sbjct  2838  KPRTTFTSEQVDQMERLFSCQKYISARERAEFAKRLKLTDNQIKTWFQNRRMKFKRQLK  3014
+
+
+> Aala.03.291606
+Length=17081
+
+ Score = 59.3 bits (142),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 29/58 (50%), Positives = 39/58 (68%), Gaps = 0/58 (0%)
+ Frame = -1
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              R  FT +Q+V LE +F   RYL+   R+ +A  L L+E QIKIWFQNRR K K++ K+
+Sbjct  15047  RTAFTYEQLVALENKFRSTRYLSVCERLNLALSLGLSETQIKIWFQNRRTKWKKQVKN  14874
+
+
+> Aala.03.085830
+Length=2609
+
+ Score = 57.8 bits (138),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 31/84 (37%), Positives = 52/84 (62%), Gaps = 0/84 (0%)
+ Frame = +3
+
+Query  117   EKRAADVESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQL  176
+             +K  + + S+    K+ E  S  +  KR  F++ Q  +LE+EF  ++Y+ +  R +++  
+Sbjct  1938  DKMGSPMYSSDIRPKKPEETSTSLSAKRAVFSEYQRRQLEQEFLAHKYINKQERKQLSAR  2117
+
+Query  177   LKLTEAQIKIWFQNRRMKQKREQK  200
+             L LTE+QI+IWFQNRRMK +  Q+
+Sbjct  2118  LCLTESQIRIWFQNRRMKWRNWQE  2189
+
+
+> Aala.03.162535
+Length=10610
+
+ Score = 57.8 bits (138),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 29/56 (52%), Positives = 40/56 (72%), Gaps = 0/56 (0%)
+ Frame = -3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             K RV FT+ QI  LE+ F    YLT A RV +++ L +T++Q+K WFQN+RM+QKR
+Sbjct  7503  KARVIFTRCQIERLEEIFLRKHYLTPAERVLLSRELSMTDSQLKTWFQNKRMRQKR  7336
+
+
+> Aala.03.033719
+Length=19471
+
+ Score = 57.4 bits (137),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 28/62 (46%), Positives = 40/62 (65%), Gaps = 0/62 (0%)
+ Frame = +2
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             K+RV F+++Q  ELE+ F Y  YL+   R  +++ + LT  QIKIWFQN R K K+  KD
+Sbjct  3659  KRRVLFSRQQTWELERVFRYQPYLSAPEREILSRRINLTPNQIKIWFQNHRYKLKKYMKD  3838
+
+Query  202   MA  203
+             + 
+Sbjct  3839  IV  3844
+
+
+> Aala.03.003246
+Length=14535
+
+ Score = 57.0 bits (136),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+ Frame = +2
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             + R  FT +Q++ LE+ F   RYL    R+ +A+ L LT+ Q+K WFQNRRMK KR+ ++
+Sbjct  5096  RPRTTFTPEQLMRLERRFFQKRYLRPPERLLLAKELNLTDCQVKTWFQNRRMKLKRQVRE  5275
+
+
+> Aala.03.108825
+Length=2052
+
+ Score = 57.0 bits (136),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 27/48 (57%), Positives = 34/48 (71%), Gaps = 0/48 (0%)
+ Frame = -3
+
+Query  142  KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQ  189
+            + R CFT +Q  ELE+EF   +Y+TR RR+E+A  L LTE QIK WFQ
+Sbjct  145  RSRPCFTSQQTRELEREFVSGQYITRKRRLELAFTLNLTEKQIKTWFQ  2
+
+
+> Aala.03.019474
+Length=11479
+
+ Score = 56.6 bits (135),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 27/56 (49%), Positives = 40/56 (72%), Gaps = 0/56 (0%)
+ Frame = +1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             K R  F+  Q++ LE++F   +YL+ A R E+++ L LTE Q+KIW+QNRR K+KR
+Sbjct  8806  KPRTPFSATQLLTLEQKFKRKQYLSIAERAELSEQLNLTETQVKIWYQNRRAKEKR  8973
+
+
+> Aala.03.336025
+Length=3269
+
+ Score = 55.8 bits (133),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 26/51 (51%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+ Frame = +1
+
+Query  150   KQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+             +Q+ ELEK F  ++YL+R  R E+A LLK++  Q+K W+QNRR K K+E K
+Sbjct  1222  RQLYELEKRFAKSKYLSRVERQELADLLKISHNQVKTWYQNRRTKWKKEGK  1374
+
+
+> Aala.03.309161
+Length=32176
+
+ Score = 53.5 bits (127),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 36/127 (29%), Positives = 59/127 (47%), Gaps = 4/127 (3%)
+ Frame = +2
+
+Query  124    ESTQDNQKQRELHSKD--ICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTE  181
+              E   D++K  +L SK     K R  ++  Q+ EL + F   +YL    R E+A  L L++
+Sbjct  23726  EKDSDDEKCTKLDSKGRKSRKPRTIYSSYQLRELNRRFSRTQYLALPERAELASALGLSQ  23905
+
+Query  182    AQIKIWFQNRRMKQKREQKDMATPHFLDNQLNQCAVDYTTSCPVNFPTSCPVEFTNNRAW  241
+               Q+KIWFQN+R K K+  K     +     +  C+ +        +    PV + +   +
+Sbjct  23906  QQVKIWFQNKRSKFKKIMKASGGTYTDHTAMVNCSRE--NYGNTTWEQRYPVGYRSGETY  24079
+
+Query  242    YNACNQG  248
+              Y   N+G
+Sbjct  24080  YPNTNEG  24100
+
+
+> Aala.03.149757
+Length=20629
+
+ Score = 53.1 bits (126),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 27/59 (46%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+ Frame = +3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+              K R  F   Q+ EL + F    YL+   R ++A  L LT+ QIKIWFQNRR K K+  K
+Sbjct  15309  KPRTIFNSFQLRELNRTFDRTHYLSLPERADLAVSLGLTQTQIKIWFQNRRSKYKKLVK  15485
+
+
+> Aala.03.099923
+Length=15075
+
+ Score = 52.8 bits (125),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 27/57 (48%), Positives = 37/57 (65%), Gaps = 0/57 (0%)
+ Frame = +3
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+              RV FT  Q   LEK+F  + YLT     E++ +L L E +IKIWFQNRR +++RE +
+Sbjct  12621  RVPFTPFQQTTLEKKFQRDHYLTSHAVAELSHVLDLPEQRIKIWFQNRRARERREHQ  12791
+
+
+> Aala.03.001032
+Length=2224
+
+ Score = 52.0 bits (123),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 22/58 (38%), Positives = 36/58 (63%), Gaps = 0/58 (0%)
+ Frame = +3
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             R  F+  QI  LE+ F   +YL    R  +A ++ +TE Q+K+WFQNRR K +++ ++
+Sbjct  1017  RPTFSGHQIYHLERTFEQTKYLAGPERARLAHIIGMTENQVKVWFQNRRTKWRKKTQE  1190
+
+
+
+Lambda     K      H
+   0.319    0.130    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 43824250278
+
+
+  Database: Aala.genome.fasta
+    Posted date:  Feb 8, 2018  10:55 AM
+  Number of letters in database: 1,075,385,292
+  Number of sequences in database:  337,973
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

@@ -1,0 +1,821 @@
+TBLASTN 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Ccrux.genome.fasta
+           50,999 sequences; 209,392,379 total letters
+
+
+
+Query= ABU92522.1 phosphopantothenoylcysteine-synthetase, partial
+[Eleutheria dichotoma]
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Ccrux.03.000183                                                     90.1    3e-18
+
+
+> Ccrux.03.000183
+Length=54776
+
+ Score = 90.1 bits (222),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 45/69 (66%), Positives = 55/69 (80%), Gaps = 1/69 (1%)
+ Frame = +1
+
+Query  91     QVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHLS-INSGET  149
+              +VV+ANILQTRRKTVVLVTPF+E AIWMS++E +MGKEIEEKIV+EL RRH+  I +   
+Sbjct  12883  KVVVANILQTRRKTVVLVTPFEEHAIWMSENEHDMGKEIEEKIVSELVRRHMQFIANASG  13062
+
+Query  150    KYNTRFSDL  158
+               Y TR   +
+Sbjct  13063  *YETRLKSM  13089
+
+
+ Score = 64.7 bits (156),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+ Frame = +3
+
+Query  31     EHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVSFKL  70
+              EHKIQS++    L+M PTPKM+SPLV++WAK+AFVVSFK+
+Sbjct  10842  EHKIQSSEGGISLTMQPTPKMMSPLVRDWAKTAFVVSFKV  10961
+
+
+
+Lambda     K      H
+   0.315    0.127    0.348 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 4127588032
+
+
+Query= ABU92523.1 POU class 6 [Eleutheria dichotoma]
+
+Length=818
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Ccrux.03.000183                                                      118    1e-25
+  Ccrux.03.000002                                                     98.6    1e-19
+  Ccrux.03.001101                                                     92.0    9e-18
+  Ccrux.03.000690                                                     83.2    5e-15
+  Ccrux.03.002754                                                     69.7    5e-11
+
+
+> Ccrux.03.000183
+Length=54776
+
+ Score =  118 bits (295),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 64/130 (50%), Positives = 71/130 (55%), Gaps = 53/130 (40%)
+ Frame = +2
+
+Query  43    SGGTTVPIESNTVRFVDNFSQGTRGACSAEY-----------------------------  73
+             SGGTTVP+ESNTVR+VDNFSQGTRGA SAEY                             
+Sbjct  8438  SGGTTVPLESNTVRYVDNFSQGTRGAASAEYPSSYNTS***YNGAKLESLSLRCLFLAIY  8617
+
+Query  74    ------------------------FLMHGYAVVFLHRQRSLEPFCRHFEGHTALDLLELQ  109
+                                     FL+HGYAVVFLHRQRSLEPFCRHFEGH ALD+L+LQ
+Sbjct  8618  LCHVDLLALAVVPTVLCLDLVYRYFLLHGYAVVFLHRQRSLEPFCRHFEGHNALDILDLQ  8797
+
+Query  110   LETTGAYRVV  119
+             L   G+ +VV
+Sbjct  8798  LNGNGSCQVV  8827
+
+
+ Score =  108 bits (269),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 77/223 (35%), Positives = 123/223 (56%), Gaps = 28/223 (12%)
+ Frame = +1
+
+Query  451    FISRFEGKQLGMKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfsPEVLDMLNDL  510
+              F   FEG++LGMK A RM+P LE WI+ K+ E     K  KKRR+RTSFSPE ++ML + 
+Sbjct  19138  FRCSFEGRKLGMKTALRMKPTLEAWIRRKQAESGETMKPGKKRRRRTSFSPEAIEMLMEC  19317
+
+Query  511    FMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRLGHPILSSIRSPAIREEMIDI  570
+              + KNPKPS DE+  +A +++ + +TV++WFCN+KQS++R       SI++  ++ ++++I
+Sbjct  19318  YQKNPKPSADEIQLLASRMSLEPSTVRIWFCNRKQSIRR-------SIQA-DMKGDLVEI  19473
+
+Query  571    KRKRKSDADIQDVFALNHNNIKTLVTTTSANGPVTVPFFIAQDGNSIAIMSGGQTSSAQT  630
+              K K+  +    +        +      T      T+P F+ QDG +IA            
+Sbjct  19474  KMKKDGEQQYTNKQQQQQQVVAQQGAIT------TIPLFLNQDGVTIA------------  19599
+
+Query  631    VTPAGSSLTTTMPQQIVHLSPIPMLASMAVMNNSLSGSQTVDG  673
+               +P        +P   V L+ +P+L +M+++N   S S  V G
+Sbjct  19600  ASPQPQGTARLLPS--VMLTQVPILPTMSIVNQVGSISNAVIG  19722
+
+
+ Score =  105 bits (262),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 55/109 (51%), Positives = 66/109 (61%), Gaps = 37/109 (33%)
+ Frame = +3
+
+Query  120   VDEARAPILPDIVRKYKEV-------------------------------------QNGC  142
+             VDE+R P L D+VR+YKEV                                     QN C
+Sbjct  9336  VDESRVPGLQDVVRRYKEVSNQHQYS**HVT*SSFYINWKITIFLIDHVWFIF*QVQNAC  9515
+
+Query  143   LLLKIGFMTLSDYLFLLKASAEALAPLGSHIMFYLAAAVSDFYVPENEM  191
+             LLLKIGFMTLSDYLFLL+ASAEAL+PLGS+++FYLAAAVSDFY+ + +M
+Sbjct  9516  LLLKIGFMTLSDYLFLLRASAEALSPLGSNVIFYLAAAVSDFYIAQQDM  9662
+
+
+ Score = 91.3 bits (225),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 40/48 (84%), Positives = 43/48 (90%), Gaps = 0/48 (0%)
+ Frame = +1
+
+Query  1     MADWQDYFSKTRPPSNLDEAKRTIQDFATKHRQLGRNIVLVTSGGTTV  48
+             MADW DYFSK+RPPSNLDEAKRTIQDFA KHRQLGRN+VLVT G + V
+Sbjct  5893  MADWIDYFSKSRPPSNLDEAKRTIQDFAVKHRQLGRNVVLVTVGSSEV  6036
+
+
+ Score = 88.2 bits (217),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 41/52 (79%), Positives = 49/52 (95%), Gaps = 0/52 (0%)
+ Frame = +1
+
+Query  253    QVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHL  304
+              +VV+ANILQTRRKTVVLVTPF+E AIWMS++E +MGKEIEEKIV+EL RRH+
+Sbjct  12883  KVVVANILQTRRKTVVLVTPFEEHAIWMSENEHDMGKEIEEKIVSELVRRHM  13038
+
+
+ Score = 74.7 bits (182),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 48/125 (39%), Positives = 69/125 (56%), Gaps = 11/125 (8%)
+ Frame = +1
+
+Query  333    FTSEQSIIQTSLSNNSVTSMPGLAPINVYQNNAINVKPGSAISNVLLQLKGESEFATDIL  392
+              F S  S+ QT+   +    +PG   +   Q     +K    ++NV  QL   S       
+Sbjct  16657  FQSPSSLGQTAQITSVTQILPGFTSVGTKQGTT-QIKLALDVANVE-QLSASSS------  16812
+
+Query  393    PATMLKRSVS---AKEDRCMLTFEMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQ  449
+              P  + +R  S   A +D   LT+EMQ+FI+ FK  R+ LG++Q+DVG+ELS +NGP+YSQ
+Sbjct  16813  PTPVNRRRGSSNIASKDDSTLTYEMQDFIKYFKNSRMALGHSQEDVGKELSEMNGPSYSQ  16992
+
+Query  450    SFISR  454
+              S ISR
+Sbjct  16993  SIISR  17007
+
+
+ Score = 64.3 bits (155),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/40 (68%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+ Frame = +3
+
+Query  193    EHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVSFKL  232
+              EHKIQS++    L+M PTPKM+SPLV++WAK+AFVVSFK+
+Sbjct  10842  EHKIQSSEGGISLTMQPTPKMMSPLVRDWAKTAFVVSFKV  10961
+
+
+> Ccrux.03.000002
+Length=147309
+
+ Score = 98.6 bits (244),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 54/150 (36%), Positives = 80/150 (54%), Gaps = 15/150 (10%)
+ Frame = -2
+
+Query  413    EMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERMRPIL  472
+              E++ F +EFK++RI LG+TQ DVG  L  L G  +SQ+ I RFE  QL  K   +++P+L
+Sbjct  75587  ELELFAKEFKQKRIKLGFTQADVGLALGTLYGNVFSQTTICRFEALQLSFKNMCKLKPLL  75408
+
+Query  473    ETWIQSKEEEHssrskftkkrrkrtsfsP------------EVLDMLNDLFMKNPKPSFD  520
+                W+   EE  SS +          + +P             V   L   F KNPKP+  
+Sbjct  75407  AKWL---EEADSSGTGTATTTVFDRNIAPGRKRKKRTSIEVSVKGALEGCFCKNPKPASQ  75237
+
+Query  521    EMNDIARQINRDVTTVKVWFCNKKQSLKRL  550
+              E+ ++A Q+  +   V+VWFCN++Q  KR+
+Sbjct  75236  EIANLADQLQLEKEVVRVWFCNRRQKEKRM  75147
+
+
+> Ccrux.03.001101
+Length=31084
+
+ Score = 92.0 bits (227),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 54/145 (38%), Positives = 82/145 (57%), Gaps = 10/145 (6%)
+ Frame = +2
+
+Query  413    EMQEFIREFKKRRINLGYTQDDVGRELSALN-GPTYSQSFISRFEGKQLGMKAAERMRPI  471
+              +++ F  +FK RRI LGYTQ +VG  L+ LN G  +SQ+ I RFE  QL  K A +++P+
+Sbjct  13100  DLERFANDFKTRRIKLGYTQTNVGSALAQLNEGADFSQTTICRFENLQLSYKNAYKLKPL  13279
+
+Query  472    LETWIQSKE------EEHssrskftkkrrkrtsfsPEVLDMLNDLFMKNPKPSFDEMNDI  525
+              LE+W++  E      +E     +  K+R      + EVL+     F +  KPS  E+  I
+Sbjct  13280  LESWLERAEAAGAVSQEKPLAERKRKRRTTIGLTAKEVLE---RHFQRQSKPSSLEILGI  13450
+
+Query  526    ARQINRDVTTVKVWFCNKKQSLKRL  550
+              A  +  +   V+VWFCN++Q  KR+
+Sbjct  13451  AESLRLEKEVVRVWFCNRRQREKRI  13525
+
+
+> Ccrux.03.000690
+Length=37133
+
+ Score = 83.2 bits (204),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 51/173 (30%), Positives = 76/173 (44%), Gaps = 10/173 (5%)
+ Frame = +1
+
+Query  387    FATDILPATMLKRSVSAKEDRCMLTFEMQEFIREFKKRRINLGYTQDDVGRELSALNGP-  445
+              F     P +      +  E  C    E++ F   FK+RRI LG TQ DVG  L+ L  P 
+Sbjct  20680  FTNGTFPGSTFANFTAPPETDCTPR-ELEWFAERFKQRRIKLGVTQADVGSALAHLKLPG  20856
+
+Query  446    --TYSQSFISRFEGKQLGMKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfsPEV  503
+                + SQS I RFE   L       ++P+L  W+   E  H ++   +     +       
+Sbjct  20857  VGSLSQSTICRFESLTLSHNNMMALKPVLSAWLDEAERAHRTKLNDSAFLPNQEKKRKRT  21036
+
+Query  504    ------LDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRL  550
+                       L   F   P+PS D++  IA +++     V+VWFCN++Q  KR+
+Sbjct  21037  SIGAAEKRSLEAYFAMQPRPSSDKIAAIAEKLDLSKNVVRVWFCNQRQKKKRM  21195
+
+
+> Ccrux.03.002754
+Length=19576
+
+ Score = 69.7 bits (169),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 39/143 (28%), Positives = 71/143 (50%), Gaps = 5/143 (3%)
+ Frame = +1
+
+Query  413   EMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERMRPIL  472
+             EM+ F   F+ RR + G +Q DV  E+  + G  YSQ+ + RFE   L  K   ++ PI 
+Sbjct  9226  EMKAFSEAFRVRRNSFGLSQADVAVEVGQVLGAQYSQTTVCRFERLDLSRKNLVKLYPIF  9405
+
+Query  473   ETWIQSKEEEHssrskftkkrrkrtsfsPEVL-----DMLNDLFMKNPKPSFDEMNDIAR  527
+             + W+  ++ + + +      R+                 L D +  N +P+ +E+ +IA 
+Sbjct  9406  KYWLDFRDSKVTKKQDQEVTRKLSQRKKRTTFYRKDKQTLEDHYEINSRPTPEEIENIAT  9585
+
+Query  528   QINRDVTTVKVWFCNKKQSLKRL  550
+              +++  T V++WFCN++Q  +R 
+Sbjct  9586  SLSKTSTAVRIWFCNRRQKDRRF  9654
+
+
+
+Lambda     K      H
+   0.315    0.129    0.358 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 44347726260
+
+
+Query= POU6 Cterm
+
+Length=357
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Ccrux.03.000183                                                     94.7    5e-19
+
+
+> Ccrux.03.000183
+Length=54776
+
+ Score = 94.7 bits (234),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 74/212 (35%), Positives = 120/212 (57%), Gaps = 28/212 (13%)
+ Frame = +1
+
+Query  1      MKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfsPEVLDMLNDLFMKNPKPSFDE  60
+              MK A RM+P LE WI+ K+ E     K  KKRR+RTSFSPE ++ML + + KNPKPS DE
+Sbjct  19171  MKTALRMKPTLEAWIRRKQAESGETMKPGKKRRRRTSFSPEAIEMLMECYQKNPKPSADE  19350
+
+Query  61     MNDIARQINRDVTTVKVWFCNKKQSLKRLGHPILSSIRSPAIREEMIDIKRKRKSDADIQ  120
+              +  +A +++ + +TV++WFCN+KQS++R       SI++  ++ ++++IK K+  +    
+Sbjct  19351  IQLLASRMSLEPSTVRIWFCNRKQSIRR-------SIQA-DMKGDLVEIKMKKDGEQQYT  19506
+
+Query  121    DVFALNHNNIKTLVTTTSANGPVTVPFFIAQDGNSIAIMSGGQTSSAQTVTPAGSSLTTT  180
+              +        +      T      T+P F+ QDG +IA       +S Q   P G++    
+Sbjct  19507  NKQQQQQQVVAQQGAIT------TIPLFLNQDGVTIA-------ASPQ---PQGTA--RL  19632
+
+Query  181    MPQQIVHLSPIPMLASMAVMNNSLSGSQTVDG  212
+              +P   V L+ +P+L +M+++N   S S  V G
+Sbjct  19633  LPS--VMLTQVPILPTMSIVNQVGSISNAVIG  19722
+
+
+
+Lambda     K      H
+   0.310    0.124    0.337 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 15548008239
+
+
+Query= Cnox-5
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Ccrux.03.000183                                                      108    2e-23
+  Ccrux.03.001589                                                     85.9    2e-16
+  Ccrux.03.001567                                                     84.3    4e-16
+  Ccrux.03.002968                                                     84.0    6e-16
+  Ccrux.03.000477                                                     75.5    2e-13
+  Ccrux.03.003067                                                     75.5    2e-13
+  Ccrux.03.002879                                                     75.1    3e-13
+  Ccrux.03.007753                                                     73.6    7e-13
+  Ccrux.03.002781                                                     72.0    3e-12
+  Ccrux.03.001354                                                     65.9    1e-10
+  Ccrux.03.002320                                                     65.1    3e-10
+  Ccrux.03.005724                                                     64.3    5e-10
+  Ccrux.03.006138                                                     63.2    1e-09
+  Ccrux.03.005279                                                     61.6    3e-09
+  Ccrux.03.003586                                                     61.2    4e-09
+  Ccrux.03.001397                                                     60.8    6e-09
+  Ccrux.03.004745                                                     60.1    9e-09
+  Ccrux.03.001941                                                     59.7    1e-08
+  Ccrux.03.006396                                                     59.7    1e-08
+  Ccrux.03.000048                                                     59.3    2e-08
+  Ccrux.03.004908                                                     57.8    4e-08
+  Ccrux.03.003103                                                     57.8    4e-08
+  Ccrux.03.001967                                                     57.8    4e-08
+  Ccrux.03.004713                                                     57.4    5e-08
+  Ccrux.03.003106                                                     57.0    7e-08
+  Ccrux.03.000290                                                     56.2    1e-07
+  Ccrux.03.003309                                                     53.5    9e-07
+  Ccrux.03.000660                                                     52.0    2e-06
+  Ccrux.03.009797                                                     52.0    2e-06
+  Ccrux.03.001259                                                     51.2    4e-06
+
+
+> Ccrux.03.000183
+Length=54776
+
+ Score =  108 bits (270),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 53/67 (80%), Positives = 59/67 (89%), Gaps = 0/67 (0%)
+ Frame = +2
+
+Query  139    DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              D  KKRVCFTQKQIVELEKEFH+++YLTRARRVEI+  L+LTEAQIKIWFQNRRMK KRE
+Sbjct  26078  DANKKRVCFTQKQIVELEKEFHFSKYLTRARRVEISASLRLTEAQIKIWFQNRRMKFKRE  26257
+
+Query  199    QKDMATP  205
+              QK+   P
+Sbjct  26258  QKEKPRP  26278
+
+
+> Ccrux.03.001589
+Length=26494
+
+ Score = 85.9 bits (211),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 40/61 (66%), Positives = 49/61 (81%), Gaps = 0/61 (0%)
+ Frame = -3
+
+Query  137   SKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQK  196
+             S D  +KR  +T+KQ+VELEKEFH+N +LTR RR+E+A  L LTE QIKIWFQNRRMK K
+Sbjct  6071  SSDKRRKRTAYTRKQLVELEKEFHFNHFLTRERRMELAANLGLTERQIKIWFQNRRMKWK  5892
+
+Query  197   R  197
+             +
+Sbjct  5891  K  5889
+
+
+> Ccrux.03.001567
+Length=26722
+
+ Score = 84.3 bits (207),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 41/100 (41%), Positives = 65/100 (65%), Gaps = 0/100 (0%)
+ Frame = -3
+
+Query  139   DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+             D  +KR  +T+ Q++ELEKEFH  +Y+TR RR+E++ +L L+E QIK WFQNRRMK K+E
+Sbjct  4487  DGKRKRTSYTRCQLLELEKEFHSVKYITRERRIELSLMLNLSERQIKTWFQNRRMKLKKE  4308
+
+Query  199   QKDMATPHFLDNQLNQCAVDYTTSCPVNFPTSCPVEFTNN  238
+             ++D      +++   + A+    + P++  TS     +NN
+Sbjct  4307  RRDSGGVSTVNDTKEEKALHSMNNNPISGTTSMNYTDSNN  4188
+
+
+> Ccrux.03.002968
+Length=18666
+
+ Score = 84.0 bits (206),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 38/62 (62%), Positives = 51/62 (83%), Gaps = 0/62 (0%)
+ Frame = +3
+
+Query  139    DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              D  +KR+ +++KQ++ELEKEFH+N +L + RR E+A+LL LTE QIKIWFQNRRMK K+E
+Sbjct  13701  DTKRKRMTYSRKQLLELEKEFHFNHFLKKERRTELAKLLSLTERQIKIWFQNRRMKFKKE  13880
+
+Query  199    QK  200
+               K
+Sbjct  13881  TK  13886
+
+
+> Ccrux.03.000477
+Length=41841
+
+ Score = 75.5 bits (184),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 34/54 (63%), Positives = 44/54 (82%), Gaps = 0/54 (0%)
+ Frame = -2
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+              R  +T+ Q VELEKE+ ++RY++RARR+E+A  L LTE  IKIWFQNRRMK+KR
+Sbjct  13976  RTTYTRLQQVELEKEYRFSRYISRARRIELATTLNLTEKHIKIWFQNRRMKEKR  13815
+
+
+ Score = 74.7 bits (182),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 33/57 (58%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+ Frame = -2
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+             R  +T  Q++ELEKEF  NRYL+R RR++IA +L LTE Q+KIWFQNRR+K K++++
+Sbjct  2519  RTAYTSIQLLELEKEFQSNRYLSRLRRIQIAAMLDLTEKQVKIWFQNRRVKWKKDRR  2349
+
+
+> Ccrux.03.003067
+Length=18251
+
+ Score = 75.5 bits (184),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 36/58 (63%), Positives = 49/58 (85%), Gaps = 0/58 (0%)
+ Frame = -3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQ  199
+             +KR+ +T+ Q +ELEKEF Y++YLTR RR E++  L+L+E QIKIWFQNRRMKQK+E+
+Sbjct  7185  RKRMTYTRYQTLELEKEFLYSQYLTRERRKELSFSLRLSERQIKIWFQNRRMKQKKEK  7012
+
+
+> Ccrux.03.002879
+Length=19046
+
+ Score = 75.1 bits (183),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 43/91 (48%), Positives = 52/91 (58%), Gaps = 4/91 (4%)
+ Frame = +2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR----  197
+              K+R  FT++QI ELE EF  N YLTR RR EIA  L LTE Q+K+WFQNRRMK KR    
+Sbjct  16091  KERTAFTKQQIRELENEFTRNNYLTRLRRYEIAVTLSLTERQVKVWFQNRRMKWKRVKGG  16270
+
+Query  198    EQKDMATPHFLDNQLNQCAVDYTTSCPVNFP  228
+                K        D  ++ C  D      ++FP
+Sbjct  16271  RSKTFQVKKEKDEDIDDCVKDDK*QNSLSFP  16363
+
+
+> Ccrux.03.007753
+Length=8219
+
+ Score = 73.6 bits (179),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 35/55 (64%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+ Frame = +2
+
+Query  143   KRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             KR  + ++QIVELEKE+ Y++YLTR RR E++Q L LTE Q+K+WFQNRRMKQK+
+Sbjct  5102  KRKPYAREQIVELEKEYLYSQYLTRKRRRELSQSLNLTENQVKVWFQNRRMKQKK  5266
+
+
+> Ccrux.03.002781
+Length=19454
+
+ Score = 72.0 bits (175),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 33/60 (55%), Positives = 48/60 (80%), Gaps = 0/60 (0%)
+ Frame = -3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             +KR+ +T+ Q +ELEKEF ++ YLTR RR+E++  L LTE Q+KIWFQNRRMK K+ +++
+Sbjct  3567  RKRMTYTKSQTLELEKEFLFSNYLTRTRRIELSFALDLTERQVKIWFQNRRMKLKKTRRE  3388
+
+
+> Ccrux.03.001354
+Length=28672
+
+ Score = 65.9 bits (159),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/60 (54%), Positives = 44/60 (74%), Gaps = 0/60 (0%)
+ Frame = -3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              + R CFT  Q  ELE+EF   +Y+TR RR+E+A +L LTE QIK WFQNRR+K+++ +K 
+Sbjct  11336  RSRPCFTTHQTRELEREFSLCQYITRRRRIEMAYVLSLTEKQIKTWFQNRRVKERKMKKS  11157
+
+
+> Ccrux.03.002320
+Length=21801
+
+ Score = 65.1 bits (157),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 28/60 (47%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+ Frame = -1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K R+ F+Q Q++ELE+ F   +YL+ + R ++AQ L LT  Q+KIWFQN+R K K++  D
+Sbjct  11904  KPRILFSQSQVMELERRFKLQKYLSASERDQLAQKLGLTPTQVKIWFQNKRYKCKKQSMD  11725
+
+
+> Ccrux.03.005724
+Length=11271
+
+ Score = 64.3 bits (155),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 36/75 (48%), Positives = 47/75 (63%), Gaps = 7/75 (9%)
+ Frame = -1
+
+Query  123   VESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEA  182
+             ++STQ   K+R+       + R  FT  QI +LEK+F   +YL+   R  +AQ LKLTE 
+Sbjct  9705  LKSTQQGVKKRK-------RSRAAFTAAQIFQLEKKFDSQKYLSGQERSRLAQHLKLTEQ  9547
+
+Query  183   QIKIWFQNRRMKQKR  197
+             Q+KIWFQNRR K KR
+Sbjct  9546  QVKIWFQNRRYKTKR  9502
+
+
+> Ccrux.03.006138
+Length=10538
+
+ Score = 63.2 bits (152),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 35/92 (39%), Positives = 50/92 (55%), Gaps = 2/92 (2%)
+ Frame = +2
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE-QK  200
+             K R  F+++Q+ +LE  F   RYL+   R  +A+ L+LTE QIKIWFQNRR K KR+   
+Sbjct  5489  KTRTVFSRRQVYQLETAFDVRRYLSSGERSTLARTLQLTETQIKIWFQNRRNKWKRQLAS  5668
+
+Query  201   DMATPHFLDNQLNQCAVDYTT-SCPVNFPTSC  231
+             ++   +    Q+  C +     S P   P  C
+Sbjct  5669  ELELANMGLTQMRACELTRALPSSPALRPIWC  5764
+
+
+> Ccrux.03.005279
+Length=12115
+
+ Score = 61.6 bits (148),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 29/54 (54%), Positives = 39/54 (73%), Gaps = 0/54 (0%)
+ Frame = -3
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             R  F   Q+  LE+EF  ++YLTR RR+E+A  L L+E QIK+WFQN+RMK K+
+Sbjct  3596  RTSFDSIQLTALEREFQRDKYLTRKRRIEMAIGLHLSERQIKVWFQNKRMKWKK  3435
+
+
+> Ccrux.03.003586
+Length=16461
+
+ Score = 61.2 bits (147),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 53/98 (55%), Gaps = 10/98 (10%)
+ Frame = +1
+
+Query  128    DNQKQRELHSKDI----CKKR---VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLT  180
+              D Q  R + S  +    CK R     FT +Q+  LE +F   RYL+   R+ +A  L L+
+Sbjct  13717  DRQSSRLISSDLLPTKSCKARRIRTAFTYEQLASLENKFRTTRYLSVCERLNLALSLGLS  13896
+
+Query  181    EAQIKIWFQNRRMKQKREQ--KDMATPHF-LDNQLNQC  215
+              E Q+KIWFQNRR K K++   +D+  P F L    NQC
+Sbjct  13897  ETQVKIWFQNRRTKWKKQNPGQDVNGPTFSLALPPNQC  14010
+
+
+> Ccrux.03.001397
+Length=28175
+
+ Score = 60.8 bits (146),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/62 (46%), Positives = 39/62 (63%), Gaps = 0/62 (0%)
+ Frame = -1
+
+Query  145    VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMAT  204
+              + FT+ Q  ELE+ F Y RYL+   R ++A  + LT  Q+KIWFQN R K KR+++  A 
+Sbjct  13451  ILFTKLQTFELERRFRYQRYLSAPEREQLAHAINLTPTQVKIWFQNHRYKYKRQKEVSAE  13272
+
+Query  205    PH  206
+               H
+Sbjct  13271  SH  13266
+
+
+> Ccrux.03.004745
+Length=13219
+
+ Score = 60.1 bits (144),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 27/52 (52%), Positives = 41/52 (79%), Gaps = 0/52 (0%)
+ Frame = -3
+
+Query  143   KRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMK  194
+             KR  F+++Q  ELE+EF  ++Y+T+  R E+A  L+L+E+Q++IWFQNRRMK
+Sbjct  2402  KRAVFSERQRQELEREFLIHKYITKQERKELAGRLELSESQVRIWFQNRRMK  2247
+
+
+> Ccrux.03.001941
+Length=24002
+
+ Score = 59.7 bits (143),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 43/63 (69%), Gaps = 0/63 (0%)
+ Frame = -1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K R  F+ +Q+ ELE+ F  ++YL++  R E+A+ L++T  Q+K WFQNRR K K++ K+
+Sbjct  17792  KSRTTFSGRQLFELERRFEASKYLSKKERQEMAKRLRITHTQVKTWFQNRRTKWKKDIKE  17613
+
+Query  202    MAT  204
+                T
+Sbjct  17612  QRT  17604
+
+
+> Ccrux.03.006396
+Length=10164
+
+ Score = 59.7 bits (143),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 28/56 (50%), Positives = 40/56 (72%), Gaps = 0/56 (0%)
+ Frame = +1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             K R  F+  Q++ LE++F   +YL+ A R E+++ L LTE Q+KIWFQNRR K+KR
+Sbjct  5824  KPRTPFSATQLLTLEQKFKRKQYLSIAERGELSEQLDLTETQVKIWFQNRRAKEKR  5991
+
+
+> Ccrux.03.000048
+Length=74910
+
+ Score = 59.3 bits (142),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 42/139 (31%), Positives = 64/139 (47%), Gaps = 25/139 (17%)
+ Frame = -1
+
+Query  125    STQDNQKQRELHSKDIC-------KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLL  177
+              ST D + +R ++S  I        + R  FT  Q++ LEK F   +YL    R  +++ L
+Sbjct  29121  STGDERMRRAINSSSIVVPEKKQKRNRTAFTPVQLLGLEKAFERGQYLVGDERRNLSRYL  28942
+
+Query  178    KLTEAQIKIWFQNRRMKQKREQKDMATPHFLDNQLNQCAVDYTTSCPVNFPTSCPVEFTN  237
+              +L+E QIK+WFQNRR K KR ++     H        C  D       N  T  PV   +
+Sbjct  28941  QLSETQIKVWFQNRRTKWKRLREHENEEH--------CEQD-------NIETGLPVGSED  28807
+
+Query  238    NRAWYNACNQGDSSHFQSI  256
+              +    + C +G  S+   +
+Sbjct  28806  D---VDMCEEGGHSYVDVV  28759
+
+
+> Ccrux.03.004908
+Length=12859
+
+ Score = 57.8 bits (138),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 46/129 (36%), Positives = 67/129 (52%), Gaps = 17/129 (13%)
+ Frame = +2
+
+Query  114   IKREKRAADVESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEI  173
+              KR+  +  +E T++     + H     + R  FT++Q+  LEKEF    Y++RARR ++
+Sbjct  4583  FKRDYISFLLEGTEEEPSSPQPH-----RTRTAFTREQLGRLEKEFARENYISRARRCDL  4747
+
+Query  174   AQLLKLTEAQIKIWFQNRRMKQKREQKD-----MATPHFLDNQLNQCAVDYTTSCPVNFP  228
+             A  L+L E  IK+WFQNRRMK KR +       + +PH  ++ L      Y  S    FP
+Sbjct  4748  ASELRLPENTIKVWFQNRRMKCKRRRMSIHRFPIYSPHLFNSSL------YVQSG-AAFP  4906
+
+Query  229   TSCPVEFTN  237
+              SC    TN
+Sbjct  4907  ASCRCGHTN  4933
+
+
+> Ccrux.03.003103
+Length=18136
+
+ Score = 57.8 bits (138),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 28/59 (48%), Positives = 42/59 (72%), Gaps = 1/59 (1%)
+ Frame = +3
+
+Query  141    CKK-RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              C+K R  F++ Q++ LE+EF  +RYL+  +R ++A  L L + Q+K WFQNRRMK K+E
+Sbjct  12645  CRKPRTVFSEMQLLVLEREFSEHRYLSTPQRTKLADRLGLNQTQVKTWFQNRRMKWKKE  12821
+
+
+> Ccrux.03.001967
+Length=23834
+
+ Score = 57.8 bits (138),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 31/73 (43%), Positives = 46/73 (64%), Gaps = 0/73 (0%)
+ Frame = +3
+
+Query  127   QDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI  186
+             Q ++++R    +   + RV FT  Q   LEK+F  + YLT    VE++  L+L E +IKI
+Sbjct  8346  QGSRRRRGKTVRSSRQPRVPFTPFQQATLEKKFQMDHYLTSGDVVELSASLQLPEQRIKI  8525
+
+Query  187   WFQNRRMKQKREQ  199
+             WFQNRR +++REQ
+Sbjct  8526  WFQNRRARERREQ  8564
+
+
+> Ccrux.03.004713
+Length=13299
+
+ Score = 57.4 bits (137),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 31/95 (33%), Positives = 49/95 (52%), Gaps = 6/95 (6%)
+ Frame = -1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             ++R  FT  Q+  LE+ F   +YLT   R ++A  L L+E Q+K WFQNRR K +R+++ 
+Sbjct  5136  RERTTFTSVQLKFLEEMFRMKKYLTITERSKVANHLNLSEKQVKTWFQNRRTKYRRQKQG  4957
+
+Query  202   MA-----TPHFLDNQLNQCAVDYTTSCPVNFPTSC  231
+             ++      P ++  +   CA      C    P  C
+Sbjct  4956  LSYSSGQVPFYVQAR-GTCAYTTNIKCQTTEPVHC  4855
+
+
+> Ccrux.03.003106
+Length=18129
+
+ Score = 57.0 bits (136),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 28/55 (51%), Positives = 36/55 (66%), Gaps = 0/55 (0%)
+ Frame = +2
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              R  F   Q+ ELE+ FH  RYLT   R  +A+ LK+T+ Q+K WFQNRR K KR+
+Sbjct  15326  RKSFEADQVAELEQIFHDKRYLTSGERQNVARQLKMTDNQVKTWFQNRRTKWKRQ  15490
+
+
+> Ccrux.03.000290
+Length=48876
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 24/56 (43%), Positives = 35/56 (63%), Gaps = 0/56 (0%)
+ Frame = +1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+              K R  ++  Q+ EL + FH  +YL    R E+A  L L++ Q+KIWFQN+R K K+
+Sbjct  39826  KPRTIYSSFQLRELNRRFHRTQYLALPERAELATTLGLSQTQVKIWFQNKRSKLKK  39993
+
+
+ Score = 53.1 bits (126),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 26/62 (42%), Positives = 36/62 (59%), Gaps = 0/62 (0%)
+ Frame = -2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K R  FT  Q+ EL + F  + YL+   R E++  L L+  QIKIWFQN+R K K+  K 
+Sbjct  32717  KPRTIFTSYQLRELNRAFDRSHYLSLPERGELSTNLGLSTTQIKIWFQNKRSKFKKVVKA  32538
+
+Query  202    MA  203
+              + 
+Sbjct  32537  IG  32532
+
+
+> Ccrux.03.003309
+Length=17411
+
+ Score = 53.5 bits (127),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 31/97 (32%), Positives = 44/97 (46%), Gaps = 6/97 (6%)
+ Frame = -2
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+              R  F   QI  LEK F   +YL  + R  +A  L ++E Q+K+WFQNRR K +++  +M 
+Sbjct  16834  RPTFNGHQIYHLEKTFENTKYLAGSERTRLAHALSMSENQVKVWFQNRRTKWRKKTAEME  16655
+
+Query  204    TPHFLDNQLNQCA------VDYTTSCPVNFPTSCPVE  234
+                      L+         VD  T       + CP E
+Sbjct  16654  KARETKAALSSAGMGRVEYVDLRTHGMDKVLSRCPDE  16544
+
+
+> Ccrux.03.000660
+Length=37548
+
+ Score = 52.0 bits (123),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/62 (44%), Positives = 38/62 (62%), Gaps = 0/62 (0%)
+ Frame = +3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K+R+ F ++Q  ELE+ F    YL+   R  +A+ + LT  QIKIWFQN R K K+  KD
+Sbjct  10170  KRRILFNRQQTWELERVFRVQPYLSAPEREVLARKISLTPTQIKIWFQNHRYKLKKHIKD  10349
+
+Query  202    MA  203
+              + 
+Sbjct  10350  IV  10355
+
+
+> Ccrux.03.009797
+Length=5929
+
+ Score = 52.0 bits (123),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 26/59 (45%), Positives = 38/59 (65%), Gaps = 0/59 (0%)
+ Frame = -2
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDM  202
+             R  F+ +Q   LE+ FH  +YL+  +R  +A  L LT  Q+K WFQNRR K K+EQ+++
+Sbjct  2883  RKTFSVEQRNGLEETFHNEKYLSVRQRKALAATLNLTNKQVKTWFQNRRTKWKKEQQNL  2707
+
+
+> Ccrux.03.001259
+Length=29648
+
+ Score = 51.2 bits (121),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 24/53 (46%), Positives = 35/53 (67%), Gaps = 0/53 (0%)
+ Frame = -2
+
+Query  145   VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             V FT  Q +ELE+ F   +Y++   R ++A +L L+E Q+K WFQNRR K +R
+Sbjct  4402  VRFTHSQSIELERVFSVQKYISPQERKQMACMLHLSERQVKTWFQNRRAKWRR  4244
+
+
+
+Lambda     K      H
+   0.319    0.130    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 9563947781
+
+
+  Database: Ccrux.genome.fasta
+    Posted date:  Feb 8, 2018  10:42 AM
+  Number of letters in database: 209,392,379
+  Number of sequences in database:  50,999
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40

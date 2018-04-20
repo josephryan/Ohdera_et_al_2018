@@ -1,0 +1,1196 @@
+TBLASTN 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: NematostellaGenome.fna
+           10,804 sequences; 356,613,585 total letters
+
+
+
+Query= ABU92522.1 phosphopantothenoylcysteine-synthetase, partial
+[Eleutheria dichotoma]
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  scaffold_1950                                                       77.8    3e-14
+  scaffold_41                                                         77.4    3e-14
+
+
+> scaffold_1950
+Length=14065
+
+ Score = 77.8 bits (190),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 45/92 (49%), Positives = 54/92 (59%), Gaps = 30/92 (32%)
+ Frame = +1
+
+Query  30   SEHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVS----------------------  67
+            +EHKI S++   +L+M   PKMLSPLVK WA++AFVVS                      
+Sbjct  457  AEHKI-SSEGPLELNMQQVPKMLSPLVKLWARNAFVVSFKVGITEE*LYYLTSY*SILFS  633
+
+Query  68   -------FKLETDVNIISRKAREALQRYNHQV  92
+                   FKLETDVNIIS+KAREAL +YNHQV
+Sbjct  634  Y*LVICNFKLETDVNIISKKAREALTKYNHQV  729
+
+
+ Score = 75.9 bits (185),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 36/54 (67%), Positives = 45/54 (84%), Gaps = 0/54 (0%)
+ Frame = +2
+
+Query  88    YNHQVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRH  141
+             Y+  VV++NILQTR+KTVV+VTP  EMAIWM D+EL++GKEIE KIV EL + H
+Sbjct  1175  YHW*VVVSNILQTRKKTVVIVTPSQEMAIWMPDNELDLGKEIEAKIVVELIKMH  1336
+
+
+> scaffold_41
+Length=1253435
+
+ Score = 77.4 bits (189),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 45/93 (49%), Positives = 54/93 (59%), Gaps = 31/93 (33%)
+ Frame = +3
+
+Query  30      SEHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVS----------------------  67
+               +EHKI S++   +L+M   PKMLSPLVK WA++AFVVS                      
+Sbjct  950664  AEHKI-SSEGPLELNMQQVPKMLSPLVKLWARNAFVVSFKVGITEE**LCYLTSY*SILF  950840
+
+Query  68      --------FKLETDVNIISRKAREALQRYNHQV  92
+                       FKLETDVNIIS+KAREAL +YNHQV
+Sbjct  950841  SY*LVICNFKLETDVNIISKKAREALTKYNHQV  950939
+
+
+ Score = 75.9 bits (185),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 36/54 (67%), Positives = 45/54 (84%), Gaps = 0/54 (0%)
+ Frame = +2
+
+Query  88      YNHQVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRH  141
+               Y+  VV++NILQTR+KTVV+VTP  EMAIWM D+EL++GKEIE KIV EL + H
+Sbjct  951377  YHW*VVVSNILQTRKKTVVIVTPSQEMAIWMPDNELDLGKEIEAKIVVELIKMH  951538
+
+
+
+Lambda     K      H
+   0.315    0.127    0.348 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 7062261780
+
+
+Query= ABU92523.1 POU class 6 [Eleutheria dichotoma]
+
+Length=818
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  scaffold_41                                                          150    3e-35
+  scaffold_262                                                        98.6    2e-19
+  scaffold_114                                                        95.5    1e-18
+  scaffold_44                                                         86.7    8e-16
+  scaffold_16                                                         82.4    1e-14
+  scaffold_1950                                                       78.6    2e-13
+  scaffold_450                                                        75.1    2e-12
+
+
+> scaffold_41
+Length=1253435
+
+ Score =  150 bits (380),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 80/143 (56%), Positives = 105/143 (74%), Gaps = 0/143 (0%)
+ Frame = +1
+
+Query  409     MLTFEMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERM  468
+               +L  EM+ FI  F+ RRI LGYTQ+DVG ELS  NGP+YSQSFISRFE K LG+KAAE+M
+Sbjct  957865  VLNQEMKSFIESFRTRRIALGYTQEDVGFELSRTNGPSYSQSFISRFESKNLGLKAAEKM  958044
+
+Query  469     RPILETWIQSKEEEHssrskftkkrrkrtsfsPEVLDMLNDLFMKNPKPSFDEMNDIARQ  528
+               +P++++WI+ KE E S   +  KKR++RTSFS E L +L   F +NPKPS  E+  IA +
+Sbjct  958045  KPVMQSWIEQKELECSKGLRVCKKRKRRTSFSNEALRLLISHFEQNPKPSSSEIAQIASK  958224
+
+Query  529     INRDVTTVKVWFCNKKQSLKRLG  551
+               +  +  TV+VWFCN+KQ LKR+ 
+Sbjct  958225  LGLEPVTVRVWFCNRKQMLKRMA  958293
+
+
+ Score = 78.6 bits (192),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 41/69 (60%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+ Frame = +2
+
+Query  250     YNHQVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHLS-INS  308
+               Y+  VV++NILQTR+KTVV+VTP  EMAIWM D+EL++GKEIE KIV EL + H   I S
+Sbjct  951377  YHW*VVVSNILQTRKKTVVIVTPSQEMAIWMPDNELDLGKEIEAKIVVELIKMHQQFIGS  951556
+
+Query  309     GNLDNQGQS  317
+                 +  QG S
+Sbjct  951557  STIIMQGIS  951583
+
+
+ Score = 77.4 bits (189),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 45/93 (49%), Positives = 54/93 (59%), Gaps = 31/93 (33%)
+ Frame = +3
+
+Query  192     SEHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVS----------------------  229
+               +EHKI S++   +L+M   PKMLSPLVK WA++AFVVS                      
+Sbjct  950664  AEHKI-SSEGPLELNMQQVPKMLSPLVKLWARNAFVVSFKVGITEE**LCYLTSY*SILF  950840
+
+Query  230     --------FKLETDVNIISRKAREALQRYNHQV  254
+                       FKLETDVNIIS+KAREAL +YNHQV
+Sbjct  950841  SY*LVICNFKLETDVNIISKKAREALTKYNHQV  950939
+
+
+ Score = 67.8 bits (164),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 33/58 (57%), Positives = 40/58 (69%), Gaps = 0/58 (0%)
+ Frame = +3
+
+Query  137     EVQNGCLLLKIGFMTLSDYLFLLKASAEALAPLGSHIMFYLAAAVSDFYVPENEMSEH  194
+               +VQ    LL + F TLSDYLFLL+  AE L  +G  IMFYLAAAVSDFY+P + M  +
+Sbjct  949419  QVQVMGTLLLVEFNTLSDYLFLLRTMAEVLGTMGPQIMFYLAAAVSDFYIPSDSMVSY  949592
+
+
+ Score = 63.5 bits (153),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 24/42 (58%), Positives = 32/42 (77%), Gaps = 0/42 (0%)
+ Frame = +1
+
+Query  1       MADWQDYFSKTRPPSNLDEAKRTIQDFATKHRQLGRNIVLVT  42
+               MADW++YFSK  PP+NL+E +  + +FA  HR  GRNIVL+T
+Sbjct  945568  MADWEEYFSKQTPPANLEETRNAVSEFAASHRNAGRNIVLIT  945693
+
+
+ Score = 56.6 bits (135),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 24/34 (71%), Positives = 29/34 (86%), Gaps = 0/34 (0%)
+ Frame = +3
+
+Query  40      LVTSGGTTVPIESNTVRFVDNFSQGTRGACSAEY  73
+                + SGGT VP+E+NTVRF+DNFS GTRG+ SAEY
+Sbjct  947274  FLQSGGTAVPLENNTVRFIDNFSSGTRGSASAEY  947375
+
+
+> scaffold_262
+Length=329576
+
+ Score = 98.6 bits (244),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 56/201 (28%), Positives = 95/201 (48%), Gaps = 18/201 (8%)
+ Frame = +3
+
+Query  368    VKPGSAISNVLLQLKGESEFATDILPATM------------LKRSVSAKEDRCMLTFEMQ  415
+              ++PGS +S     + G         P               L+  +   +D    + +++
+Sbjct  71898  LQPGSPVSVAYQNVNGSMTLPASFAPNNQTIRENPGVQDPQLQHDILDADDDTPTSDDLE  72077
+
+Query  416    EFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERMRPILETW  475
+              +F ++FK+RRI LG+TQ DVG  L  L G  +SQ+ I RFE  QL  K   +++P+L+ W
+Sbjct  72078  QFAKQFKQRRIKLGFTQADVGLALGTLYGNVFSQTTICRFEALQLSFKNMCKLKPLLQKW  72257
+
+Query  476    IQSKEEEHssrskftkkrrkrtsfsPE------VLDMLNDLFMKNPKPSFDEMNDIARQI  529
+              ++  +  + +     K                 V   L + F K+PKP+  E++ +A  +
+Sbjct  72258  LEEADNNNGATGGVDKLATTGRKRKKRTSIEVAVKGALENHFCKSPKPTAQEISALAENL  72437
+
+Query  530    NRDVTTVKVWFCNKKQSLKRL  550
+                D   V+VWFCN++Q  KR+
+Sbjct  72438  GLDKEVVRVWFCNRRQKEKRM  72500
+
+
+> scaffold_114
+Length=677524
+
+ Score = 95.5 bits (236),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 55/141 (40%), Positives = 82/141 (59%), Gaps = 3/141 (2%)
+ Frame = -3
+
+Query  413     EMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERMRPIL  472
+               E++EF  +FK RRI LG+TQ +VG  L+A++G  +SQ+ I RFE  QL  K A +++PIL
+Sbjct  530156  ELEEFATQFKLRRIKLGFTQTNVGAALAAVHGTDFSQTTICRFENLQLSFKNACKLKPIL  529977
+
+Query  473     ETWIQSKEEEHssrskftkkrrkrtsfsPEVL---DMLNDLFMKNPKPSFDEMNDIARQI  529
+                 W++  E    +  +     R+R   +   L   + L + FMK  KPS  E+  IA  +
+Sbjct  529976  ARWLEEAERSGGACGEKFGAERRRKRRTTIGLAAKEALENHFMKQTKPSSPEIVRIADGL  529797
+
+Query  530     NRDVTTVKVWFCNKKQSLKRL  550
+                 D   V+VWFCN++Q  KR+
+Sbjct  529796  RLDKEVVRVWFCNRRQREKRV  529734
+
+
+> scaffold_44
+Length=1237690
+
+ Score = 86.7 bits (213),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 47/149 (32%), Positives = 75/149 (51%), Gaps = 16/149 (10%)
+ Frame = -3
+
+Query  413      EMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERMRPIL  472
+                E+  F ++F++RR+ LG+TQ DVG  L  L G   SQ+ I RFE  QL +K   +++P+L
+Sbjct  1056674  ELSTFAKQFRQRRVALGFTQADVGVALGTLYGNVLSQTTICRFEALQLSLKNMCKLKPLL  1056495
+
+Query  473      ETWIQ----SKEEEHssrskftkkrrkrtsfsP------------EVLDMLNDLFMKNPK  516
+                + W+Q    S       + +        T   P             V  +L + F K P+
+Sbjct  1056494  QKWLQETDASSSGHEGEKQQNPSNFAFATHNGPYKKRKRRTIIEKNVKGVLENHFEKMPR  1056315
+
+Query  517      PSFDEMNDIARQINRDVTTVKVWFCNKKQ  545
+                PS  +++ +A  +  D   V+VWFCN++Q
+Sbjct  1056314  PSTSDISSLAESLGLDREVVRVWFCNRRQ  1056228
+
+
+> scaffold_16
+Length=1704687
+
+ Score = 82.4 bits (202),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 47/147 (32%), Positives = 72/147 (49%), Gaps = 9/147 (6%)
+ Frame = +2
+
+Query  413      EMQEFIREFKKRRINLGYTQDDVGRELSALNGP---TYSQSFISRFEGKQLGMKAAERMR  469
+                E++ F   FK+RRI LG TQ DVG  L+ L  P   + SQS I RFE   L       ++
+Sbjct  1069400  ELEWFAERFKQRRIKLGVTQADVGSALAHLKIPGVGSLSQSTICRFESLTLSHNNMMALK  1069579
+
+Query  470      PILETWIQSKEEEHssrskftkkrrkrtsfsPEV------LDMLNDLFMKNPKPSFDEMN  523
+                P+L  W++  E+ + ++   +                      L   F  NP+PS D++ 
+Sbjct  1069580  PVLTAWLEEAEKAYKTKQCNSAFLPNSDKKRKRTSIGAAEKRSLEAYFAMNPRPSSDKIA  1069759
+
+Query  524      DIARQINRDVTTVKVWFCNKKQSLKRL  550
+                 IA +++     V+VWFCN++Q  KR+
+Sbjct  1069760  SIAEKLDLSKNVVRVWFCNQRQKKKRM  1069840
+
+
+> scaffold_1950
+Length=14065
+
+ Score = 78.6 bits (192),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 41/69 (60%), Positives = 51/69 (74%), Gaps = 1/69 (1%)
+ Frame = +2
+
+Query  250   YNHQVVIANILQTRRKTVVLVTPFDEMAIWMSDHELEMGKEIEEKIVNELTRRHLS-INS  308
+             Y+  VV++NILQTR+KTVV+VTP  EMAIWM D+EL++GKEIE KIV EL + H   I S
+Sbjct  1175  YHW*VVVSNILQTRKKTVVIVTPSQEMAIWMPDNELDLGKEIEAKIVVELIKMHQQFIGS  1354
+
+Query  309   GNLDNQGQS  317
+               +  QG S
+Sbjct  1355  STIIMQGIS  1381
+
+
+ Score = 77.8 bits (190),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 45/92 (49%), Positives = 54/92 (59%), Gaps = 30/92 (32%)
+ Frame = +1
+
+Query  192  SEHKIQSTDSSFQLSMTPTPKMLSPLVKEWAKSAFVVS----------------------  229
+            +EHKI S++   +L+M   PKMLSPLVK WA++AFVVS                      
+Sbjct  457  AEHKI-SSEGPLELNMQQVPKMLSPLVKLWARNAFVVSFKVGITEE*LYYLTSY*SILFS  633
+
+Query  230  -------FKLETDVNIISRKAREALQRYNHQV  254
+                   FKLETDVNIIS+KAREAL +YNHQV
+Sbjct  634  Y*LVICNFKLETDVNIISKKAREALTKYNHQV  729
+
+
+> scaffold_450
+Length=147124
+
+ Score = 75.1 bits (183),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 47/140 (34%), Positives = 73/140 (53%), Gaps = 16/140 (11%)
+ Frame = -2
+
+Query  422   KKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERMRPILETWIQSKEE  481
+             ++RR+ LG+TQ DVG  L  L G   SQ+ I RFE  QL +K   +++P+L+ W+Q  + 
+Sbjct  6777  RQRRVALGFTQADVGVALGTLYGNVLSQTTICRFEALQLSLKNMCKLKPLLQKWLQETDA  6598
+
+Query  482   EHssrskft----------------kkrrkrtsfsPEVLDMLNDLFMKNPKPSFDEMNDI  525
+               S                      KKR++RT     V  +L + F K P+PS  +++ +
+Sbjct  6597  SSSGHEGEKQQNPSNFAFATHNGPYKKRKRRTIIEKNVKGVLENHFEKMPRPSTSDISSL  6418
+
+Query  526   ARQINRDVTTVKVWFCNKKQ  545
+             A  +  D   V+VWFCN++Q
+Sbjct  6417  AESLGLDREVVRVWFCNRRQ  6358
+
+
+
+Lambda     K      H
+   0.315    0.129    0.358 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 81316844572
+
+
+Query= POU6 Cterm
+
+Length=357
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  scaffold_41                                                         77.8    1e-13
+
+
+> scaffold_41
+Length=1253435
+
+ Score = 77.8 bits (190),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 44/90 (49%), Positives = 64/90 (72%), Gaps = 0/90 (0%)
+ Frame = +1
+
+Query  1       MKAAERMRPILETWIQSKEEEHssrskftkkrrkrtsfsPEVLDMLNDLFMKNPKPSFDE  60
+               +KAAE+M+P++++WI+ KE E S   +  KKR++RTSFS E L +L   F +NPKPS  E
+Sbjct  958024  LKAAEKMKPVMQSWIEQKELECSKGLRVCKKRKRRTSFSNEALRLLISHFEQNPKPSSSE  958203
+
+Query  61      MNDIARQINRDVTTVKVWFCNKKQSLKRLG  90
+               +  IA ++  +  TV+VWFCN+KQ LKR+ 
+Sbjct  958204  IAQIASKLGLEPVTVRVWFCNRKQMLKRMA  958293
+
+
+
+Lambda     K      H
+   0.310    0.124    0.337 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 28105521197
+
+
+Query= Cnox-5
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  scaffold_61                                                         97.8    8e-20
+  scaffold_26                                                         89.4    3e-17
+  scaffold_3                                                          80.5    1e-14
+  scaffold_4                                                          79.0    4e-14
+  scaffold_27                                                         77.8    7e-14
+  scaffold_464                                                        73.6    1e-12
+  scaffold_248                                                        71.6    5e-12
+  scaffold_87                                                         71.2    7e-12
+  scaffold_58                                                         70.9    1e-11
+  scaffold_315                                                        68.2    6e-11
+  scaffold_236                                                        67.0    1e-10
+  scaffold_243                                                        66.6    2e-10
+  scaffold_20                                                         66.6    2e-10
+  scaffold_3521                                                       64.3    9e-10
+  scaffold_6                                                          63.5    1e-09
+  scaffold_55                                                         63.5    1e-09
+  scaffold_137                                                        63.5    2e-09
+  scaffold_17                                                         61.6    6e-09
+  scaffold_28                                                         60.1    1e-08
+  scaffold_270                                                        60.1    2e-08
+  scaffold_48                                                         58.9    4e-08
+  scaffold_13                                                         58.9    4e-08
+  scaffold_148                                                        58.2    5e-08
+  scaffold_203                                                        57.0    1e-07
+  scaffold_15                                                         56.6    2e-07
+  scaffold_163                                                        56.2    2e-07
+  scaffold_12                                                         55.8    3e-07
+  scaffold_111                                                        54.7    6e-07
+  scaffold_197                                                        52.8    2e-06
+  scaffold_47                                                         52.0    4e-06
+
+
+> scaffold_61
+Length=1073712
+
+ Score = 97.8 bits (242),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 46/60 (77%), Positives = 52/60 (87%), Gaps = 0/60 (0%)
+ Frame = +2
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               KKR  FTQ+Q+VELEKEFH+++YLTR RR+EIA  LKLTE QIKIWFQNRRMK KRE KD
+Sbjct  723914  KKRFTFTQRQLVELEKEFHFSKYLTRTRRIEIATTLKLTEMQIKIWFQNRRMKWKREFKD  724093
+
+
+ Score = 80.5 bits (197),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 39/90 (44%), Positives = 58/90 (65%), Gaps = 0/90 (0%)
+ Frame = +1
+
+Query  144     RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+               R  +T KQ++ELEKEFH+N+YL  +RR EI++ L+LTE Q+KIWFQNRRMK K+++K   
+Sbjct  681430  RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKT  681609
+
+Query  204     TPHFLDNQLNQCAVDYTTSCPVNFPTSCPV  233
+                  +   Q N   + + +  P    +  P+
+Sbjct  681610  EDCYSAQQYNIEEIPFLSLTPFEISSIRPL  681699
+
+
+ Score = 78.6 bits (192),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+ Frame = +3
+
+Query  144     RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+               R  +T +Q++ELEKEFHYN+YL   RR E+A  +KLTE Q+K+WFQNRRMK K+++K
+Sbjct  665904  RTSYTNRQLLELEKEFHYNKYLCGTRRRELANAMKLTERQVKVWFQNRRMKLKKDEK  666074
+
+
+ Score = 78.6 bits (192),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 40/90 (45%), Positives = 61/90 (68%), Gaps = 1/90 (1%)
+ Frame = +1
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               + R  +T KQ++ELEKEFH+N+YL  +RR EI++ L+LTE Q+KIWFQNRRMK K+++K 
+Sbjct  676795  RHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQ  676974
+
+Query  202     MATPHFLDNQLNQCAVDYTTS-CPVNFPTS  230
+                    +  +Q N   +  +++  P+  P S
+Sbjct  676975  KTEDCYSAHQENIEEIPLSSALAPLYIPNS  677064
+
+
+ Score = 75.9 bits (185),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 43/106 (41%), Positives = 58/106 (55%), Gaps = 17/106 (16%)
+ Frame = +2
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK-  200
+               ++R  FT +Q ++LE EFH N Y+TR+RR E+A  L LTE Q+KIWFQNRR K KR +K 
+Sbjct  881489  RQRTTFTSEQTLKLELEFHQNEYITRSRRFELAACLNLTETQVKIWFQNRRAKDKRLEKA  881668
+
+Query  201     -------------DMATPHFLDNQLNQCAVDYTTSCPVNFPTSCPV  233
+                             MA P    + LN  +  Y  + P +  +  PV
+Sbjct  881669  QMEQQLRLASYTNTMAYP---GSYLNYYSPHYFKNAPTSMASPVPV  881797
+
+
+ Score = 65.5 bits (158),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 31/61 (51%), Positives = 44/61 (73%), Gaps = 0/61 (0%)
+ Frame = -3
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               + R  F+  Q++ LE++F  ++YLTR +R E+A  L LTE Q+KIWFQNRRMK KR  K+
+Sbjct  864976  RPRTAFSSHQLLALERQFQLHKYLTRPQRYELATSLMLTETQVKIWFQNRRMKWKRCNKN  864797
+
+Query  202     M  202
+               +
+Sbjct  864796  V  864794
+
+
+ Score = 57.0 bits (136),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/59 (45%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+ Frame = +3
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+               K+R  F QKQI  LE+EF   +Y++++RR  +A  + LT+AQ++ WFQNRR + ++E++
+Sbjct  149727  KQRPLFGQKQIQRLEEEFVCEKYISKSRRSALAAEIDLTDAQVRTWFQNRRTRWRKEER  149903
+
+
+ Score = 55.5 bits (132),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 25/49 (52%), Positives = 33/49 (68%), Gaps = 0/49 (0%)
+ Frame = +2
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQN  190
+               + R  FT++Q+  LEKEF    Y++R RR E+A  L L+E  IKIWFQN
+Sbjct  707489  RYRTAFTREQLKRLEKEFMRENYVSRTRRCELANALNLSETTIKIWFQN  707635
+
+
+> scaffold_26
+Length=1571463
+
+ Score = 89.4 bits (220),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 41/59 (70%), Positives = 49/59 (84%), Gaps = 0/59 (0%)
+ Frame = -2
+
+Query  142      KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+                K R  ++ +Q+VELEKEFHYNRYL R RR+EIAQ L+LTE Q+KIWFQNRRMK K+E K
+Sbjct  1273673  KNRTIYSTRQLVELEKEFHYNRYLCRPRRIEIAQSLELTEKQVKIWFQNRRMKWKKENK  1273497
+
+
+ Score = 62.4 bits (150),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 34/85 (40%), Positives = 51/85 (60%), Gaps = 3/85 (3%)
+ Frame = -3
+
+Query  121     ADVESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLT  180
+                DV+  + N+K    H     KKR+ FT+ QI ELE+ F   +YL+   R  +A+++ LT
+Sbjct  727372  GDVDDLEINKK--ATHRGGKKKKRILFTRSQIYELERRFRVQQYLSAPEREHLARMISLT  727199
+
+Query  181     EAQIKIWFQNRRMK-QKREQKDMAT  204
+                 Q+KIWFQN R K ++R ++D  T
+Sbjct  727198  PVQVKIWFQNHRYKCRQRYKQDGPT  727124
+
+
+ Score = 53.1 bits (126),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 25/55 (46%), Positives = 37/55 (68%), Gaps = 0/55 (0%)
+ Frame = -3
+
+Query  144      RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+                R  FTQ Q   LEK F   +Y+T+  R ++A +L L+E Q+K+WFQNRR K +++
+Sbjct  1032442  RPVFTQLQRRGLEKRFQVQKYITKHDRYQLAAMLGLSETQVKVWFQNRRTKWRQD  1032278
+
+
+> scaffold_3
+Length=2832128
+
+ Score = 80.5 bits (197),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 36/59 (62%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+ Frame = -2
+
+Query  142      KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+                +KR+ +T+ Q++ELEKEFH+ RYLT+ RR E+A++L LTE Q+KIWFQNRRMK K++ K
+Sbjct  2236522  RKRMAYTRIQLLELEKEFHFTRYLTKERRTEMARMLDLTERQVKIWFQNRRMKWKKDNK  2236346
+
+
+ Score = 71.2 bits (173),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 32/59 (55%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+ Frame = +1
+
+Query  144      RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDM  202
+                R  FT  Q +E+EKEF Y+ Y++R RR+EI   L L+E Q++ WFQNRRMK KRE K++
+Sbjct  2242720  RSAFTTVQQLEIEKEFLYDHYVSRVRRIEIVMALDLSEKQVRTWFQNRRMKLKREAKNV  2242896
+
+
+ Score = 57.4 bits (137),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 41/61 (68%), Gaps = 0/61 (0%)
+ Frame = -3
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+              R  F+  Q   LEK F   +YLT+A R ++A +L L++ Q+K+WFQNRRMK +++ ++  
+Sbjct  73236  RAVFSNLQRKGLEKRFQVQKYLTKADRHQLASMLGLSDNQVKVWFQNRRMKWRQDARESV  73057
+
+Query  204    T  204
+              T
+Sbjct  73056  T  73054
+
+
+ Score = 55.1 bits (131),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 24/58 (42%), Positives = 41/58 (71%), Gaps = 0/58 (0%)
+ Frame = -2
+
+Query  144      RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+                RV F+  Q++ELE ++   RYL+     E+A  L+L+E ++KIWFQNRR ++K+ +++
+Sbjct  1892977  RVPFSTSQLMELEHKYVETRYLSGPEVAELANGLRLSEHRVKIWFQNRRAREKKAKEE  1892804
+
+
+> scaffold_4
+Length=2783716
+
+ Score = 79.0 bits (193),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 35/56 (63%), Positives = 46/56 (83%), Gaps = 0/56 (0%)
+ Frame = -1
+
+Query  142      KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+                +KR  +T+KQ++ELEKEFH+N +LT+ RR E+A  L LTE Q+KIWFQNRRMK K+
+Sbjct  1071121  RKRTAYTRKQLLELEKEFHFNHFLTKERRSEMASQLNLTERQVKIWFQNRRMKWKK  1070954
+
+
+ Score = 56.2 bits (134),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 39/58 (68%), Gaps = 0/58 (0%)
+ Frame = -1
+
+Query  144      RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+                R  FT +Q+  LEKEF   +Y+  A R  +A  L LTE Q+K+WFQNRR+K ++++ D
+Sbjct  1621801  RTIFTPEQLERLEKEFERQQYMVGAERHYLAASLNLTETQVKVWFQNRRIKWRKQKLD  1621628
+
+
+ Score = 52.0 bits (123),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 29/84 (35%), Positives = 46/84 (55%), Gaps = 9/84 (10%)
+ Frame = +3
+
+Query  147      FTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMATPH  206
+                F+  Q   LE  F   +YL +  R++IA+ L L+E Q+KIWFQNRR+K + E        
+Sbjct  1378137  FSHFQRQHLENYFLSKKYLNKTERLKIAEALGLSENQVKIWFQNRRVKWRAE--------  1378292
+
+Query  207      FLDNQLNQCAVDYTTSCPVNFPTS  230
+                 + N L++ A+ ++  C   +P  
+Sbjct  1378293  -VHNSLSEPAIPHSIICQQCYPLG  1378361
+
+
+> scaffold_27
+Length=1580678
+
+ Score = 77.8 bits (190),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 40/81 (50%), Positives = 54/81 (67%), Gaps = 10/81 (12%)
+ Frame = -2
+
+Query  144     RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+               R  +T  Q++ELEKEF  NRYL+R RR++IA LL L+E Q+KIWFQNRR+K K+++K  A
+Sbjct  329860  RTAYTSMQLLELEKEFSQNRYLSRLRRIQIAALLDLSEKQVKIWFQNRRVKWKKDKK--A  329687
+
+Query  204     TPHFLDNQLNQCAVDYTTSCP  224
+                 H    +        T+SCP
+Sbjct  329686  AQHGTTTE--------TSSCP  329648
+
+
+ Score = 73.6 bits (179),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 34/63 (54%), Positives = 44/63 (70%), Gaps = 0/63 (0%)
+ Frame = -2
+
+Query  141     CKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+                + R  +T  Q +ELEKEF Y+RY+TR RR E+A  L L+E  IKIWFQNRRMK+K+   
+Sbjct  307699  SRARTAYTASQQLELEKEFLYSRYITRTRRKELANTLDLSEKHIKIWFQNRRMKKKKTDS  307520
+
+Query  201     DMA  203
+               + A
+Sbjct  307519  NGA  307511
+
+
+> scaffold_464
+Length=144268
+
+ Score = 73.6 bits (179),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 51/82 (63%), Gaps = 2/82 (2%)
+ Frame = +3
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+              R  FT +QI ELEK+F   +YLT   R ++A LL +TE Q+KIWFQNRR K K+++K++ 
+Sbjct  51600  RTTFTGRQIFELEKQFEAKKYLTATERSDMASLLNVTETQVKIWFQNRRTKWKKQEKEIN  51779
+
+Query  204    --TPHFLDNQLNQCAVDYTTSC  223
+                  H  D Q  +C  +  +S 
+Sbjct  51780  EDANHNSDEQRTECGNESDSSS  51845
+
+
+ Score = 55.1 bits (131),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 31/79 (40%), Positives = 44/79 (56%), Gaps = 9/79 (11%)
+ Frame = -1
+
+Query  125    STQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI  184
+              ST+D+ K++          R  F+  QI  LEK F   +YL    R  +A  L +TE+Q+
+Sbjct  81070  STEDDSKRKHT--------RPTFSGHQIFALEKTFEQTKYLAGPERARLAYSLGMTESQV  80915
+
+Query  185    KIWFQNRRMK-QKREQKDM  202
+              K+WFQNRR K +KR   +M
+Sbjct  80914  KVWFQNRRTKWRKRHAAEM  80858
+
+
+> scaffold_248
+Length=345743
+
+ Score = 71.6 bits (174),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 39/64 (61%), Positives = 45/64 (71%), Gaps = 3/64 (4%)
+ Frame = -1
+
+Query  137     SKDICKKR---VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+               +K++ KKR     FT+ QI ELE EF  N YLTR RR EIA  L LTE Q+K+WFQNRRM
+Sbjct  287558  AKNLGKKRKERTAFTKHQIQELENEFQRNNYLTRLRRYEIAVSLDLTERQVKVWFQNRRM  287379
+
+Query  194     KQKR  197
+               K KR
+Sbjct  287378  KWKR  287367
+
+
+ Score = 71.2 bits (173),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 41/78 (53%), Positives = 48/78 (62%), Gaps = 4/78 (5%)
+ Frame = -3
+
+Query  120     AADVESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKL  179
+               + D+E   D  KQ+    K+    R  FT  Q+ ELE EF  N YLTR RR EIA  L L
+Sbjct  265950  STDIEELDDCNKQKGKKRKE----RTAFTTHQLRELENEFTRNNYLTRLRRYEIAVSLDL  265783
+
+Query  180     TEAQIKIWFQNRRMKQKR  197
+               TE Q+K+WFQNRRMK KR
+Sbjct  265782  TERQVKVWFQNRRMKWKR  265729
+
+
+ Score = 68.6 bits (166),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 39/74 (53%), Positives = 49/74 (67%), Gaps = 1/74 (1%)
+ Frame = -3
+
+Query  125     STQDNQKQRELHSKDICKK-RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQ  183
+               S  DN+ +R   +K   +K R  F++ Q+ ELE+EF  N YLTR RR EIA  L L E Q
+Sbjct  283278  SPTDNEMERNEDAKSRKRKERTVFSKYQLTELEREFCRNNYLTRLRRYEIAVSLDLGERQ  283099
+
+Query  184     IKIWFQNRRMKQKR  197
+               +K+WFQNRRMK KR
+Sbjct  283098  VKVWFQNRRMKWKR  283057
+
+
+ Score = 67.8 bits (164),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 35/56 (63%), Positives = 41/56 (74%), Gaps = 0/56 (0%)
+ Frame = -3
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+               K+R  F++ Q+ ELE EF  N YLTR RR EIA  L LTE Q+K+WFQNRRMK KR
+Sbjct  273093  KERTAFSKHQLQELENEFIRNNYLTRLRRYEIAVSLDLTERQVKVWFQNRRMKWKR  272926
+
+
+> scaffold_87
+Length=842941
+
+ Score = 71.2 bits (173),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 56/98 (58%), Gaps = 5/98 (5%)
+ Frame = -1
+
+Query  103     CWNTDNF-KWINIKREKRAADVESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHY  161
+               C  T+ F   I ++ E+ A++   +   QK +    +     R  F+ +Q+ ELE+ F +
+Sbjct  806893  CVWTERFCVLITVRSEREASNTSPSNQQQKSKPRRKRS----RAAFSHQQVFELERRFSH  806726
+
+Query  162     NRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQ  199
+                +YL+   R ++A  LKLTE Q+KIWFQNRR K KR Q
+Sbjct  806725  QKYLSGPERADLAAALKLTETQVKIWFQNRRYKTKRRQ  806612
+
+
+ Score = 62.4 bits (150),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 29/57 (51%), Positives = 39/57 (69%), Gaps = 0/57 (0%)
+ Frame = -2
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+               K RV F+Q Q+ ELE+ F   +YL+   R  +A LLKLT  Q+KIWFQN+R K K++
+Sbjct  810717  KPRVLFSQAQVYELERRFKGQKYLSAPERDHLASLLKLTPNQVKIWFQNKRYKCKKQ  810547
+
+
+> scaffold_58
+Length=1068422
+
+ Score = 70.9 bits (172),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 35/77 (46%), Positives = 48/77 (63%), Gaps = 0/77 (0%)
+ Frame = +3
+
+Query  121      ADVESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLT  180
+                 D  +++D   +  L S    +KR  FT KQ+++LE+EFH  +Y++   R  IA  L LT
+Sbjct  1035099  GDEVTSEDGDGEDALSSASRRRKRTAFTSKQLLQLEREFHNKKYVSLEERSVIATNLNLT  1035278
+
+Query  181      EAQIKIWFQNRRMKQKR  197
+                E Q+KIWFQNRR K KR
+Sbjct  1035279  EVQVKIWFQNRRAKWKR  1035329
+
+
+ Score = 58.2 bits (139),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 27/61 (45%), Positives = 41/61 (68%), Gaps = 0/61 (0%)
+ Frame = +2
+
+Query  144     RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+               R  F+  Q   LEK F   +YLT+A R ++A +L LT+ Q+K+WFQNRRMK +++ ++  
+Sbjct  432578  RAVFSNLQRKGLEKRFQVQKYLTKADRHQLASMLGLTDNQVKVWFQNRRMKWRQDARETV  432757
+
+Query  204     T  204
+               T
+Sbjct  432758  T  432760
+
+
+> scaffold_315
+Length=255492
+
+ Score = 68.2 bits (165),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 32/57 (57%), Positives = 42/57 (74%), Gaps = 0/57 (0%)
+ Frame = -2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              + R  FT +QI +LE EF  ++YL+ +RR+E+A  L LTE QIKIWFQNRR K KR+
+Sbjct  63725  RPRTAFTNEQIKDLEAEFQKSKYLSVSRRMELANSLSLTETQIKIWFQNRRTKWKRK  63555
+
+
+> scaffold_236
+Length=363062
+
+ Score = 67.0 bits (162),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/60 (52%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+ Frame = +2
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               K R  FT+ QI ELEK F   +YL    R E+A  L LT+ Q+K WFQNRRMK KR++++
+Sbjct  290951  KPRTAFTESQISELEKRFQSQKYLGSKERSELAGTLGLTDTQVKTWFQNRRMKLKRQRQE  291130
+
+
+> scaffold_243
+Length=365242
+
+ Score = 66.6 bits (161),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 27/57 (48%), Positives = 40/57 (71%), Gaps = 0/57 (0%)
+ Frame = +2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              K+R+ FT+ QI ELE+ F Y RYL+   R ++ +++ LT  Q+KIWFQN R K K++
+Sbjct  83633  KRRILFTKSQIYELERRFRYQRYLSAPEREQLGRMINLTPTQVKIWFQNHRYKHKKQ  83803
+
+
+ Score = 60.5 bits (145),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 27/57 (48%), Positives = 39/57 (69%), Gaps = 0/57 (0%)
+ Frame = +3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              K+RV FT+ Q  ELE+ F   RYL+   R ++A+++ LT  Q+KIWFQN R K K++
+Sbjct  52269  KRRVLFTKAQTYELERRFRQQRYLSAPEREQLARIINLTPTQVKIWFQNHRYKFKKQ  52439
+
+
+ Score = 59.3 bits (142),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 40/57 (71%), Gaps = 0/57 (0%)
+ Frame = +2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              K+R+ FT+ QI ELE+ F   +YL+   R ++A+++ LT  Q+KIWFQN R K K++
+Sbjct  95768  KRRILFTKSQIFELERRFRQQKYLSANEREQLARIIDLTPTQVKIWFQNHRYKFKKQ  95938
+
+
+ Score = 57.8 bits (138),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 26/60 (44%), Positives = 39/60 (65%), Gaps = 0/60 (0%)
+ Frame = -3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K+R+ FT+ Q   LE+ F   RYL+   R E+A++  LT AQ+KIWFQN R K +++  +
+Sbjct  45230  KRRILFTKAQTFILERRFTQQRYLSAPEREELARIANLTPAQVKIWFQNHRYKYRKQMSE  45051
+
+
+> scaffold_20
+Length=1601021
+
+ Score = 66.6 bits (161),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 37/69 (54%), Positives = 45/69 (66%), Gaps = 2/69 (2%)
+ Frame = -1
+
+Query  132      QRELHSKDICKKRV--CFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQ  189
+                +R    +D  KKR    FT  QI ELE EF  N+YLT  RR E+A  L+L++ QIKIWFQ
+Sbjct  1060766  RRRKRKRDPSKKRTRTAFTNTQIRELEAEFQKNKYLTITRRAELANSLELSDTQIKIWFQ  1060587
+
+Query  190      NRRMKQKRE  198
+                NRR K KR+
+Sbjct  1060586  NRRTKLKRK  1060560
+
+
+ Score = 54.7 bits (130),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 37/64 (58%), Gaps = 0/64 (0%)
+ Frame = +1
+
+Query  137      SKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQK  196
+                 K I K R  ++  Q+ EL K F   +YL    R ++A  L LT+ Q+KIWFQNRR K K
+Sbjct  1052056  GKKIRKPRTIYSSFQLRELNKRFIKTQYLALPERADLAAYLGLTQTQVKIWFQNRRSKFK  1052235
+
+Query  197      REQK  200
+                +  K
+Sbjct  1052236  KTLK  1052247
+
+
+> scaffold_3521
+Length=9574
+
+ Score = 64.3 bits (155),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 34/68 (50%), Positives = 45/68 (67%), Gaps = 10/68 (14%)
+ Frame = +1
+
+Query  157  KEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMATPHFLDNQLNQCA  216
+            KEF  NRYL+R RR++IA LL L+E Q+KIWFQNRR+K K+++K  A  H    +     
+Sbjct  1    KEFSQNRYLSRLRRIQIAALLDLSEKQVKIWFQNRRVKWKKDKK--AAQHGTTTE-----  159
+
+Query  217  VDYTTSCP  224
+               T+SCP
+Sbjct  160  ---TSSCP  174
+
+
+> scaffold_6
+Length=2383264
+
+ Score = 63.5 bits (153),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+ Frame = -3
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               + R  FT +Q+V LE +F   RYL+   R+ +A  L LTE Q+KIWFQNRR K K++   
+Sbjct  145955  RARTAFTYEQLVALENKFKSTRYLSVCERLNLALSLGLTETQVKIWFQNRRTKWKKQNPG  145776
+
+Query  202     M  202
+               M
+Sbjct  145775  M  145773
+
+
+ Score = 62.4 bits (150),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 29/56 (52%), Positives = 37/56 (67%), Gaps = 0/56 (0%)
+ Frame = +3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+              K R  FT  Q++ LE++F   +YL+ A R E +  L LTE Q+KIWFQNRR K KR
+Sbjct  18372  KPRTPFTTSQLLALERKFRQKQYLSIAERAEFSASLNLTETQVKIWFQNRRAKAKR  18539
+
+
+ Score = 57.4 bits (137),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 27/58 (47%), Positives = 36/58 (63%), Gaps = 0/58 (0%)
+ Frame = +3
+
+Query  144      RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+                R  FT  Q++ LE  F  N Y+    R ++A  L L+E QIK+WFQNRR K KR+Q +
+Sbjct  1268520  RTAFTPTQLLHLENAFEKNHYIVGTERKQLASYLNLSETQIKVWFQNRRTKWKRQQAE  1268693
+
+
+ Score = 56.6 bits (135),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 26/53 (50%), Positives = 35/53 (67%), Gaps = 0/53 (0%)
+ Frame = -3
+
+Query  146     CFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+                F++ Q+ +LE  F   RYL+ + R  +A  L LTE Q+KIWFQNRR K KR+
+Sbjct  111932  VFSRSQVYQLESTFDMKRYLSSSERAGLASQLHLTETQVKIWFQNRRNKWKRQ  111774
+
+
+> scaffold_55
+Length=1132443
+
+ Score = 63.5 bits (153),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 32/71 (46%), Positives = 45/71 (64%), Gaps = 0/71 (0%)
+ Frame = +1
+
+Query  132     QRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNR  191
+               Q  L  +   K R CFT +QI+ELE+ F Y +YL+ + R +IA  L L  AQI  WFQNR
+Sbjct  575551  QARLSQRKRRKPRTCFTNRQIIELERRFMYQKYLSPSDRDDIAMALGLPGAQIITWFQNR  575730
+
+Query  192     RMKQKREQKDM  202
+               R K +R+ +++
+Sbjct  575731  RAKMRRDVEEL  575763
+
+
+> scaffold_137
+Length=580942
+
+ Score = 63.5 bits (153),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/60 (50%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+ Frame = -2
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               K+R  F+  QI  LEKEF   +YLT ++R E+++ L +TE Q+K WFQNRR K ++E KD
+Sbjct  435069  KQRPLFSHNQIQRLEKEFKEEKYLTESKRAELSKDLGMTETQVKTWFQNRRTKWRKELKD  434890
+
+
+> scaffold_17
+Length=1671248
+
+ Score = 61.6 bits (148),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 33/85 (39%), Positives = 48/85 (57%), Gaps = 3/85 (3%)
+ Frame = -3
+
+Query  137      SKDIC---KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+                ++DI    K R  F+ +Q+  LEK F   +YL    R ++A  L +T+ Q+K WFQNRRM
+Sbjct  1052313  AEDIAVPKKNRSSFSAEQVFRLEKTFELQQYLGTKERQQLALALNMTDNQVKTWFQNRRM  1052134
+
+Query  194      KQKREQKDMATPHFLDNQLNQCAVD  218
+                KQKR++ +    H     LN  + D
+Sbjct  1052133  KQKRKRAEFTQQHTKMAYLNSISRD  1052059
+
+
+ Score = 50.8 bits (120),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 21/51 (42%), Positives = 36/51 (71%), Gaps = 0/51 (0%)
+ Frame = -3
+
+Query  151     QIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               Q+  L++ F   RY+  + R ++A+ L +T+ Q+K WFQNRRMK KR++++
+Sbjct  461781  QVACLQRVFANRRYVCSSERQKLAKELNMTDQQVKTWFQNRRMKVKRKRQE  461629
+
+
+> scaffold_28
+Length=1546546
+
+ Score = 60.1 bits (144),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 29/67 (44%), Positives = 42/67 (63%), Gaps = 0/67 (0%)
+ Frame = -1
+
+Query  133     RELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRR  192
+               R + S    + R  FT  Q+  LE EF  + Y+   +R+++A  L L+E Q+K+WFQNRR
+Sbjct  196222  RRVPSPRPKRSRTSFTPAQLDRLEDEFRVDMYVVGLKRMKLANDLNLSERQVKVWFQNRR  196043
+
+Query  193     MKQKREQ  199
+               MK KRE+
+Sbjct  196042  MKYKRER  196022
+
+
+> scaffold_270
+Length=296512
+
+ Score = 60.1 bits (144),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 29/64 (46%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+ Frame = +2
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               K R  F++ Q+  LEKEF   RYLT  +R E+++ L++TE Q+K WFQNRR K ++E+  
+Sbjct  125039  KLRPLFSKTQLSRLEKEFEEKRYLTETKRAELSKDLEMTETQVKTWFQNRRTKWRKEKML  125218
+
+Query  202     MATP  205
+                  P
+Sbjct  125219  RVIP  125230
+
+
+ Score = 57.8 bits (138),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 27/65 (42%), Positives = 43/65 (67%), Gaps = 0/65 (0%)
+ Frame = +1
+
+Query  141     CKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+                K R  F++ Q+  LEKEF  N+YLT ++R ++++ L +TE Q+K WFQNRR K ++++ 
+Sbjct  127219  TKLRPLFSKTQLSRLEKEFSGNKYLTESKREQLSKDLGMTETQVKTWFQNRRTKWRKKKM  127398
+
+Query  201     DMATP  205
+                   P
+Sbjct  127399  QRMLP  127413
+
+
+> scaffold_48
+Length=1166239
+
+ Score = 58.9 bits (141),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 27/63 (43%), Positives = 41/63 (66%), Gaps = 0/63 (0%)
+ Frame = -3
+
+Query  136     HSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQ  195
+               HS    +KR  FT  Q+  LE++F   +YLT + R E+A+ + L++ Q+K WFQNRR K 
+Sbjct  137759  HSSKSRRKRTAFTSSQLKYLEEKFQEKKYLTISERNELAKSMYLSDTQVKTWFQNRRTKW  137580
+
+Query  196     KRE  198
+               K++
+Sbjct  137579  KKQ  137571
+
+
+> scaffold_13
+Length=1842705
+
+ Score = 58.9 bits (141),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 30/59 (51%), Positives = 38/59 (65%), Gaps = 1/59 (1%)
+ Frame = +2
+
+Query  141     CKK-RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+               C+K R  FT  Q+  LEK F   +YL  + R ++AQ L L E Q+K WFQNRRMK K+E
+Sbjct  246851  CRKSRTVFTDLQLRVLEKTFSEQKYLDTSSRAKLAQTLGLNETQVKTWFQNRRMKWKKE  247027
+
+
+> scaffold_148
+Length=554859
+
+ Score = 58.2 bits (139),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 29/67 (44%), Positives = 42/67 (63%), Gaps = 0/67 (0%)
+ Frame = +2
+
+Query  133     RELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRR  192
+               R + S    + R  FT  Q+  LE EF  + Y+   +R+++A  L L+E Q+K+WFQNRR
+Sbjct  211301  RRVPSPRPKRSRTSFTPAQLDRLEDEFRVDMYVVGLKRMKLANDLNLSERQVKVWFQNRR  211480
+
+Query  193     MKQKREQ  199
+               MK KRE+
+Sbjct  211481  MKYKRER  211501
+
+
+ Score = 58.2 bits (139),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 28/58 (49%), Positives = 40/58 (69%), Gaps = 0/58 (0%)
+ Frame = -1
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQ  199
+               + R  F+ +Q+ +LEK F  N Y+    R +IA+ L L+EAQ+K+WFQNRR K KR+Q
+Sbjct  491169  RARTAFSAEQLKKLEKRFQANHYIVGEERQKIAKDLDLSEAQVKVWFQNRRTKFKRDQ  490996
+
+
+> scaffold_203
+Length=430073
+
+ Score = 57.0 bits (136),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/54 (52%), Positives = 35/54 (65%), Gaps = 1/54 (1%)
+ Frame = +1
+
+Query  141     CKK-RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+               C+K R  FT  Q+  LEK F   +YL    R ++AQ+L L EAQ+K WFQNRRM
+Sbjct  313249  CRKSRTVFTDLQLRVLEKTFSEQKYLDSTNRAKLAQILGLNEAQVKTWFQNRRM  313410
+
+
+ Score = 56.6 bits (135),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 29/57 (51%), Positives = 36/57 (64%), Gaps = 0/57 (0%)
+ Frame = +1
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+               K R  FT  Q+  LEK F   +YL  + R ++AQ L L E Q+K WFQNRRMK K+E
+Sbjct  334690  KSRTVFTDLQLRVLEKTFSEQKYLDTSSRSKLAQTLGLNETQVKTWFQNRRMKWKKE  334860
+
+
+> scaffold_15
+Length=1710382
+
+ Score = 56.6 bits (135),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 39/57 (69%), Gaps = 0/57 (0%)
+ Frame = +3
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+               +KR  FT  Q+  LE +F +++YLT A R  +A+ L+LT  QIK WFQNRR K KRE
+Sbjct  672660  RKRTAFTSFQLKCLEDKFKFSKYLTIAERDMMARSLQLTNRQIKTWFQNRRTKWKRE  672830
+
+
+> scaffold_163
+Length=532231
+
+ Score = 56.2 bits (134),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 32/87 (37%), Positives = 53/87 (61%), Gaps = 2/87 (2%)
+ Frame = +3
+
+Query  132     QRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNR  191
+               +++L ++   + R  FT++Q+  LE  +   RYL+R  R  +AQ L++TE Q++ WFQNR
+Sbjct  493632  RKKLKNRANPRTRTHFTERQLKYLETYYSNGRYLSRDERTVLAQALEMTELQVRNWFQNR  493811
+
+Query  192     R--MKQKREQKDMATPHFLDNQLNQCA  216
+               R   KQK+E++  A    L+N   + A
+Sbjct  493812  RYQRKQKQEREKAADGVALENDSTKAA  493892
+
+
+> scaffold_12
+Length=1828175
+
+ Score = 55.8 bits (133),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 40/57 (71%), Gaps = 0/57 (0%)
+ Frame = -1
+
+Query  142      KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+                +KR  FT +Q+  LE+EF  ++YL    R  +A+ L L+E Q+KIWFQNRR+K +++
+Sbjct  1264523  RKRTIFTSEQLRRLEEEFDKHQYLVGTERQNLAKSLNLSETQVKIWFQNRRIKWRKD  1264353
+
+
+ Score = 51.2 bits (121),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 24/53 (46%), Positives = 37/53 (70%), Gaps = 0/53 (0%)
+ Frame = -3
+
+Query  145    VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+              V F+ +Q +ELEK F   +YL+   R +++++L L+E Q+K WFQNRR K +R
+Sbjct  10050  VRFSNEQTMELEKIFETQKYLSPPERKQLSKVLGLSERQVKTWFQNRRAKWRR  9892
+
+
+> scaffold_111
+Length=695590
+
+ Score = 54.7 bits (130),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 27/79 (35%), Positives = 45/79 (57%), Gaps = 0/79 (0%)
+ Frame = -3
+
+Query  120     AADVESTQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKL  179
+               +A+ +   D+    + H     ++R  FT  Q+  LE++F   +YLT + R  +A+ + L
+Sbjct  122459  SAEYQHDPDSPYSHKSHMNKSRRRRTAFTSSQLKSLEEKFQEKKYLTISERNSLAKSMHL  122280
+
+Query  180     TEAQIKIWFQNRRMKQKRE  198
+               T  Q+K WFQNRR K K++
+Sbjct  122279  TNTQVKTWFQNRRTKWKKQ  122223
+
+
+> scaffold_197
+Length=423789
+
+ Score = 52.8 bits (125),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 25/54 (47%), Positives = 34/54 (63%), Gaps = 0/54 (0%)
+ Frame = +3
+
+Query  145     VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+                 FT  Q++ LE  F  N Y+    R ++A  LKL+E Q+K+WFQNRR K KR+
+Sbjct  301080  TAFTPFQLLCLETSFDKNHYVVGTERKQLASYLKLSETQVKVWFQNRRTKWKRQ  301241
+
+
+> scaffold_47
+Length=1192782
+
+ Score = 52.0 bits (123),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 29/66 (44%), Positives = 42/66 (64%), Gaps = 3/66 (4%)
+ Frame = -3
+
+Query  137     SKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQK  196
+               S+   + R  FT+ Q+ +LE  F +++YL+   R E A+ L+LT  Q+K W+QNRRMK K
+Sbjct  422107  SRRFRRIRTVFTRDQLQKLEDRFKHDKYLSTQDRNEFARSLQLTPLQLKTWYQNRRMKWK  421928
+
+Query  197     REQKDM  202
+                  KDM
+Sbjct  421927  ---KDM  421919
+
+
+
+Lambda     K      H
+   0.319    0.130    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 17057733155
+
+
+  Database: NematostellaGenome.fna
+    Posted date:  Nov 23, 2014  4:28 PM
+  Number of letters in database: 356,613,585
+  Number of sequences in database:  10,804
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
