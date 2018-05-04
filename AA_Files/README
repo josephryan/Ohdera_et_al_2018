@@ -4,4 +4,12 @@ along with Transdecoder translated coding sequences from transcriptome assemblie
 The following files were generated for the OrthoFinder analysis.
 Corrsponding nucleotide sequences for the Cassiopea transcriptome can be found here : https://osf.io/bvgjn/
 
-Aala.genome.05.fa
+
+..		
+Aala.06.genome.aa.gz	- Alatina alata Augustus predictions
+Alatina_alata.transdecoder.faa.gz	- Alatina alata translated transcriptome
+Calvadosia_cruxmelitensis.v3.aa.gz	- Calvadosia cruxmelitensis Augustus predictions
+Cassiopea_xamachana.v1.aa.gz	- Cassiopea xamachana Augustus predictions
+Ccrux.Trinity.faa.gz	- Calvadosia cruxmelitensis translated transcriptome
+Cxam.HS.Trinity.transdecoder.faa.gz	- Cassiopea xamachana translated transcriptome
+Cxam.Scyph.transdecoder.faa.gz	- Cassiopea xamachana aposymbiotic polyp translated transcriptome
