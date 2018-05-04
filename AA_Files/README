@@ -1,1 +1,7 @@
-Directory containing amino acid sequence fasta files of Augustus predicted proteins for the three assembled genomes, along with Transdecoder translated coding sequences from transcriptome assemblies.
+Directory containing amino acid sequence fasta files of Augustus predicted proteins for the three assembled genomes, 
+along with Transdecoder translated coding sequences from transcriptome assemblies.
+
+The following files were generated for the OrthoFinder analysis.
+Corrsponding nucleotide sequences for the Cassiopea transcriptome can be found here : https://osf.io/bvgjn/
+
+Aala.genome.05.fa
