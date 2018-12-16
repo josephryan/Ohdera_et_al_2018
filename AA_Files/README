@@ -8,8 +8,8 @@ Corrsponding nucleotide sequences for the Cassiopea transcriptome can be found h
 ..		
 Aala.genome.faa.gz	- Alatina alata Augustus predictions
 Alatina_alata.transdecoder.faa.gz	- Alatina alata translated transcriptome
-Calvadosia_cruxmelitensis.v3.faa.gz	- Calvadosia cruxmelitensis Augustus predictions
-Cassiopea_xamachana.v1.faa.gz	- Cassiopea xamachana Augustus predictions
+Calvadosia_cruxmelitensis.v3.2.faa.gz	- Calvadosia cruxmelitensis Augustus predictions (version 3.2 - 12.15.18)
+Cassiopea_xamachana.v1.2.faa.gz	- Cassiopea xamachana Augustus predictions (version 3.2 - 12.15.18)
 Ccrux.Trinity.faa.gz	- Calvadosia cruxmelitensis translated transcriptome
 Cxam.HS.Trinity.transdecoder-2.0.faa.gz	- Cassiopea xamachana translated transcriptome (version 2 - 12.15.18)
 Cxam.Scyph.Trinity.transdecoder-2.0.faa.gz	- Cassiopea xamachana aposymbiotic polyp translated transcriptome (version 2 - 12.15.18)
