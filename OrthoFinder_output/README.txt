@@ -1,17 +1,17 @@
 #OrthoFinder
 
 #SpeciesIDs
-0: Alatina_alata.masurca.v3.2.faa
+0: Aala.genome.aug.faa
 1: Alatina_alata.transdecoder.faa
-2: Calvadosia_cruxmelitensis.v3.2.faa
-3: Cassiopea_xamachana.v1.2.faa
-4: Ccrux.Trinity.faa
-5: Cxam.HS.Trinity.transdecoder.faa
+2: Cass_xama.augustus.faa
+3: Ccrux.Trinity.faa
+4: Ccrux.augustus.3.3.faa
+5: Cxam.HS.transdecoder.faa
 6: Cxam.Scyph.transdecoder.faa
 7: HumRef2017.2.faa
-8: Nvec.faa
-9: ToxProt_Complete.2.faa
-10: hydra2.0_genemodels.2.faa
+8: Nemvec_prot_models.faa
+9: hydra2.0_genemodels.2.faa
+10: ToxProt_Complete.2.faa
 
 Included in this Directory:
 1. Statistics_Overall.csv
