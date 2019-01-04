@@ -1,0 +1,1458 @@
+TBLASTN 2.2.25+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Strigamia_maritima.scaffolds.fa
+           24,079 sequences; 173,602,052 total letters
+
+
+
+Query= ABU92522.1 phosphopantothenoylcysteine-synthetase, partial
+[Eleutheria dichotoma]
+
+Length=168
+
+
+***** No hits found *****
+
+
+
+Lambda     K      H
+   0.315    0.127    0.348 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 3600168845
+
+
+Query= ABU92523.1 POU class 6 [Eleutheria dichotoma]
+
+Length=818
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AFFK01019415.1 Strigamia maritima strain Brora ctg7180001229927...  94.7    1e-18
+  AFFK01023169.1 Strigamia maritima strain Brora ctg7180001233681...  65.9    5e-16
+  AFFK01003149.1 Strigamia maritima strain Brora ctg7180000873435...  82.0    9e-15
+  AFFK01015927.1 Strigamia maritima strain Brora ctg7180001226439...  81.3    1e-14
+  AFFK01018367.1 Strigamia maritima strain Brora ctg7180001228879...  41.2    0.015
+
+
+> AFFK01019415.1 Strigamia maritima strain Brora ctg7180001229927, 
+whole genome shotgun sequence
+Length=3565
+
+ Score = 94.7 bits (234),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 52/155 (34%), Positives = 81/155 (53%), Gaps = 6/155 (3%)
+ Frame = -2
+
+Query  405   EDRCMLTFEMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKA  464
+             ED    + ++++F ++FK+RRI LG+TQ DVG  L  L G  +SQ+ I RFE  QL  K 
+Sbjct  2358  EDDTPTSDDLEQFAKQFKQRRIKLGFTQADVGLALGTLYGNVFSQTTICRFEALQLSFKN  2179
+
+Query  465   AERMRPILETWIQSKEEEHssrskftkkrrkrtsfsPE------VLDMLNDLFMKNPKPS  518
+               +++P+L+ W++  +    S +   K   +             V   L   F K PKPS
+Sbjct  2178  MCKLKPLLQKWLEEADSTTGSPTSIDKIAAQGRKRKKRTSIEVTVKGALESHFHKQPKPS  1999
+
+Query  519   FDEMNDIARQINRDVTTVKVWFCNKKQSLKRLGHP  553
+               E+  +A  +  +   V+VWFCN++Q  KR+  P
+Sbjct  1998  AQEIASLADSLQLEKEVVRVWFCNRRQKEKRMTPP  1894
+
+
+> AFFK01023169.1 Strigamia maritima strain Brora ctg7180001233681, 
+whole genome shotgun sequence
+Length=19359
+
+ Score = 65.9 bits (159),  Expect(2) = 5e-16, Method: Compositional matrix adjust.
+ Identities = 49/140 (35%), Positives = 75/140 (54%), Gaps = 34/140 (24%)
+ Frame = +1
+
+Query  413   EMQEFIREFKKRRINLGYTQDDVGRELSALNGPTYSQSFIS-------------------  453
+             E++EF + FK RR++LG TQ  VG+ LS   GP YSQS I                    
+Sbjct  2218  EIKEFAKAFKIRRLSLGLTQTQVGQALSITEGPAYSQSAICR*GEGNYSLVVIMET*CVF  2397
+
+Query  454   ------RFEGKQLGMKAAERMRPILETWIQSKEEEHssrskf---------tkkrrkrts  498
+                   RFE   +  K+A++++P+LE W++  EE + + ++          +KKR++RTS
+Sbjct  2398  FGFNSFRFEKLDITPKSAQKIKPVLERWMKEAEERYKNGAQNLTEFIGTEPSKKRKRRTS  2577
+
+Query  499   fsPEVLDMLNDLFMKNPKPS  518
+             F+P+ LD+LN  F +N  PS
+Sbjct  2578  FTPQALDILNQHFERNTHPS  2637
+
+
+ Score = 40.4 bits (93),  Expect(2) = 5e-16, Method: Compositional matrix adjust.
+ Identities = 15/28 (54%), Positives = 22/28 (79%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  521   EMNDIARQINRDVTTVKVWFCNKKQSLK  548
+             EM ++A ++N D   V+VWFCNK+Q+LK
+Sbjct  2708  EMTELAEKLNYDREVVRVWFCNKRQALK  2791
+
+
+> AFFK01003149.1 Strigamia maritima strain Brora ctg7180000873435, 
+whole genome shotgun sequence
+Length=2131
+
+ Score = 82.0 bits (201),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 68/228 (30%), Positives = 108/228 (48%), Gaps = 29/228 (12%)
+ Frame = +1
+
+Query  344   LSNNSVTSMP-GLAPINV------YQNNAINVKPGSAISNVLL-QLKGESEFATDILPAT  395
+             L + S ++MP GLAPI+       + ++A++  P S  S+  + Q+   +       P  
+Sbjct  1039  LDSLSTSTMPPGLAPISSDGGSASHAHHALSGAPASVYSSHGMNQMMTSAHHLASHAPTV  1218
+
+Query  396   MLKRSVSAKEDRCMLTFEMQEFIREFKKRRINLGYTQDDVGRELSALNGP---TYSQSFI  452
+              +  S S          E++ F   FK+RRI LG TQ DVG+ L+ L  P     SQS I
+Sbjct  1219  AMHDSDSDPR-------ELEAFAERFKQRRIKLGVTQADVGKALANLKLPGVGALSQSTI  1377
+
+Query  453   SRFEGKQLGMKAAERMRPILETWIQSKE----------EEHssrskftkkrrkrtsfsPE  502
+              RFE   L       ++P+L+ W++  E          E         KKR++ +  +PE
+Sbjct  1378  CRFESLTLSHNNMIALKPVLQAWLEEAEAQARNKRKDPEAPDVLPSGEKKRKRTSIAAPE  1557
+
+Query  503   VLDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRL  550
+                 L   F   P+PS +++  IA +++     V+VWFCN++Q  KR+
+Sbjct  1558  KRS-LEAYFAVQPRPSGEKIAAIAEKLDLKKNVVRVWFCNQRQKQKRM  1698
+
+
+> AFFK01015927.1 Strigamia maritima strain Brora ctg7180001226439, 
+whole genome shotgun sequence
+Length=11534
+
+ Score = 81.3 bits (199),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 52/153 (34%), Positives = 81/153 (53%), Gaps = 17/153 (11%)
+ Frame = -1
+
+Query  428   LGYTQDDVGRELSALNGPTYSQSFISRFEGKQLGMKAAERMRPILETWIQSKEEE-----  482
+             LG+TQ DVG  +  L G  +SQ+ ISRFE   L  K   +++P+L+ W++  +       
+Sbjct  6560  LGFTQGDVGLAMGKLYGNDFSQTTISRFEALNLSFKNMCKLKPLLQKWLEDADNSINNPN  6381
+
+Query  483   -----HssrskftkkrrkrtsfsPEVLDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVK  537
+                  H++     ++R+KRTS    V   L   F++NPKP+ +E+  +A  +  +   V+
+Sbjct  6380  ALTNAHTTPESIGRRRKKRTSIETSVRVALEKAFLQNPKPTSEEIAMLAETLQMEKEVVR  6201
+
+Query  538   VWFCNKKQSLKR-------LGHPILSSIRSPAI  563
+             VWFCN++Q  KR       LG P L+S    AI
+Sbjct  6200  VWFCNRRQKEKRINPPSAALGSPTLASPHGVAI  6102
+
+
+> AFFK01018367.1 Strigamia maritima strain Brora ctg7180001228879, 
+whole genome shotgun sequence
+Length=37745
+
+ Score = 41.2 bits (95),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 31/107 (29%), Positives = 46/107 (43%), Gaps = 15/107 (14%)
+ Frame = +1
+
+Query  504    LDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRLGH-----PILSSI  558
+              L  L  LF + P PS +   ++A +I      V +WF NK+  +K+  H     P  S  
+Sbjct  27595  LQKLEQLFKEEPWPSRESKENLAEEIGMSPQFVNIWFQNKRARIKKESHDEETDPTASPQ  27774
+
+Query  559    RSPAIREEMIDIKRKRKSDADIQDVFALNHNNIKTLVTTTSANGPVT  605
+              +SP I+   ++ KR R          A   +N     T TS + P T
+Sbjct  27775  KSPRIKSHFLE-KRSR---------LAHASSNYSPRSTLTSKDDPTT  27885
+
+
+
+Lambda     K      H
+   0.315    0.129    0.358 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 38374553260
+
+
+Query= POU6 Cterm
+
+Length=357
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AFFK01023169.1 Strigamia maritima strain Brora ctg7180001233681...  41.2    5e-07
+  AFFK01015927.1 Strigamia maritima strain Brora ctg7180001226439...  49.3    2e-05
+  AFFK01019415.1 Strigamia maritima strain Brora ctg7180001229927...  46.2    2e-04
+  AFFK01003149.1 Strigamia maritima strain Brora ctg7180000873435...  43.9    0.001
+  AFFK01018367.1 Strigamia maritima strain Brora ctg7180001228879...  41.6    0.004
+  AFFK01021391.1 Strigamia maritima strain Brora ctg7180001231903...  30.8    9.0  
+
+
+> AFFK01023169.1 Strigamia maritima strain Brora ctg7180001233681, 
+whole genome shotgun sequence
+Length=19359
+
+ Score = 41.2 bits (95),  Expect(2) = 5e-07, Method: Compositional matrix adjust.
+ Identities = 15/28 (54%), Positives = 22/28 (79%), Gaps = 0/28 (0%)
+ Frame = +2
+
+Query  60    EMNDIARQINRDVTTVKVWFCNKKQSLK  87
+             EM ++A ++N D   V+VWFCNK+Q+LK
+Sbjct  2708  EMTELAEKLNYDREVVRVWFCNKRQALK  2791
+
+
+ Score = 32.7 bits (73),  Expect(2) = 5e-07, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 43/65 (67%), Gaps = 9/65 (13%)
+ Frame = +1
+
+Query  2     KAAERMRPILETWIQSKEEEHssrskf---------tkkrrkrtsfsPEVLDMLNDLFMK  52
+             K+A++++P+LE W++  EE + + ++          +KKR++RTSF+P+ LD+LN  F +
+Sbjct  2443  KSAQKIKPVLERWMKEAEERYKNGAQNLTEFIGTEPSKKRKRRTSFTPQALDILNQHFER  2622
+
+Query  53    NPKPS  57
+             N  PS
+Sbjct  2623  NTHPS  2637
+
+
+> AFFK01015927.1 Strigamia maritima strain Brora ctg7180001226439, 
+whole genome shotgun sequence
+Length=11534
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 34/114 (30%), Positives = 59/114 (52%), Gaps = 17/114 (14%)
+ Frame = -1
+
+Query  6     RMRPILETWIQSKEEE----------HssrskftkkrrkrtsfsPEVLDMLNDLFMKNPK  55
+             +++P+L+ W++  +            H++     ++R+KRTS    V   L   F++NPK
+Sbjct  6443  KLKPLLQKWLEDADNSINNPNALTNAHTTPESIGRRRKKRTSIETSVRVALEKAFLQNPK  6264
+
+Query  56    PSFDEMNDIARQINRDVTTVKVWFCNKKQSLKR-------LGHPILSSIRSPAI  102
+             P+ +E+  +A  +  +   V+VWFCN++Q  KR       LG P L+S    AI
+Sbjct  6263  PTSEEIAMLAETLQMEKEVVRVWFCNRRQKEKRINPPSAALGSPTLASPHGVAI  6102
+
+
+> AFFK01019415.1 Strigamia maritima strain Brora ctg7180001229927, 
+whole genome shotgun sequence
+Length=3565
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 19/48 (40%), Positives = 27/48 (57%), Gaps = 0/48 (0%)
+ Frame = -2
+
+Query  42    VLDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRL  89
+             V   L   F K PKPS  E+  +A  +  +   V+VWFCN++Q  KR+
+Sbjct  2046  VKGALESHFHKQPKPSAQEIASLADSLQLEKEVVRVWFCNRRQKEKRM  1903
+
+
+> AFFK01003149.1 Strigamia maritima strain Brora ctg7180000873435, 
+whole genome shotgun sequence
+Length=2131
+
+ Score = 43.9 bits (102),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 26/93 (28%), Positives = 47/93 (51%), Gaps = 11/93 (11%)
+ Frame = +1
+
+Query  7     MRPILETWIQSKE----------EEHssrskftkkrrkrtsfsPEVLDMLNDLFMKNPKP  56
+             ++P+L+ W++  E          E         KKR++ +  +PE    L   F   P+P
+Sbjct  1423  LKPVLQAWLEEAEAQARNKRKDPEAPDVLPSGEKKRKRTSIAAPEKRS-LEAYFAVQPRP  1599
+
+Query  57    SFDEMNDIARQINRDVTTVKVWFCNKKQSLKRL  89
+             S +++  IA +++     V+VWFCN++Q  KR+
+Sbjct  1600  SGEKIAAIAEKLDLKKNVVRVWFCNQRQKQKRM  1698
+
+
+> AFFK01018367.1 Strigamia maritima strain Brora ctg7180001228879, 
+whole genome shotgun sequence
+Length=37745
+
+ Score = 41.6 bits (96),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 31/107 (29%), Positives = 47/107 (44%), Gaps = 15/107 (14%)
+ Frame = +1
+
+Query  43     LDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKKQSLKRLGH-----PILSSI  97
+              L  L  LF + P PS +   ++A +I      V +WF NK+  +K+  H     P  S  
+Sbjct  27595  LQKLEQLFKEEPWPSRESKENLAEEIGMSPQFVNIWFQNKRARIKKESHDEETDPTASPQ  27774
+
+Query  98     RSPAIREEMIDIKRKRKSDADIQDVFALNHNNIKTLVTTTSANGPVT  144
+              +SP I+   ++ KR R + A          +N     T TS + P T
+Sbjct  27775  KSPRIKSHFLE-KRSRLAHAS---------SNYSPRSTLTSKDDPTT  27885
+
+
+> AFFK01021391.1 Strigamia maritima strain Brora ctg7180001231903, 
+whole genome shotgun sequence
+Length=187695
+
+ Score = 30.8 bits (68),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 15/44 (35%), Positives = 22/44 (50%), Gaps = 0/44 (0%)
+ Frame = -2
+
+Query  40      PEVLDMLNDLFMKNPKPSFDEMNDIARQINRDVTTVKVWFCNKK  83
+               PE LD L   +     PS   + +IAR++      V+VWF N +
+Sbjct  147662  PEQLDYLYQKYQVESNPSRKMLENIAREVGLKKRVVQVWFQNTR  147531
+
+
+
+Lambda     K      H
+   0.310    0.124    0.337 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 13455727212
+
+
+Query= Cnox-5
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  AFFK01019009.1 Strigamia maritima strain Brora ctg7180001229521...  89.7    8e-18
+  AFFK01019010.1 Strigamia maritima strain Brora ctg7180001229522...  87.4    4e-17
+  AFFK01021143.1 Strigamia maritima strain Brora ctg7180001231655...  85.5    2e-16
+  AFFK01019150.1 Strigamia maritima strain Brora ctg7180001229662...  75.1    2e-13
+  AFFK01020919.1 Strigamia maritima strain Brora ctg7180001231431...  73.9    5e-13
+  AFFK01023252.1 Strigamia maritima strain Brora ctg7180001233764...  73.6    7e-13
+  AFFK01020810.1 Strigamia maritima strain Brora ctg7180001231322...  72.0    2e-12
+  AFFK01019675.1 Strigamia maritima strain Brora ctg7180001230187...  71.6    2e-12
+  AFFK01019847.1 Strigamia maritima strain Brora ctg7180001230359...  66.6    8e-11
+  AFFK01019742.1 Strigamia maritima strain Brora ctg7180001230254...  66.2    1e-10
+  AFFK01020050.1 Strigamia maritima strain Brora ctg7180001230562...  66.2    1e-10
+  AFFK01023263.1 Strigamia maritima strain Brora ctg7180001233775...  66.2    1e-10
+  AFFK01019011.1 Strigamia maritima strain Brora ctg7180001229523...  65.9    1e-10
+  AFFK01021577.1 Strigamia maritima strain Brora ctg7180001232089...  64.7    3e-10
+  AFFK01002902.1 Strigamia maritima strain Brora ctg7180000850584...  64.7    3e-10
+  AFFK01019834.1 Strigamia maritima strain Brora ctg7180001230346...  63.5    8e-10
+  AFFK01019835.1 Strigamia maritima strain Brora ctg7180001230347...  62.8    1e-09
+  AFFK01023355.1 Strigamia maritima strain Brora ctg7180001233867...  62.8    1e-09
+  AFFK01022933.1 Strigamia maritima strain Brora ctg7180001233445...  62.4    1e-09
+  AFFK01019945.1 Strigamia maritima strain Brora ctg7180001230457...  61.2    3e-09
+  AFFK01014417.1 Strigamia maritima strain Brora ctg7180001224929...  55.5    2e-07
+  AFFK01003422.1 Strigamia maritima strain Brora ctg7180000888612...  55.5    2e-07
+  AFFK01020625.1 Strigamia maritima strain Brora ctg7180001231137...  47.0    3e-07
+  AFFK01020812.1 Strigamia maritima strain Brora ctg7180001231324...  53.5    8e-07
+  AFFK01014804.1 Strigamia maritima strain Brora ctg7180001225316...  52.4    2e-06
+  AFFK01021731.1 Strigamia maritima strain Brora ctg7180001232243...  51.2    4e-06
+  AFFK01022489.1 Strigamia maritima strain Brora ctg7180001233001...  50.8    5e-06
+  AFFK01020793.1 Strigamia maritima strain Brora ctg7180001231305...  50.8    5e-06
+  AFFK01020507.1 Strigamia maritima strain Brora ctg7180001231019...  50.1    7e-06
+  AFFK01017905.1 Strigamia maritima strain Brora ctg7180001228417...  49.3    1e-05
+  AFFK01020622.1 Strigamia maritima strain Brora ctg7180001231134...  47.0    7e-05
+  AFFK01022033.1 Strigamia maritima strain Brora ctg7180001232545...  45.4    2e-04
+  AFFK01023612.1 Strigamia maritima strain Brora ctg7180001234124...  45.4    2e-04
+  AFFK01020568.1 Strigamia maritima strain Brora ctg7180001231080...  45.1    3e-04
+  AFFK01018376.1 Strigamia maritima strain Brora ctg7180001228888...  43.1    0.001
+  AFFK01018367.1 Strigamia maritima strain Brora ctg7180001228879...  39.7    0.010
+  AFFK01015927.1 Strigamia maritima strain Brora ctg7180001226439...  39.7    0.010
+  AFFK01021827.1 Strigamia maritima strain Brora ctg7180001232339...  38.1    0.033
+  AFFK01021930.1 Strigamia maritima strain Brora ctg7180001232442...  37.7    0.038
+  AFFK01021962.1 Strigamia maritima strain Brora ctg7180001232474...  37.7    0.044
+  AFFK01020917.1 Strigamia maritima strain Brora ctg7180001231429...  37.4    0.052
+  AFFK01022123.1 Strigamia maritima strain Brora ctg7180001232635...  37.4    0.057
+  AFFK01019733.1 Strigamia maritima strain Brora ctg7180001230245...  35.8    0.15 
+  AFFK01012333.1 Strigamia maritima strain Brora ctg7180001222844...  35.0    0.25 
+  AFFK01023492.1 Strigamia maritima strain Brora ctg7180001234004...  34.3    0.41 
+  AFFK01019415.1 Strigamia maritima strain Brora ctg7180001229927...  34.3    0.43 
+  AFFK01017175.1 Strigamia maritima strain Brora ctg7180001227687...  33.9    0.58 
+  AFFK01020290.1 Strigamia maritima strain Brora ctg7180001230802...  32.3    1.9  
+  AFFK01020623.1 Strigamia maritima strain Brora ctg7180001231135...  32.0    2.1  
+  AFFK01023050.1 Strigamia maritima strain Brora ctg7180001233562...  32.0    2.5  
+  AFFK01021046.1 Strigamia maritima strain Brora ctg7180001231558...  31.6    2.7  
+  AFFK01021974.1 Strigamia maritima strain Brora ctg7180001232486...  31.2    3.9  
+  AFFK01003149.1 Strigamia maritima strain Brora ctg7180000873435...  31.2    3.9  
+  AFFK01023831.1 Strigamia maritima strain Brora ctg7180001234343...  31.2    3.9  
+  AFFK01017913.1 Strigamia maritima strain Brora ctg7180001228425...  31.2    4.1  
+  AFFK01020689.1 Strigamia maritima strain Brora ctg7180001231201...  30.8    4.6  
+  AFFK01019677.1 Strigamia maritima strain Brora ctg7180001230189...  30.8    4.6  
+  AFFK01023491.1 Strigamia maritima strain Brora ctg7180001234003...  30.4    7.0  
+  AFFK01021391.1 Strigamia maritima strain Brora ctg7180001231903...  30.0    9.4  
+  AFFK01018682.1 Strigamia maritima strain Brora ctg7180001229194...  30.0    9.5  
+  AFFK01020918.1 Strigamia maritima strain Brora ctg7180001231430...  29.6    9.8  
+
+
+> AFFK01019009.1 Strigamia maritima strain Brora ctg7180001229521, 
+whole genome shotgun sequence
+Length=291276
+
+ Score = 89.7 bits (221),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 40/58 (69%), Positives = 48/58 (83%), Gaps = 0/58 (0%)
+ Frame = -2
+
+Query  144     RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               R  FT KQ+ ELEKEFH+N+YLTRARR+EIA  L+L E Q+KIWFQNRRMKQK+  K+
+Sbjct  281885  RTNFTTKQLTELEKEFHFNKYLTRARRIEIASALQLNEVQVKIWFQNRRMKQKKRIKE  281712
+
+
+> AFFK01019010.1 Strigamia maritima strain Brora ctg7180001229522, 
+whole genome shotgun sequence
+Length=258803
+
+ Score = 87.4 bits (215),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 40/73 (55%), Positives = 50/73 (69%), Gaps = 8/73 (10%)
+ Frame = -1
+
+Query  126   TQDNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIK  185
+             TQ+N   R L        R  +T  Q++ELEKEFH+N+YL R RR+EIA  L LTE Q+K
+Sbjct  3383  TQENGMPRRL--------RTAYTNTQLLELEKEFHFNKYLCRPRRIEIAASLDLTERQVK  3228
+
+Query  186   IWFQNRRMKQKRE  198
+             +WFQNRRMK KR+
+Sbjct  3227  VWFQNRRMKHKRQ  3189
+
+
+ Score = 84.7 bits (208),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 39/59 (67%), Positives = 50/59 (85%), Gaps = 0/59 (0%)
+ Frame = -1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+              ++R  +T++QI+ELEKEFH+NRYLTR RR+EIA  L L+E QIKIWFQNRRMK K++ K
+Sbjct  63887  RQRTAYTRQQILELEKEFHFNRYLTRRRRIEIAHTLCLSERQIKIWFQNRRMKWKKDNK  63711
+
+
+ Score = 83.2 bits (204),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+ Frame = -2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+              + R  +T+ Q +ELEKEFH+NRYLTR RR+EIA  L LTE QIKIWFQNRRMK K+E K
+Sbjct  89443  RTRQTYTRFQTLELEKEFHFNRYLTRRRRIEIAHALGLTERQIKIWFQNRRMKAKKENK  89267
+
+
+ Score = 80.9 bits (198),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 39/59 (67%), Positives = 48/59 (82%), Gaps = 0/59 (0%)
+ Frame = -3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+              ++R  +T+ Q +ELEKEFH+NRYLTR RR+EIA  L L+E QIKIWFQNRRMK K+E K
+Sbjct  82344  RQRTSYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKKEHK  82168
+
+
+ Score = 79.3 bits (194),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 40/59 (68%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+ Frame = -1
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+               + R  +T+ Q +ELEKEFH+NRYLTR RR+EIA  L LTE QIKIWFQNRRMK K+E K
+Sbjct  134366  RGRQTYTRYQTLELEKEFHFNRYLTRRRRIEIAHALCLTERQIKIWFQNRRMKWKKENK  134190
+
+
+ Score = 78.6 bits (192),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 38/61 (63%), Positives = 47/61 (78%), Gaps = 0/61 (0%)
+ Frame = -3
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               + R  +T+ Q +ELEKEFH+N YLTR RR+EIA  L LTE QIKIWFQNRRMK K+E + 
+Sbjct  248709  RGRQTYTRFQTLELEKEFHFNHYLTRRRRIEIAHALCLTERQIKIWFQNRRMKLKKEMRA  248530
+
+Query  202     M  202
+               +
+Sbjct  248529  V  248527
+
+
+ Score = 74.7 bits (182),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 37/57 (65%), Positives = 44/57 (78%), Gaps = 0/57 (0%)
+ Frame = -1
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+               + R  +T+ Q +ELEKEFH N YLTR RR+E+A  L LTE QIKIWFQNRRMK K+E
+Sbjct  192464  RGRQTYTRYQTLELEKEFHTNHYLTRRRRIEMAHALCLTERQIKIWFQNRRMKLKKE  192294
+
+
+> AFFK01021143.1 Strigamia maritima strain Brora ctg7180001231655, 
+whole genome shotgun sequence
+Length=33977
+
+ Score = 85.5 bits (210),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/56 (68%), Positives = 46/56 (83%), Gaps = 0/56 (0%)
+ Frame = -2
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             + R  +TQ Q++ELEKEFH+NRYL R RR+E+A LL LTE QIKIWFQNRRMK K+
+Sbjct  7840  RSRTAYTQSQLLELEKEFHFNRYLCRPRRLELASLLNLTERQIKIWFQNRRMKIKK  7673
+
+
+> AFFK01019150.1 Strigamia maritima strain Brora ctg7180001229662, 
+whole genome shotgun sequence
+Length=56939
+
+ Score = 75.1 bits (183),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/62 (54%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+ Frame = -1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              ++R  FT +Q++ELEKEFH  +YL+   R +IA  LKL+E Q+KIWFQNRR K KR +  
+Sbjct  40280  RRRTAFTSEQLLELEKEFHSKKYLSLTERSQIAHSLKLSEVQVKIWFQNRRAKWKRVKAG  40101
+
+Query  202    MA  203
+              +A
+Sbjct  40100  VA  40095
+
+
+> AFFK01020919.1 Strigamia maritima strain Brora ctg7180001231431, 
+whole genome shotgun sequence
+Length=14909
+
+ Score = 73.9 bits (180),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 33/55 (60%), Positives = 43/55 (79%), Gaps = 0/55 (0%)
+ Frame = +3
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              R  FT +Q++ELE+EF  N YL+R RR+EIA  L L+E Q+KIWFQNRR+K K+E
+Sbjct  10272  RTAFTSRQLLELEREFAINIYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKYKKE  10436
+
+
+> AFFK01023252.1 Strigamia maritima strain Brora ctg7180001233764, 
+whole genome shotgun sequence
+Length=99382
+
+ Score = 73.6 bits (179),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 35/59 (60%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+ Frame = +1
+
+Query  143    KRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              +R  FT  Q++ELE+EF  N YL+R RRVEI+Q LKL+E Q+K+WFQNRR+K+KR  K+
+Sbjct  40654  QRTVFTSFQLLELEQEFANNEYLSRMRRVEISQRLKLSERQVKVWFQNRRVKKKRISKN  40830
+
+
+> AFFK01020810.1 Strigamia maritima strain Brora ctg7180001231322, 
+whole genome shotgun sequence
+Length=40596
+
+ Score = 72.0 bits (175),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/55 (60%), Positives = 43/55 (79%), Gaps = 0/55 (0%)
+ Frame = +2
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              R  FT +Q++ELE+EF  N YL+R RR+EIA  L L+E Q+KIWFQNRR+K K+E
+Sbjct  23360  RTAFTSRQLLELEREFASNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKYKKE  23524
+
+
+> AFFK01019675.1 Strigamia maritima strain Brora ctg7180001230187, 
+whole genome shotgun sequence
+Length=76714
+
+ Score = 71.6 bits (174),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 50/147 (35%), Positives = 77/147 (53%), Gaps = 25/147 (17%)
+ Frame = -3
+
+Query  128    DNQKQRELHSKDICK-----KRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEA  182
+              DNQ+ + + S + CK      R  F+  Q+ ELE+ F++ RYL+   R ++AQ LKLTE 
+Sbjct  21053  DNQESK-VSSLNSCKPRKKRSRAAFSHAQVFELERRFNHQRYLSGPERADLAQALKLTET  20877
+
+Query  183    QIKIWFQNRRMKQKREQ-----------KDMATPHFL-DNQLNQCAVDYTTSCPVNFPTS  230
+              Q+KIWFQNRR K KR+Q           + +A    + D+QL     D     PV +P+ 
+Sbjct  20876  QVKIWFQNRRYKTKRKQLQQEMVPAASARKVAVKVLMRDDQLVYHPNDLVR--PVLYPS-  20706
+
+Query  231    CPVEFTNNRAWYNACNQGDSSHFQSIT  257
+                  +  +  +Y   +   ++HF S+T
+Sbjct  20705  ----YPLSGVYYYPPHMLATNHFSSVT  20637
+
+
+ Score = 70.5 bits (171),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 36/73 (50%), Positives = 48/73 (66%), Gaps = 1/73 (1%)
+ Frame = +1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             K R+ F+Q Q+ ELE+ F   RYL+   R  +AQ+LKLT  Q+KIWFQNRR K KR+++D
+Sbjct  9097  KPRILFSQAQVYELERRFKQQRYLSAPEREHLAQMLKLTSTQVKIWFQNRRYKCKRQRQD  9276
+
+Query  202   MATPHFLDNQLNQ  214
+               T     N L+Q
+Sbjct  9277  -KTLEMTANGLDQ  9312
+
+
+> AFFK01019847.1 Strigamia maritima strain Brora ctg7180001230359, 
+whole genome shotgun sequence
+Length=17300
+
+ Score = 66.6 bits (161),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 30/61 (50%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+ Frame = -3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K R  F+  Q+  LEK F   RYL+   RVE+A  L L+E Q+K WFQNRRMK K++ + 
+Sbjct  12855  KARTVFSDHQLNGLEKRFEAQRYLSTPERVELATALSLSETQVKTWFQNRRMKHKKQMRK  12676
+
+Query  202    M  202
+              M
+Sbjct  12675  M  12673
+
+
+> AFFK01019742.1 Strigamia maritima strain Brora ctg7180001230254, 
+whole genome shotgun sequence
+Length=33592
+
+ Score = 66.2 bits (160),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 34/61 (56%), Positives = 41/61 (68%), Gaps = 0/61 (0%)
+ Frame = -3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K R  FT  QI ELEK F Y +YL+ A R EIAQ L LT AQ+  WFQNRR K KR+ ++
+Sbjct  14552  KSRTAFTNHQIFELEKRFLYQKYLSPADRDEIAQSLGLTNAQVITWFQNRRAKLKRDMEE  14373
+
+Query  202    M  202
+              +
+Sbjct  14372  L  14370
+
+
+> AFFK01020050.1 Strigamia maritima strain Brora ctg7180001230562, 
+whole genome shotgun sequence
+Length=21919
+
+ Score = 66.2 bits (160),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/62 (52%), Positives = 42/62 (68%), Gaps = 0/62 (0%)
+ Frame = -1
+
+Query  146   CFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMATP  205
+              FT +Q + LE EF  N Y++RA+R E+A+ L LTE Q+KIWFQNRR K KR +K     
+Sbjct  1411  TFTSEQTLRLELEFQRNEYISRAKRYELAERLLLTETQVKIWFQNRRAKDKRIEKAQLDQ  1232
+
+Query  206   HF  207
+             H+
+Sbjct  1231  HY  1226
+
+
+> AFFK01023263.1 Strigamia maritima strain Brora ctg7180001233775, 
+whole genome shotgun sequence
+Length=94804
+
+ Score = 66.2 bits (160),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 41/62 (67%), Gaps = 0/62 (0%)
+ Frame = -2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              K+RV FTQ Q+ ELE+ F   +YL+   R  +A L+ LT  Q+KIWFQN R K KR+ K+
+Sbjct  37203  KRRVLFTQAQVYELERRFKQQKYLSAPEREHLASLIHLTPTQVKIWFQNHRYKCKRQAKE  37024
+
+Query  202    MA  203
+               A
+Sbjct  37023  KA  37018
+
+
+> AFFK01019011.1 Strigamia maritima strain Brora ctg7180001229523, 
+whole genome shotgun sequence
+Length=205921
+
+ Score = 65.9 bits (159),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/63 (51%), Positives = 47/63 (75%), Gaps = 0/63 (0%)
+ Frame = -3
+
+Query  140     ICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQ  199
+               + KKR  +++ Q +ELEKEF +N Y+++ +R E+A+ L LTE Q+KIWFQNRRMK K+  
+Sbjct  142382  VRKKRKPYSKFQTLELEKEFLFNAYVSKQKRWELARNLNLTERQVKIWFQNRRMKNKKTA  142203
+
+Query  200     KDM  202
+               K +
+Sbjct  142202  KGI  142194
+
+
+ Score = 56.2 bits (134),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 42/145 (29%), Positives = 54/145 (38%), Gaps = 49/145 (33%)
+ Frame = +2
+
+Query  140     ICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI-------------  186
+               I + R  FT++QI  LEKEF    Y++R RR E+A  L L E+ IK+             
+Sbjct  186713  IRRYRTAFTREQITRLEKEFFRENYVSRPRRCELAAELNLPESTIKVRCDKQEIKEKKIN  186892
+
+Query  187     ------------------------------WFQNRRMKQKREQK---DMATPHFLDNQLN  213
+                                             WFQNRRMK KR++      A PHF    L 
+Sbjct  186893  LQLIS*LQINL*TFLIFN*FIYSFIYIF*VWFQNRRMKDKRQRMTTWPYADPHFAACVLQ  187072
+
+Query  214     QCAVDYTTSCPVNFPTSCPVEFTNN  238
+                    Y        P S P+ +  N
+Sbjct  187073  AATGTYPYPA---LPNSLPINYYGN  187138
+
+
+> AFFK01021577.1 Strigamia maritima strain Brora ctg7180001232089, 
+whole genome shotgun sequence
+Length=121090
+
+ Score = 64.7 bits (156),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 38/95 (40%), Positives = 49/95 (52%), Gaps = 10/95 (10%)
+ Frame = -2
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+              R  FT +Q+  L+KEF  NRYLT  RR ++A+ LKL E+QIKIWFQN+R K K+      
+Sbjct  52659  RTAFTNEQLARLKKEFQENRYLTEKRRQDLARELKLNESQIKIWFQNKRAKIKKA-----  52495
+
+Query  204    TPHFLDNQLNQCAVDYTTSCPVNFPTSCPVEFTNN  238
+                     Q N  A+        N  T+   E   N
+Sbjct  52494  -----SGQRNNLAMQLMAQGLYNHTTTSNSELKYN  52405
+
+
+ Score = 48.9 bits (115),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 36/106 (34%), Positives = 42/106 (40%), Gaps = 50/106 (47%)
+ Frame = +1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQ------------------  183
+             K+R  FT+ Q+ ELE EF +N YLTR RR EIA  L LTE Q                  
+Sbjct  3652  KERTAFTKNQLKELESEFSHNNYLTRLRRYEIAVSLDLTERQV*LKIIFVFFFFFFFFFD  3831
+
+Query  184   --------------------------------IKIWFQNRRMKQKR  197
+                                             +K+WFQNRRMK KR
+Sbjct  3832  GNSDFGCRNKSTVRGMRPQASPVFKI*FFYF*VKVWFQNRRMKWKR  3969
+
+
+> AFFK01002902.1 Strigamia maritima strain Brora ctg7180000850584, 
+whole genome shotgun sequence
+Length=4839
+
+ Score = 64.7 bits (156),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 27/60 (45%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+ Frame = +3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             K+RV F++ Q  ELE+ F   RYL+   R  +A +++LT  Q+KIWFQN R K KR +++
+Sbjct  4029  KRRVLFSKAQTYELERRFRQQRYLSAPEREHLASIIRLTPTQVKIWFQNHRYKTKRARQE  4208
+
+
+> AFFK01019834.1 Strigamia maritima strain Brora ctg7180001230346, 
+whole genome shotgun sequence
+Length=69876
+
+ Score = 63.5 bits (153),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 39/61 (64%), Gaps = 0/61 (0%)
+ Frame = -2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              + R  FT +Q+V LE +F   RYL+   R+ +A  L LTE Q+KIWFQNRR K K++   
+Sbjct  18095  RARTAFTYEQLVALENKFKTTRYLSVCERLNLALSLSLTETQVKIWFQNRRTKWKKQNPG  17916
+
+Query  202    M  202
+              M
+Sbjct  17915  M  17913
+
+
+> AFFK01019835.1 Strigamia maritima strain Brora ctg7180001230347, 
+whole genome shotgun sequence
+Length=72355
+
+ Score = 62.8 bits (151),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 39/58 (68%), Gaps = 0/58 (0%)
+ Frame = -1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQ  199
+              K R  FT +Q++ LE++F   +YL+ A R E +  L LTE Q+KIWFQNRR K KR Q
+Sbjct  46105  KPRTPFTTQQLLALERKFRTKQYLSIAERAEFSSSLNLTETQVKIWFQNRRAKAKRLQ  45932
+
+
+> AFFK01023355.1 Strigamia maritima strain Brora ctg7180001233867, 
+whole genome shotgun sequence
+Length=7186
+
+ Score = 62.8 bits (151),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/72 (42%), Positives = 44/72 (62%), Gaps = 0/72 (0%)
+ Frame = +2
+
+Query  128   DNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIW  187
+             +N K  + +S    K+RV F++ Q  ELE+ F   RYL+   R  +A +++LT  Q+KIW
+Sbjct  3824  NNSKHDDGNSTKKRKRRVLFSKAQTYELERRFRQQRYLSAPEREHLASIIRLTPTQVKIW  4003
+
+Query  188   FQNRRMKQKREQ  199
+             FQN R K KR +
+Sbjct  4004  FQNHRYKTKRSR  4039
+
+
+> AFFK01022933.1 Strigamia maritima strain Brora ctg7180001233445, 
+whole genome shotgun sequence
+Length=11622
+
+ Score = 62.4 bits (150),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/53 (57%), Positives = 37/53 (70%), Gaps = 0/53 (0%)
+ Frame = -3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMK  194
+             K R  FT+ QI ELEK FH  +YL  A R  +A+ LK+T+AQ+K WFQNRR K
+Sbjct  3505  KPRTSFTRMQICELEKRFHKQKYLASAERASLAKALKMTDAQVKTWFQNRRTK  3347
+
+
+> AFFK01019945.1 Strigamia maritima strain Brora ctg7180001230457, 
+whole genome shotgun sequence
+Length=31239
+
+ Score = 61.2 bits (147),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/57 (50%), Positives = 37/57 (65%), Gaps = 0/57 (0%)
+ Frame = +3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+              K R  F++ Q+ +LE  F   RYL+ + R  +A  L LTE Q+KIWFQNRR K KR+
+Sbjct  20397  KTRTVFSRHQVFQLESTFEMKRYLSSSERAALASSLHLTETQVKIWFQNRRNKWKRQ  20567
+
+
+> AFFK01014417.1 Strigamia maritima strain Brora ctg7180001224929, 
+whole genome shotgun sequence
+Length=219477
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/64 (44%), Positives = 43/64 (68%), Gaps = 3/64 (4%)
+ Frame = -1
+
+Query  137     SKDICKKR---VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRM  193
+               S+ I K++   V F+  Q  ELE++F   +YLT   R ++A++L+L+E Q+K WFQNRR 
+Sbjct  146007  SRQIPKRKGGQVRFSSDQTAELERKFDEQKYLTPPERRKLAKILRLSERQVKTWFQNRRA  145828
+
+Query  194     KQKR  197
+               K +R
+Sbjct  145827  KWRR  145816
+
+
+> AFFK01003422.1 Strigamia maritima strain Brora ctg7180000888612, 
+whole genome shotgun sequence
+Length=1229
+
+ Score = 55.5 bits (132),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 38/111 (35%), Positives = 53/111 (48%), Gaps = 35/111 (31%)
+ Frame = -3
+
+Query  142  KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI-----------------  184
+            K RV ++  Q +ELEKEF+ +RY+T  R+ E+AQL  L+E Q+                 
+Sbjct  474  KYRVVYSDLQRLELEKEFYVSRYITMKRKAELAQLFGLSERQVN*CH*STVYK*IFNLFF  295
+
+Query  185  -------KIWFQNRRMKQK----------REQKDMATPHFLDNQLNQCAVD  218
+                   KIWFQNRR K++          R++KD A  H    Q+    VD
+Sbjct  294  VFF*F*VKIWFQNRRAKERKQVKKQEELVRKEKDFAVHHHF-QQMQMACVD  145
+
+
+> AFFK01020625.1 Strigamia maritima strain Brora ctg7180001231137, 
+whole genome shotgun sequence
+Length=46254
+
+ Score = 47.0 bits (110),  Expect(2) = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/44 (55%), Positives = 31/44 (71%), Gaps = 0/44 (0%)
+ Frame = +1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIK  185
+              K+R  FT++Q+ ELE+EF  N YLT  RR EIA  L LTE Q++
+Sbjct  22534  KERTTFTKQQLRELEQEFTCNSYLTGLRRYEIAISLNLTERQVQ  22665
+
+
+ Score = 26.9 bits (58),  Expect(2) = 3e-07, Method: Compositional matrix adjust.
+ Identities = 10/14 (72%), Positives = 12/14 (86%), Gaps = 0/14 (0%)
+ Frame = +3
+
+Query  184    IKIWFQNRRMKQKR  197
+              +K+WFQNRRMK  R
+Sbjct  22731  VKVWFQNRRMKWHR  22772
+
+
+> AFFK01020812.1 Strigamia maritima strain Brora ctg7180001231324, 
+whole genome shotgun sequence
+Length=63598
+
+ Score = 53.5 bits (127),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 28/87 (33%), Positives = 50/87 (58%), Gaps = 4/87 (4%)
+ Frame = +2
+
+Query  121   ADVESTQDNQKQRELHSKDICKK----RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQL  176
+              D+ ++  ++ +R     D  KK    R  FT  Q+  LE++F   +YL+ A R ++A+ 
+Sbjct  5201  VDLSTSDGDETERPSSETDKLKKPRRRRTAFTHAQLTYLERKFRCQKYLSVADRGDVAET  5380
+
+Query  177   LKLTEAQIKIWFQNRRMKQKREQKDMA  203
+             L L+E Q+K W+QNRR   K+ ++++ 
+Sbjct  5381  LNLSETQVKTWYQNRR*NLKKMKQNVV  5461
+
+
+> AFFK01014804.1 Strigamia maritima strain Brora ctg7180001225316, 
+whole genome shotgun sequence
+Length=188561
+
+ Score = 52.4 bits (124),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 24/51 (48%), Positives = 32/51 (63%), Gaps = 0/51 (0%)
+ Frame = +3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRR  192
+              K R  FT  Q+  LEK F   +YL+   R+E+A  L LT+ Q+K W+QNRR
+Sbjct  51246  KARTAFTDHQLQTLEKSFERQKYLSVQDRMELAASLNLTDTQVKTWYQNRR  51398
+
+
+ Score = 52.4 bits (124),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 26/56 (47%), Positives = 34/56 (61%), Gaps = 0/56 (0%)
+ Frame = +3
+
+Query  137    SKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRR  192
+              SK   K R  FT  Q+  LEK F   +YL+   R+E+A  L LT+ Q+K W+QNRR
+Sbjct  65412  SKKQRKARTAFTDHQLQTLEKSFERQKYLSVQDRMELAASLNLTDTQVKTWYQNRR  65579
+
+
+ Score = 36.6 bits (83),  Expect = 0.091, Method: Compositional matrix adjust.
+ Identities = 23/76 (31%), Positives = 39/76 (52%), Gaps = 3/76 (3%)
+ Frame = +2
+
+Query  128   DNQKQRELHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIW  187
+             D++ Q+   SK +   R  FT +Q+  L+  F  +          IAQ+  L++   ++W
+Sbjct  7403  DHESQQRAKSKRV---RTTFTDEQLQVLQANFSLDSNPDGQDLERIAQITGLSKRVTQVW  7573
+
+Query  188   FQNRRMKQKREQKDMA  203
+             FQN R +QK+ Q + A
+Sbjct  7574  FQNSRARQKKHQNNAA  7621
+
+
+> AFFK01021731.1 Strigamia maritima strain Brora ctg7180001232243, 
+whole genome shotgun sequence
+Length=2053
+
+ Score = 51.2 bits (121),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 24/43 (56%), Positives = 33/43 (77%), Gaps = 0/43 (0%)
+ Frame = -2
+
+Query  142  KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI  184
+            K RV ++  Q +ELEKEFHY+RY+T  R+ E+AQLL L+E Q+
+Sbjct  948  KYRVVYSDIQRLELEKEFHYSRYITIRRKAELAQLLGLSERQV  820
+
+
+> AFFK01022489.1 Strigamia maritima strain Brora ctg7180001233001, 
+whole genome shotgun sequence
+Length=118437
+
+ Score = 50.8 bits (120),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 36/55 (66%), Gaps = 0/55 (0%)
+ Frame = -2
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKRE  198
+             R  F+Q+QI +LE +F   +Y T   R   A  ++L + Q+K+WFQNRRMK ++E
+Sbjct  7694  RTTFSQEQIEKLEGKFKQQQYFTGPERKLFANSIELNDMQVKVWFQNRRMKWRKE  7530
+
+
+> AFFK01020793.1 Strigamia maritima strain Brora ctg7180001231305, 
+whole genome shotgun sequence
+Length=9150
+
+ Score = 50.8 bits (120),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 39/66 (60%), Gaps = 3/66 (4%)
+ Frame = -1
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKDMA  203
+             R  FT KQ+ +LE  F   +Y+    R E+A  L L++ Q+K+WFQNRR+K +   K M 
+Sbjct  1506  RTAFTVKQMKKLEDTFERVQYMVGEERKELAASLGLSDVQVKVWFQNRRIKWR---KLMI  1336
+
+Query  204   TPHFLD  209
+                F+D
+Sbjct  1335  EKKFVD  1318
+
+
+> AFFK01020507.1 Strigamia maritima strain Brora ctg7180001231019, 
+whole genome shotgun sequence
+Length=155189
+
+ Score = 50.1 bits (118),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 26/60 (44%), Positives = 37/60 (62%), Gaps = 1/60 (1%)
+ Frame = +3
+
+Query  140   ICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMK-QKRE  198
+             +C  R  FT  Q+ ELE+ F    Y     R E+A  L L+E+++++WFQNRR K +KRE
+Sbjct  1482  MCF*RTTFTAYQLEELERAFERAPYPDVFAREELALKLNLSESRVQVWFQNRRAKWRKRE  1661
+
+
+> AFFK01017905.1 Strigamia maritima strain Brora ctg7180001228417, 
+whole genome shotgun sequence
+Length=16624
+
+ Score = 49.3 bits (116),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 21/43 (49%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+ Frame = -1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI  184
+             K R  FT +QI ELEK+F   +YL+ + R E+A+LL +TE Q+
+Sbjct  3226  KARTTFTGRQIFELEKQFEIKKYLSSSERAEMAKLLNVTETQV  3098
+
+
+> AFFK01020622.1 Strigamia maritima strain Brora ctg7180001231134, 
+whole genome shotgun sequence
+Length=11313
+
+ Score = 47.0 bits (110),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 20/43 (47%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+ Frame = -2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI  184
+              + R  FT +Q++ELE +F  N+YL+R +R E+A  L LTE Q+
+Sbjct  10928  RPRTAFTSQQLLELENQFRNNKYLSRPKRFEVATSLMLTETQV  10800
+
+
+ Score = 33.5 bits (75),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 14/18 (78%), Positives = 16/18 (89%), Gaps = 0/18 (0%)
+ Frame = -3
+
+Query  183   QIKIWFQNRRMKQKREQK  200
+             Q+KIWFQNRRMK KR +K
+Sbjct  9052  QVKIWFQNRRMKWKRSKK  8999
+
+
+> AFFK01022033.1 Strigamia maritima strain Brora ctg7180001232545, 
+whole genome shotgun sequence
+Length=15546
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 22/43 (52%), Positives = 32/43 (75%), Gaps = 0/43 (0%)
+ Frame = +1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI  184
+             K RV ++  Q +ELEKEFH++RY+T  R+ E+AQ L L+E Q+
+Sbjct  1408  KYRVVYSDIQRLELEKEFHFSRYITIKRKAELAQHLCLSERQV  1536
+
+
+> AFFK01023612.1 Strigamia maritima strain Brora ctg7180001234124, 
+whole genome shotgun sequence
+Length=86413
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 35/60 (59%), Gaps = 6/60 (10%)
+ Frame = -3
+
+Query  137    SKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI------WFQN  190
+              +  I + R  FT++QI  LEKEF+   Y++R RR E+A  L L E+ IK+      W +N
+Sbjct  62348  ANQIRRYRTAFTREQIGRLEKEFYRENYVSRPRRCELAAALNLPESTIKVKKNPFNWLKN  62169
+
+
+ Score = 35.0 bits (79),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 20/58 (35%), Positives = 30/58 (52%), Gaps = 6/58 (10%)
+ Frame = -3
+
+Query  185    KIWFQNRRMKQKREQKDM----ATPHFLDNQLNQCAVDYTTSCPVNFPTSCPVEFTNN  238
+              ++WFQNRRMK KR++  +    A PHF    L       + + P   P+S P+ +  N
+Sbjct  61775  QVWFQNRRMKDKRQRMALAWPYADPHFAAYVLQA--AAASGAYPYPLPSSVPINYYTN  61608
+
+
+> AFFK01020568.1 Strigamia maritima strain Brora ctg7180001231080, 
+whole genome shotgun sequence
+Length=49863
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 18/33 (55%), Positives = 27/33 (82%), Gaps = 0/33 (0%)
+ Frame = -1
+
+Query  160    HYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRR  192
+                ++YL+ ++R+E++Q+L LTE QIK WFQNRR
+Sbjct  45837  QLDKYLSVSKRMELSQVLNLTEVQIKTWFQNRR  45739
+
+
+> AFFK01018376.1 Strigamia maritima strain Brora ctg7180001228888, 
+whole genome shotgun sequence
+Length=62199
+
+ Score = 43.1 bits (100),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 19/43 (45%), Positives = 30/43 (70%), Gaps = 0/43 (0%)
+ Frame = +3
+
+Query  144    RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI  186
+              R  F+++Q+ +LEKEF+   Y++R RR E+A  L L E+ IK+
+Sbjct  10245  RTAFSREQVTQLEKEFYRENYVSRPRRCELAAALNLAESTIKV  10373
+
+
+ Score = 30.4 bits (67),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+ Frame = +1
+
+Query  185    KIWFQNRRMKQKREQKDMATPH  206
+              + WFQNRRMK KR++  +  P+
+Sbjct  10594  RFWFQNRRMKDKRQRLALTWPY  10659
+
+
+> AFFK01018367.1 Strigamia maritima strain Brora ctg7180001228879, 
+whole genome shotgun sequence
+Length=37745
+
+ Score = 39.7 bits (91),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 19/63 (31%), Positives = 35/63 (56%), Gaps = 0/63 (0%)
+ Frame = +1
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              +KR   T  Q+ +LE+ F    + +R  +  +A+ + ++   + IWFQN+R + K+E  D
+Sbjct  27565  RKRTSITSSQLQKLEQLFKEEPWPSRESKENLAEEIGMSPQFVNIWFQNKRARIKKESHD  27744
+
+Query  202    MAT  204
+                T
+Sbjct  27745  EET  27753
+
+
+> AFFK01015927.1 Strigamia maritima strain Brora ctg7180001226439, 
+whole genome shotgun sequence
+Length=11534
+
+ Score = 39.7 bits (91),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 32/115 (28%), Positives = 48/115 (42%), Gaps = 19/115 (16%)
+ Frame = -1
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR----  197
+             KKR        V LEK F  N   T      +A+ L++ +  +++WF NRR K+KR    
+Sbjct  6332  KKRTSIETSVRVALEKAFLQNPKPTSEEIAMLAETLQMEKEVVRVWFCNRRQKEKRINPP  6153
+
+Query  198   ----EQKDMATPHFLDNQLNQCAVD----------YTTSCPVNFPTSCPVEFTNN  238
+                     +A+PH +   +   A            + T+ PV+   S PV   NN
+Sbjct  6152  SAALGSPTLASPHGVAISMAAAAASLGVSPAQTNPHLTTTPVSMAPS-PVSMANN  5991
+
+
+> AFFK01021827.1 Strigamia maritima strain Brora ctg7180001232339, 
+whole genome shotgun sequence
+Length=87378
+
+ Score = 38.1 bits (87),  Expect = 0.033, Method: Compositional matrix adjust.
+ Identities = 20/62 (33%), Positives = 34/62 (55%), Gaps = 0/62 (0%)
+ Frame = -3
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+              + R   T KQ+  L+  ++ +    R  R +++Q   L    +++WFQNRR K+KR +KD
+Sbjct  56179  RPRTTITAKQLETLKNAYNNSPKPARHVREQLSQDTGLDMRVVQVWFQNRRAKEKRLKKD  56000
+
+Query  202    MA  203
+                
+Sbjct  55999  AG  55994
+
+
+> AFFK01021930.1 Strigamia maritima strain Brora ctg7180001232442, 
+whole genome shotgun sequence
+Length=6118
+
+ Score = 37.7 bits (86),  Expect = 0.038, Method: Compositional matrix adjust.
+ Identities = 18/40 (45%), Positives = 25/40 (63%), Gaps = 0/40 (0%)
+ Frame = +3
+
+Query  147   FTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI  186
+             FT +Q+ ELE  F  NRY   + R EIA    LTEA++++
+Sbjct  5577  FTSQQLQELEATFARNRYPDMSTREEIAMWTNLTEARVRV  5696
+
+
+> AFFK01021962.1 Strigamia maritima strain Brora ctg7180001232474, 
+whole genome shotgun sequence
+Length=136738
+
+ Score = 37.7 bits (86),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 21/54 (39%), Positives = 31/54 (58%), Gaps = 2/54 (3%)
+ Frame = +2
+
+Query  138    KDICKK--RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQ  189
+              KD  KK  R  F+ +QI  LEK F   +YL    R ++A  L ++E+Q+K+ F 
+Sbjct  28169  KDGKKKHTRPTFSGQQIFALEKTFEQTKYLAGPERAKLAYALGMSESQVKVSFM  28330
+
+
+> AFFK01020917.1 Strigamia maritima strain Brora ctg7180001231429, 
+whole genome shotgun sequence
+Length=7356
+
+ Score = 37.4 bits (85),  Expect = 0.052, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 25/43 (59%), Gaps = 0/43 (0%)
+ Frame = +2
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI  186
+             R  F+  Q+++LE  F  N Y+  A R  +AQ L LTE Q+ I
+Sbjct  6968  RTAFSPSQLLKLEHAFEKNHYVVGAERKHLAQSLSLTETQVNI  7096
+
+
+> AFFK01022123.1 Strigamia maritima strain Brora ctg7180001232635, 
+whole genome shotgun sequence
+Length=43039
+
+ Score = 37.4 bits (85),  Expect = 0.057, Method: Compositional matrix adjust.
+ Identities = 18/46 (40%), Positives = 29/46 (64%), Gaps = 0/46 (0%)
+ Frame = -2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIW  187
+              + R  FT +Q+ ELE+ F   +Y     R E+AQ  KLTEA+++++
+Sbjct  12426  RSRTTFTAEQLDELERAFERTQYPDVYTREELAQRTKLTEARVQVY  12289
+
+
+> AFFK01019733.1 Strigamia maritima strain Brora ctg7180001230245, 
+whole genome shotgun sequence
+Length=33081
+
+ Score = 35.8 bits (81),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+ Frame = -1
+
+Query  146   CFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+             CF +K    L + +  NRY T   +  +A    LT  Q+  WF+NRR + +  Q+
+Sbjct  5637  CFKEKARAALRETYAQNRYPTPDEKKNLATKTGLTLTQVSNWFKNRRQRDRTPQQ  5473
+
+
+> AFFK01012333.1 Strigamia maritima strain Brora ctg7180001222844, 
+whole genome shotgun sequence
+Length=4846
+
+ Score = 35.0 bits (79),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 19/57 (34%), Positives = 31/57 (55%), Gaps = 1/57 (1%)
+ Frame = +3
+
+Query  146   CFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQK-REQKD  201
+             CF +K    L + + +N Y +   + E+A+   LT  Q+  WF+NRR + +  E KD
+Sbjct  4326  CFKEKSRSILREWYAHNPYPSPREKRELAEATGLTTTQVSNWFKNRRQRDRAAEAKD  4496
+
+
+> AFFK01023492.1 Strigamia maritima strain Brora ctg7180001234004, 
+whole genome shotgun sequence
+Length=8301
+
+ Score = 34.3 bits (77),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 15/47 (32%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+ Frame = -3
+
+Query  138  KDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI  184
+            + +  +R  F+  Q  ELEK FH  +Y+++  R ++A+ L L ++Q+
+Sbjct  256  RRVMLRRAVFSDVQRRELEKRFHIQKYISKPDRKKLAEKLGLKDSQV  116
+
+
+> AFFK01019415.1 Strigamia maritima strain Brora ctg7180001229927, 
+whole genome shotgun sequence
+Length=3565
+
+ Score = 34.3 bits (77),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 18/56 (33%), Positives = 26/56 (47%), Gaps = 0/56 (0%)
+ Frame = -2
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKR  197
+             KKR          LE  FH     +      +A  L+L +  +++WF NRR K+KR
+Sbjct  2073  KKRTSIEVTVKGALESHFHKQPKPSAQEIASLADSLQLEKEVVRVWFCNRRQKEKR  1906
+
+
+> AFFK01017175.1 Strigamia maritima strain Brora ctg7180001227687, 
+whole genome shotgun sequence
+Length=19584
+
+ Score = 33.9 bits (76),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 16/41 (40%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+ Frame = -2
+
+Query  144   RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQI  184
+             R  F+  Q   LEK F   +Y+T+  R ++A  L LT+AQ+
+Sbjct  8348  RAVFSNLQRKGLEKRFQIQKYITKPDRRQLAATLGLTDAQV  8226
+
+
+ Score = 31.6 bits (70),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+ Frame = -3
+
+Query  179   LTEAQIKIWFQNRRMK  194
+             L ++Q+K+WFQNRRMK
+Sbjct  7531  LIQSQVKVWFQNRRMK  7484
+
+
+> AFFK01020290.1 Strigamia maritima strain Brora ctg7180001230802, 
+whole genome shotgun sequence
+Length=46218
+
+ Score = 32.3 bits (72),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 27/45 (60%), Gaps = 0/45 (0%)
+ Frame = +2
+
+Query  142    KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI  186
+              + R  FTQ+Q+ ELE  F  + Y     R E+A+  KL EA+I++
+Sbjct  23978  RHRTTFTQEQLAELEAAFTKSHYPDIYCREELARTTKLNEARIQV  24112
+
+
+> AFFK01020623.1 Strigamia maritima strain Brora ctg7180001231135, 
+whole genome shotgun sequence
+Length=89868
+
+ Score = 32.0 bits (71),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 14/20 (70%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+ Frame = -3
+
+Query  179    LTEAQIKIWFQNRRMKQKRE  198
+              L   QIKIWFQNRR K KR+
+Sbjct  19822  LIPFQIKIWFQNRRTKWKRK  19763
+
+
+ Score = 30.0 bits (66),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 24/55 (44%), Positives = 33/55 (60%), Gaps = 2/55 (3%)
+ Frame = -1
+
+Query  136    HSKDICKKR--VCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWF  188
+                KD  KKR    FT  QI  LE EF  N+YL+ ++R+ +++ LKLTE Q+   F
+Sbjct  21009  RGKDERKKRPRTAFTAAQIKALETEFERNKYLSVSKRLLLSKSLKLTETQVSFRF  20845
+
+
+> AFFK01023050.1 Strigamia maritima strain Brora ctg7180001233562, 
+whole genome shotgun sequence
+Length=86560
+
+ Score = 32.0 bits (71),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 22/72 (31%), Positives = 34/72 (48%), Gaps = 20/72 (27%)
+ Frame = -2
+
+Query  139    DICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQ---------------  183
+              D   +R  +T+ Q V+LEKEF  NRY  R     +++ +K++E +               
+Sbjct  53598  DAQDERQRYTKIQAVKLEKEFSVNRYPNRQEFKNLSKTMKISERKIQVINIFSSVYGNLL  53419
+
+Query  184    -----IKIWFQN  190
+                   IK+WFQN
+Sbjct  53418  QFYILIKVWFQN  53383
+
+
+> AFFK01021046.1 Strigamia maritima strain Brora ctg7180001231558, 
+whole genome shotgun sequence
+Length=47744
+
+ Score = 31.6 bits (70),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 25/81 (31%), Positives = 36/81 (45%), Gaps = 7/81 (8%)
+ Frame = -3
+
+Query  183    QIKIWFQNRRMKQKREQK---DMATPHFLDNQLNQCAVDYTTSCPVNFPTSCPVEFTNNR  239
+              Q+++WFQNRR K++R ++     A  HF  N     A+    S     P     E   N 
+Sbjct  41841  QLQVWFQNRRSKERRMKQLSSLGARRHFFRNPRRMRALRPGMSPD---PLDDSPEMVPNP  41671
+
+Query  240    AWYNACNQGDSSHFQ-SITFH  259
+               +     +G+S HF  SI  H
+Sbjct  41670  GFAYFSGRGESLHFIFSIILH  41608
+
+
+> AFFK01021974.1 Strigamia maritima strain Brora ctg7180001232486, 
+whole genome shotgun sequence
+Length=45094
+
+ Score = 31.2 bits (69),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 20/74 (28%), Positives = 35/74 (48%), Gaps = 9/74 (12%)
+ Frame = -3
+
+Query  142   KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+             + R  FT  Q+ ELE+ F    Y     R E+A  + LTE+++++         +R    
+Sbjct  1472  RHRTRFTPAQLNELERSFSKTHYPDIFMREELAMRIGLTESRVQV---------RRYHPH  1320
+
+Query  202   MATPHFLDNQLNQC  215
+             ++T +FL   L+  
+Sbjct  1319  LSTYYFLSEFLSSG  1278
+
+
+> AFFK01003149.1 Strigamia maritima strain Brora ctg7180000873435, 
+whole genome shotgun sequence
+Length=2131
+
+ Score = 31.2 bits (69),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 19/63 (31%), Positives = 30/63 (48%), Gaps = 0/63 (0%)
+ Frame = +1
+
+Query  135   LHSKDICKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMK  194
+             L S +  +KR      +   LE  F      +  +   IA+ L L +  +++WF N+R K
+Sbjct  1507  LPSGEKKRKRTSIAAPEKRSLEAYFAVQPRPSGEKIAAIAEKLDLKKNVVRVWFCNQRQK  1686
+
+Query  195   QKR  197
+             QKR
+Sbjct  1687  QKR  1695
+
+
+> AFFK01023831.1 Strigamia maritima strain Brora ctg7180001234343, 
+whole genome shotgun sequence
+Length=70420
+
+ Score = 31.2 bits (69),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 15/62 (25%), Positives = 28/62 (46%), Gaps = 0/62 (0%)
+ Frame = +2
+
+Query  141    CKKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQK  200
+               + R  F+++Q   L   +  N    +     IA  +K     +++WFQN R + K+  +
+Sbjct  16790  VRMRSLFSEEQQSVLRSYYEANARPGKEELERIAVEIKFNRRVVQVWFQNMRARDKKRGR  16969
+
+Query  201    DM  202
+               M
+Sbjct  16970  AM  16975
+
+
+> AFFK01017913.1 Strigamia maritima strain Brora ctg7180001228425, 
+whole genome shotgun sequence
+Length=3338
+
+ Score = 31.2 bits (69),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 12/29 (42%), Positives = 18/29 (63%), Gaps = 0/29 (0%)
+ Frame = -1
+
+Query  214   QCAVDYTTSCPVNFPTSCPVEFTNNRAWY  242
+             +C V+++  C VNF   C V F++ R WY
+Sbjct  1031  KCYVNFSCKCYVNFSCKCYVNFSHLRKWY  945
+
+
+> AFFK01020689.1 Strigamia maritima strain Brora ctg7180001231201, 
+whole genome shotgun sequence
+Length=141408
+
+ Score = 30.8 bits (68),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/20 (70%), Positives = 17/20 (85%), Gaps = 1/20 (5%)
+ Frame = -2
+
+Query  184     IKIWFQNRRMKQKREQ-KDM  202
+               IK+WFQNRR K KRE+ +DM
+Sbjct  138065  IKVWFQNRRTKHKREKTRDM  138006
+
+
+> AFFK01019677.1 Strigamia maritima strain Brora ctg7180001230189, 
+whole genome shotgun sequence
+Length=17213
+
+ Score = 30.8 bits (68),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/20 (70%), Positives = 17/20 (85%), Gaps = 1/20 (5%)
+ Frame = +3
+
+Query  184    IKIWFQNRRMKQKREQ-KDM  202
+              IK+WFQNRR K KRE+ +DM
+Sbjct  15207  IKVWFQNRRTKHKREKTRDM  15266
+
+
+> AFFK01023491.1 Strigamia maritima strain Brora ctg7180001234003, 
+whole genome shotgun sequence
+Length=146805
+
+ Score = 30.4 bits (67),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 15/32 (47%), Positives = 22/32 (69%), Gaps = 2/32 (6%)
+ Frame = -3
+
+Query  183     QIKIWFQNRRMKQK--REQKDMATPHFLDNQL  212
+               Q+KIWFQNRRMK +  +E++ +A+    D  L
+Sbjct  143341  QVKIWFQNRRMKWRNSKERELLASGGSRDQTL  143246
+
+
+> AFFK01021391.1 Strigamia maritima strain Brora ctg7180001231903, 
+whole genome shotgun sequence
+Length=187695
+
+ Score = 30.0 bits (66),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 17/60 (29%), Positives = 29/60 (49%), Gaps = 0/60 (0%)
+ Frame = -3
+
+Query  142     KKRVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKIWFQNRRMKQKREQKD  201
+               + R     +Q+  L   F  N   T  + +E+A+   L +  IK WF+N   K+++  KD
+Sbjct  149170  RARTRINDEQLKILRAHFDINNSPTEEQIMEMAEKSGLPQKVIKHWFRNTLFKERQRNKD  148991
+
+
+> AFFK01018682.1 Strigamia maritima strain Brora ctg7180001229194, 
+whole genome shotgun sequence
+Length=70057
+
+ Score = 30.0 bits (66),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 18/58 (32%), Positives = 30/58 (52%), Gaps = 5/58 (8%)
+ Frame = +2
+
+Query  134    ELHSKDICKK-----RVCFTQKQIVELEKEFHYNRYLTRARRVEIAQLLKLTEAQIKI  186
+              ELH +   ++     R  FT +Q+ ELE  F    Y     R ++A  + LTEA++++
+Sbjct  46556  ELHDESFVRRKQRRNRTTFTLQQLEELENAFAQTHYPDVFTREDLAMKINLTEARVQV  46729
+
+
+> AFFK01020918.1 Strigamia maritima strain Brora ctg7180001231430, 
+whole genome shotgun sequence
+Length=5881
+
+ Score = 29.6 bits (65),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 15/28 (54%), Positives = 17/28 (61%), Gaps = 5/28 (17%)
+ Frame = +2
+
+Query  183   QIKIWFQNRRMKQKR-----EQKDMATP  205
+             Q+K+WFQNRR K KR     EQ   A P
+Sbjct  4061  QVKVWFQNRRTKHKRLKQEEEQIQSAPP  4144
+
+
+
+Lambda     K      H
+   0.319    0.130    0.401 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 8286410850
+
+
+  Database: Strigamia_maritima.scaffolds.fa
+    Posted date:  Feb 14, 2018  11:18 AM
+  Number of letters in database: 173,602,052
+  Number of sequences in database:  24,079
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 13
+Window for multiple hits: 40
