@@ -19,6 +19,6 @@ Included in this Directory:
 3. Orthogroups_SpeciesOverlaps.csv
 4. Orthogroups_UnassignedGenes.csv
 5. Orthogroups.csv
-6. Gene Trees (OrthoFinder.Trees.fa.tar.gz)
-7. Blast Alignments (Alignments.001.fa.tar.gz, Alignments.002.fa.tar.gz, Alignments.003.fa.tar.gz, Alignments.004.fa.tar.gz)
+6. Gene Trees (Trees.fa.tar.gz)
+7. Blast Alignments (Sequences.tar.gz)
 
